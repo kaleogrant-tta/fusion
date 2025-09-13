@@ -130,6 +130,44 @@
       from { opacity: 0; transform: translateY(10px); }
       to { opacity: 1; transform: translateY(0); }
     }
+
+    /* Heatmap styles */
+    .heatmap {
+      display: block;
+      width: 100%;
+      border-radius: 12px;
+      overflow-x: auto;
+    }
+    .heatmap-row {
+      display: flex;
+      align-items: stretch;
+      margin-bottom: 2px;
+    }
+    .heatmap-header {
+      font-weight: 600;
+    }
+    .heatmap-cell {
+      flex: 1;
+      min-width: 80px;
+      padding: 8px;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.3);
+      font-size: 0.85em;
+    }
+    .heatmap-header-cell {
+      background: rgba(230, 215, 200, 0.7);
+      color: #4a2c2a;
+      font-size: 0.9em;
+    }
+    .heatmap-name-cell {
+      min-width: 120px;
+      text-align: left;
+      font-weight: 600;
+      background: rgba(250, 240, 235, 0.8);
+    }
+    .heatmap-corner {
+      background: rgba(250, 240, 235, 0.8);
+    }
   </style>
 </head>
 <body>
@@ -137,23 +175,8 @@
     <h1 id="title">Brand PPI + Sell‑Through + Revenue CRM</h1>
     <div id="kpiContainer"></div>
   </div>
-  <table id="brandTable">
-    <thead>
-      <tr>
-        <th>Brand</th>
-        <th>Category Mix</th>
-        <th>PPI Index</th>
-        <th>PPI MoM %</th>
-        <th>Sell‑Through %</th>
-        <th>Revenue</th>
-        <th>Units</th>
-        <th>Revenue Share %</th>
-        <th>BEI Score</th>
-        <th>Notes</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+  <!-- Container for the heatmap. This replaces the previous table layout. -->
+  <div id="heatmapContainer" style="margin-top: 20px;"></div>
   <script>
     /**
      * Load the JSON data and populate the dashboard.
@@ -163,12 +186,10 @@
       try {
         const response = await fetch('brand_ppi_crm_data.json');
         const data = await response.json();
-
-        // Meta information
+        // Update title
         const meta = data.meta || {};
         document.getElementById('title').textContent = meta.title || 'Brand CRM';
-
-        // Display KPI cards
+        // KPI cards
         const kpiContainer = document.getElementById('kpiContainer');
         kpiContainer.innerHTML = '';
         const kpis = data.kpis || {};
@@ -183,73 +204,104 @@
           card.appendChild(p);
           kpiContainer.appendChild(card);
         }
-        // Format numbers with comma separators and currency
         const toCurrency = (val) => {
           return '$' + Number(val || 0).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0});
         };
         addKpi('Total Revenue', toCurrency(kpis.total_revenue));
         addKpi('Total Units', Number(kpis.total_units || 0).toLocaleString());
-
-        // Data for each brand
+        // Build heatmap data
         const brands = data.brands || [];
-        const tbody = document.querySelector('#brandTable tbody');
-        tbody.innerHTML = '';
-        // Determine total revenue for share calculations
+        // Compute total revenue for revenue share
         let totalRevenue = Number(kpis.total_revenue || 0);
         if (!totalRevenue) {
           totalRevenue = brands.reduce((acc, b) => acc + (b.revenue || 0), 0);
         }
-
+        // Prepare metrics per brand
+        // Compute revenue share and BEI
         brands.forEach((b) => {
-          const tr = document.createElement('tr');
-          function td(text) {
-            const cell = document.createElement('td');
-            cell.textContent = text;
-            return cell;
-          }
-          // Brand name
-          tr.appendChild(td(b.brand || ''));
-          // Category mix summarised
-          if (b.category_mix) {
-            const mixStr = Object.entries(b.category_mix)
-              .map(([cat, val]) => `${cat}: ${(val * 100).toFixed(1)}%`)
-              .join(', ');
-            tr.appendChild(td(mixStr));
+          const share = totalRevenue > 0 ? ((b.revenue || 0) / totalRevenue) : 0;
+          b.revenue_share = share;
+          // compute BEI: (Revenue Share / PPI Index) * Sell-Through * 100
+          if (b.ppi_index && b.sell_through_pct !== undefined) {
+            const beiRaw = (share * 100) / b.ppi_index * b.sell_through_pct;
+            b.bei = beiRaw;
           } else {
-            tr.appendChild(td(''));
+            b.bei = 0;
           }
-          // PPI index
-          tr.appendChild(td(b.ppi_index !== undefined ? b.ppi_index.toFixed(1) : ''));
-          // PPI MoM %
-          tr.appendChild(td(b.ppi_mom_pct !== undefined ? b.ppi_mom_pct.toFixed(1) + '%' : ''));
-          // Sell-through %
-          const st = b.sell_through_pct !== undefined ? b.sell_through_pct * 100 : undefined;
-          tr.appendChild(td(st !== undefined ? st.toFixed(1) + '%' : ''));
-          // Revenue
-          tr.appendChild(td(toCurrency(b.revenue)));
-          // Units
-          tr.appendChild(td(Number(b.units || 0).toLocaleString()));
-          // Revenue share %
-          const share = totalRevenue > 0 ? ((b.revenue || 0) / totalRevenue * 100) : 0;
-          tr.appendChild(td(share ? share.toFixed(1) + '%' : ''));
-          // BEI score
-          // BEI = (Revenue Share / PPI Index) * Sell‑Through * 100
-          let beiScore = '';
-          if (b.ppi_index && share && b.sell_through_pct !== undefined) {
-            const beiRaw = (share / b.ppi_index) * b.sell_through_pct;
-            beiScore = (beiRaw * 100).toFixed(1);
-          }
-          tr.appendChild(td(beiScore));
-          // Notes
-          tr.appendChild(td(b.notes || ''));
-          tbody.appendChild(tr);
+        });
+        // Define metrics we will visualize in the heatmap
+        const metrics = [
+          { key: 'ppi_index', label: 'PPI', invert: false },
+          { key: 'sell_through_pct', label: 'Sell-Through', invert: false },
+          { key: 'revenue_share', label: 'Revenue Share', invert: false },
+          { key: 'bei', label: 'BEI', invert: false }
+        ];
+        // Compute min/max for each metric
+        const ranges = metrics.map(m => {
+          const values = brands.map(b => {
+            const val = b[m.key];
+            return val !== undefined && val !== null ? Number(val) : 0;
+          });
+          const min = Math.min(...values);
+          const max = Math.max(...values);
+          return { min, max };
+        });
+        // Create heatmap elements
+        const heatmapContainer = document.getElementById('heatmapContainer');
+        heatmapContainer.innerHTML = '';
+        heatmapContainer.className = 'heatmap';
+        // Header row for metric labels
+        const headerRow = document.createElement('div');
+        headerRow.className = 'heatmap-row heatmap-header';
+        // empty corner cell
+        const corner = document.createElement('div');
+        corner.className = 'heatmap-cell heatmap-corner';
+        corner.textContent = '';
+        headerRow.appendChild(corner);
+        metrics.forEach((m) => {
+          const cell = document.createElement('div');
+          cell.className = 'heatmap-cell heatmap-header-cell';
+          cell.textContent = m.label;
+          headerRow.appendChild(cell);
+        });
+        heatmapContainer.appendChild(headerRow);
+        // For each brand create row
+        brands.forEach((b) => {
+          const row = document.createElement('div');
+          row.className = 'heatmap-row';
+          // brand name cell
+          const nameCell = document.createElement('div');
+          nameCell.className = 'heatmap-cell heatmap-name-cell';
+          nameCell.textContent = b.brand;
+          row.appendChild(nameCell);
+          // cells for each metric
+          metrics.forEach((m, idx) => {
+            const val = b[m.key];
+            const { min, max } = ranges[idx];
+            // Normalize value between 0 and 1
+            let ratio = 0;
+            if (max > min) {
+              ratio = (val - min) / (max - min);
+            }
+            // Choose color: map ratio to pastel scale (higher = darker) with a fixed hue
+            const hue = 10; // soft coral hue
+            const lightness = 95 - 35 * ratio; // 95% (light) to 60% (dark)
+            const backgroundColor = `hsl(${hue}, 80%, ${lightness}%)`;
+            const cell = document.createElement('div');
+            cell.className = 'heatmap-cell';
+            cell.style.backgroundColor = backgroundColor;
+            // Tooltip on hover
+            const displayVal = m.key === 'revenue_share' ? (val * 100).toFixed(1) + '%' : (m.key === 'sell_through_pct' ? (val * 100).toFixed(1) + '%' : val.toFixed(1));
+            cell.title = `${b.brand} — ${m.label}: ${displayVal}`;
+            row.appendChild(cell);
+          });
+          heatmapContainer.appendChild(row);
         });
       } catch (err) {
         console.error('Failed to load data:', err);
       }
     }
-
-    // Execute when the page loads
+    // Load data on page load
     loadData();
   </script>
 </body>

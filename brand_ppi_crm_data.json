@@ -3,1942 +3,3223 @@
     "title": "Brand PPI + Sell-Through + Revenue CRM",
     "as_of": "2025-09-13",
     "currency": "USD",
-    "geography": "NY Adult-Use",
-    "notes": "Generated from Product Sales and Current Inventory On Hand. PPI base is relative to mean unit cost across all brands."
+    "geography": "NY",
+    "notes": "PPI base per brand = global average cost"
   },
   "kpis": {
-    "total_revenue": 6791211.24,
-    "total_units": 238497
+    "total_revenue": 18328502.63,
+    "total_units": 509825.0
   },
   "brands": [
     {
-      "brand": "Ruby",
-      "category_mix": {
-        "Edibles": 0.016655877458934227,
-        "Pre-Rolls": 0.9725207326710793,
-        "Vape": 0.01082338986998651
-      },
-      "ppi_index": 131.26,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9308,
-      "revenue": 1106815.9,
-      "units": 32502,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 131.26,
-          "revenue": 1106815.9,
-          "units": 32502,
-          "sell_through_pct": 0.9308
-        }
-      ]
-    },
-    {
-      "brand": "Off Hours",
-      "category_mix": {
-        "Beverages": 0.009660535008604731,
-        "Disposable": 0.3125535568990088,
-        "Edibles": 0.6777859080923866
-      },
-      "ppi_index": 115.77,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9301,
-      "revenue": 715757.46,
-      "units": 21460,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 115.77,
-          "revenue": 715757.46,
-          "units": 21460,
-          "sell_through_pct": 0.9301
-        }
-      ]
-    },
-    {
-      "brand": "Jaunty",
-      "category_mix": {
-        "Vape": 1.0
-      },
-      "ppi_index": 167.53,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9584,
-      "revenue": 520164.34,
-      "units": 11672,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 167.53,
-          "revenue": 520164.34,
-          "units": 11672,
-          "sell_through_pct": 0.9584
-        }
-      ]
-    },
-    {
-      "brand": "Camino",
-      "category_mix": {
-        "Edibles": 1.0000000000000002
-      },
-      "ppi_index": 108.23,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9562,
-      "revenue": 512940.84,
-      "units": 17827,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 108.23,
-          "revenue": 512940.84,
-          "units": 17827,
-          "sell_through_pct": 0.9562
-        }
-      ]
-    },
-    {
-      "brand": "Ayrloom",
-      "category_mix": {
-        "Beverages": 0.24844910756393865,
-        "Disposable": 0.4347958927577666,
-        "Edibles": 0.1724601247616365,
-        "Tincture": 0.12539235865139794,
-        "Topical": 0.018902516265260322,
-        "Vape": 0.0
-      },
-      "ppi_index": 58.92,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9428,
-      "revenue": 433471.39,
-      "units": 27666,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 58.92,
-          "revenue": 433471.39,
-          "units": 27666,
-          "sell_through_pct": 0.9428
-        }
-      ]
-    },
-    {
-      "brand": "Fernway",
-      "category_mix": {
-        "Disposable": 0.7182971889303629,
-        "Vape": 0.2817028110696369
-      },
-      "ppi_index": 215.15,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.881,
-      "revenue": 307830.51,
-      "units": 5228,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 215.15,
-          "revenue": 307830.51,
-          "units": 5228,
-          "sell_through_pct": 0.881
-        }
-      ]
-    },
-    {
-      "brand": "Wyld",
-      "category_mix": {
-        "Edibles": 0.9999999999999998
-      },
-      "ppi_index": 87.42,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9444,
-      "revenue": 279523.28,
-      "units": 11412,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 87.42,
-          "revenue": 279523.28,
-          "units": 11412,
-          "sell_through_pct": 0.9444
-        }
-      ]
-    },
-    {
       "brand": "Find.",
       "category_mix": {
-        "Flower": 0.9999999999999999
+        "Flower": 1.0
       },
-      "ppi_index": 364.39,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7651,
-      "revenue": 244068.39,
-      "units": 1984,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 364.39,
-          "revenue": 244068.39,
-          "units": 1984,
-          "sell_through_pct": 0.7651
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 1272881.05,
+      "units": 9392.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Pax",
+      "brand": "Ruby",
       "category_mix": {
-        "Disposable": 0.2591449214298356,
-        "Vape": 0.7408550785701644
+        "Edibles": 0.015283732359695715,
+        "Flower": 0.03883800680245856,
+        "Pre-Rolls": 0.9360969234902276,
+        "Vape": 0.009781337347618166
       },
-      "ppi_index": 261.86,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9142,
-      "revenue": 202567.35,
-      "units": 2833,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 261.86,
-          "revenue": 202567.35,
-          "units": 2833,
-          "sell_through_pct": 0.9142
-        }
-      ]
-    },
-    {
-      "brand": "Eaton Botanicals",
-      "category_mix": {
-        "Edibles": 0.883554701437913,
-        "Pre-Rolls": 0.11644529856208696
-      },
-      "ppi_index": 102.2,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9002,
-      "revenue": 154816.04,
-      "units": 5213,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 102.2,
-          "revenue": 154816.04,
-          "units": 5213,
-          "sell_through_pct": 0.9002
-        }
-      ]
-    },
-    {
-      "brand": "Lost Farm",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 107.27,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9461,
-      "revenue": 152931.16,
-      "units": 5892,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 107.27,
-          "revenue": 152931.16,
-          "units": 5892,
-          "sell_through_pct": 0.9461
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 1206225.65,
+      "units": 35569.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Rythm",
       "category_mix": {
-        "Concentrate": 0.0473986003300383,
-        "Disposable": 0.0,
-        "Flower": 0.7551014730712848,
-        "Pre-Rolls": 0.14882227779635118,
-        "Vape": 0.04867764880232561
+        "Accessories": 0.000124443659066685,
+        "Concentrate": 0.09040176864567998,
+        "Disposable": 0.16249479669950526,
+        "Flower": 0.5224378084899634,
+        "Pre-Rolls": 0.07753336642879698,
+        "Vape": 0.14700781607698765
       },
-      "ppi_index": 153.32,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7492,
-      "revenue": 123294.78,
-      "units": 2688,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 153.32,
-          "revenue": 123294.78,
-          "units": 2688,
-          "sell_through_pct": 0.7492
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 916077.21,
+      "units": 16425.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "dank. by definition",
+      "category_mix": {
+        "Flower": 0.8041552885754844,
+        "Pre-Rolls": 0.1958447114245157
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 887103.25,
+      "units": 18726.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Off Hours",
+      "category_mix": {
+        "Beverages": 0.027362408992257267,
+        "Disposable": 0.282079859983085,
+        "Edibles": 0.6884065992370365,
+        "Vape": 0.0021511317876211373
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 790281.66,
+      "units": 23459.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ayrloom",
+      "category_mix": {
+        "Beverages": 0.1852086038811747,
+        "Disposable": 0.5615978603858202,
+        "Edibles": 0.13358326538711363,
+        "Tincture": 0.08499672990451075,
+        "Topical": 0.03461354044138073
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 683420.41,
+      "units": 36597.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Camino",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 648872.48,
+      "units": 22564.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Rolling Green Cannabis",
       "category_mix": {
-        "Flower": 0.2756106540936492,
-        "Pre-Rolls": 0.7243893459063508
+        "Flower": 0.8180967519289967,
+        "Pre-Rolls": 0.1819032480710032
       },
-      "ppi_index": 54.94,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8308,
-      "revenue": 109186.2,
-      "units": 6453,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 54.94,
-          "revenue": 109186.2,
-          "units": 6453,
-          "sell_through_pct": 0.8308
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 593334.32,
+      "units": 19166.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Florist Farms",
+      "brand": "Fernway",
       "category_mix": {
-        "Flower": 0.32229330599464234,
-        "Pre-Rolls": 0.5029054254038468,
-        "Vape": 0.17480126860151088
+        "Accessories": 1.306207818817508e-06,
+        "Disposable": 0.8022257340175465,
+        "Vape": 0.19777295977463472
       },
-      "ppi_index": 156.65,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8613,
-      "revenue": 106359.64,
-      "units": 2173,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 156.65,
-          "revenue": 106359.64,
-          "units": 2173,
-          "sell_through_pct": 0.8613
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 589492.72,
+      "units": 8990.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Select",
+      "brand": "Hepworth",
       "category_mix": {
-        "Disposable": 1.0
+        "Flower": 0.7099019900509294,
+        "Vape": 0.2900980099490707
       },
-      "ppi_index": 188.99,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6979,
-      "revenue": 104323.46,
-      "units": 1305,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 188.99,
-          "revenue": 104323.46,
-          "units": 1305,
-          "sell_through_pct": 0.6979
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 544788.57,
+      "units": 14344.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jaunty",
+      "category_mix": {
+        "Edibles": 0.006320031256025791,
+        "Vape": 0.9936799687439744
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 534680.9,
+      "units": 12462.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Nanticoke",
       "category_mix": {
-        "Pre-Rolls": 1.0000000000000002
+        "Edibles": 0.051892581316655584,
+        "Flower": 0.5027233922497442,
+        "Pre-Rolls": 0.44538402643360026
       },
-      "ppi_index": 35.44,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9249,
-      "revenue": 101007.18,
-      "units": 10359,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 35.44,
-          "revenue": 101007.18,
-          "units": 10359,
-          "sell_through_pct": 0.9249
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 357493.49,
+      "units": 22954.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Weekenders",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 98.04,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9449,
-      "revenue": 96732.15,
-      "units": 4597,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 98.04,
-          "revenue": 96732.15,
-          "units": 4597,
-          "sell_through_pct": 0.9449
-        }
-      ]
-    },
-    {
-      "brand": "Bettering Co.",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 99.01,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9146,
-      "revenue": 92583.99,
-      "units": 3330,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 99.01,
-          "revenue": 92583.99,
-          "units": 3330,
-          "sell_through_pct": 0.9146
-        }
-      ]
-    },
-    {
-      "brand": "Grassroots",
+      "brand": "Matter.",
       "category_mix": {
         "Flower": 1.0
       },
-      "ppi_index": 111.45,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6778,
-      "revenue": 90555.66,
-      "units": 2001,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 111.45,
-          "revenue": 90555.66,
-          "units": 2001,
-          "sell_through_pct": 0.6778
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 318720.06,
+      "units": 3302.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Flamer",
+      "brand": "Florist Farms",
       "category_mix": {
-        "Pre-Rolls": 1.0
+        "Flower": 0.16689844007626892,
+        "Pre-Rolls": 0.6496103436622807,
+        "Vape": 0.1834912162614505
       },
-      "ppi_index": 94.7,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8958,
-      "revenue": 90469.16,
-      "units": 3377,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 94.7,
-          "revenue": 90469.16,
-          "units": 3377,
-          "sell_through_pct": 0.8958
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 305765.59,
+      "units": 6796.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "The Travel Agency",
+      "brand": "PAX",
       "category_mix": {
-        "Accessories": 1.0
+        "Accessories": 0.06921485704817651,
+        "Disposable": 0.3353346316728876,
+        "Vape": 0.5954505112789359
       },
-      "ppi_index": 13.29,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.744,
-      "revenue": 69659.65,
-      "units": 14878,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 13.29,
-          "revenue": 69659.65,
-          "units": 14878,
-          "sell_through_pct": 0.744
-        }
-      ]
-    },
-    {
-      "brand": "Toast",
-      "category_mix": {
-        "Flower": 0.6916260553533183,
-        "Pre-Rolls": 0.3083739446466815
-      },
-      "ppi_index": 210.06,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8624,
-      "revenue": 67797.2,
-      "units": 1078,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 210.06,
-          "revenue": 67797.2,
-          "units": 1078,
-          "sell_through_pct": 0.8624
-        }
-      ]
-    },
-    {
-      "brand": "Higgs",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 173.3,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8922,
-      "revenue": 64748.9,
-      "units": 1308,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 173.3,
-          "revenue": 64748.9,
-          "units": 1308,
-          "sell_through_pct": 0.8922
-        }
-      ]
-    },
-    {
-      "brand": "Bloom",
-      "category_mix": {
-        "Disposable": 1.0
-      },
-      "ppi_index": 204.67,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8983,
-      "revenue": 57248.37,
-      "units": 989,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 204.67,
-          "revenue": 57248.37,
-          "units": 989,
-          "sell_through_pct": 0.8983
-        }
-      ]
-    },
-    {
-      "brand": "Foy",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 104.05,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.915,
-      "revenue": 57209.99,
-      "units": 1959,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 104.05,
-          "revenue": 57209.99,
-          "units": 1959,
-          "sell_through_pct": 0.915
-        }
-      ]
-    },
-    {
-      "brand": "Highland Goat",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 129.7,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.954,
-      "revenue": 52602.08,
-      "units": 1513,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 129.7,
-          "revenue": 52602.08,
-          "units": 1513,
-          "sell_through_pct": 0.954
-        }
-      ]
-    },
-    {
-      "brand": "Stiiizy",
-      "category_mix": {
-        "Disposable": 0.5313696889129816,
-        "Pre-Rolls": 0.46863031108701836
-      },
-      "ppi_index": 156.58,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7432,
-      "revenue": 52205.65,
-      "units": 958,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 156.58,
-          "revenue": 52205.65,
-          "units": 958,
-          "sell_through_pct": 0.7432
-        }
-      ]
-    },
-    {
-      "brand": "Stone Road",
-      "category_mix": {
-        "Flower": 0.8476747645017353,
-        "Pre-Rolls": 0.15232523549826474
-      },
-      "ppi_index": 192.02,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7247,
-      "revenue": 50425.0,
-      "units": 753,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 192.02,
-          "revenue": 50425.0,
-          "units": 753,
-          "sell_through_pct": 0.7247
-        }
-      ]
-    },
-    {
-      "brand": "Harney Brothers Cannabis",
-      "category_mix": {
-        "Beverages": 0.1864588844532089,
-        "Pre-Rolls": 0.6503788004918301,
-        "Tincture": 0.1631623150549609
-      },
-      "ppi_index": 49.48,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9551,
-      "revenue": 48650.94,
-      "units": 3572,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 49.48,
-          "revenue": 48650.94,
-          "units": 3572,
-          "sell_through_pct": 0.9551
-        }
-      ]
-    },
-    {
-      "brand": "Koa",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 207.76,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8511,
-      "revenue": 47854.75,
-      "units": 783,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 207.76,
-          "revenue": 47854.75,
-          "units": 783,
-          "sell_through_pct": 0.8511
-        }
-      ]
-    },
-    {
-      "brand": "Good Green",
-      "category_mix": {
-        "Flower": 1.0
-      },
-      "ppi_index": 171.8,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7653,
-      "revenue": 43938.06,
-      "units": 789,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 171.8,
-          "revenue": 43938.06,
-          "units": 789,
-          "sell_through_pct": 0.7653
-        }
-      ]
-    },
-    {
-      "brand": "Moods",
-      "category_mix": {
-        "Disposable": 1.0
-      },
-      "ppi_index": 128.95,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7595,
-      "revenue": 42896.5,
-      "units": 1017,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 128.95,
-          "revenue": 42896.5,
-          "units": 1017,
-          "sell_through_pct": 0.7595
-        }
-      ]
-    },
-    {
-      "brand": "Rove",
-      "category_mix": {
-        "Pre-Rolls": 0.1829729377712103,
-        "Vape": 0.8170270622287896
-      },
-      "ppi_index": 180.0,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7935,
-      "revenue": 42688.28,
-      "units": 761,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 180.0,
-          "revenue": 42688.28,
-          "units": 761,
-          "sell_through_pct": 0.7935
-        }
-      ]
-    },
-    {
-      "brand": "Dank. By Definition",
-      "category_mix": {
-        "Flower": 0.8723679514632405,
-        "Pre-Rolls": 0.12763204853675944
-      },
-      "ppi_index": 248.52,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6452,
-      "revenue": 40348.8,
-      "units": 420,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 248.52,
-          "revenue": 40348.8,
-          "units": 420,
-          "sell_through_pct": 0.6452
-        }
-      ]
-    },
-    {
-      "brand": "Platinum Reserve",
-      "category_mix": {
-        "Flower": 1.0
-      },
-      "ppi_index": 279.9,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9051,
-      "revenue": 32172.02,
-      "units": 410,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 279.9,
-          "revenue": 32172.02,
-          "units": 410,
-          "sell_through_pct": 0.9051
-        }
-      ]
-    },
-    {
-      "brand": "Beboe",
-      "category_mix": {
-        "Disposable": 0.7118101502088703,
-        "Edibles": 0.2881898497911296
-      },
-      "ppi_index": 137.44,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8966,
-      "revenue": 28127.5,
-      "units": 720,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 137.44,
-          "revenue": 28127.5,
-          "units": 720,
-          "sell_through_pct": 0.8966
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 305266.83,
+      "units": 4680.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Gr\u00f6n",
       "category_mix": {
         "Edibles": 1.0
       },
-      "ppi_index": 81.53,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9541,
-      "revenue": 27105.6,
-      "units": 1246,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 81.53,
-          "revenue": 27105.6,
-          "units": 1246,
-          "sell_through_pct": 0.9541
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 299029.15,
+      "units": 15253.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Turn",
+      "brand": "Wyld",
+      "category_mix": {
+        "Accessories": 3.579309571943568e-07,
+        "Edibles": 0.9999996420690429
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 279383.49,
+      "units": 11323.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "turn",
       "category_mix": {
         "Disposable": 1.0
       },
-      "ppi_index": 227.43,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8875,
-      "revenue": 27091.01,
-      "units": 513,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 227.43,
-          "revenue": 27091.01,
-          "units": 513,
-          "sell_through_pct": 0.8875
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 271375.72,
+      "units": 4661.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Tune",
+      "brand": "LivWell",
       "category_mix": {
-        "Beverages": 1.0
+        "Flower": 1.0
       },
-      "ppi_index": 19.04,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9804,
-      "revenue": 24776.79,
-      "units": 4994,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 19.04,
-          "revenue": 24776.79,
-          "units": 4994,
-          "sell_through_pct": 0.9804
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 267485.84,
+      "units": 1979.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Holiday",
+      "brand": "MFNY",
       "category_mix": {
-        "Disposable": 1.0
+        "Concentrate": 0.08459083122602272,
+        "Disposable": 0.35458672063481167,
+        "Pre-Rolls": 0.18564333376632308,
+        "Tincture": 0.1076017446301302,
+        "Vape": 0.26757736974271223
       },
-      "ppi_index": 181.1,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8477,
-      "revenue": 23658.25,
-      "units": 434,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 181.1,
-          "revenue": 23658.25,
-          "units": 434,
-          "sell_through_pct": 0.8477
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 266749.95,
+      "units": 6691.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Hepworth",
+      "brand": "Harney Brothers Cannabis",
       "category_mix": {
-        "Vape": 1.0
+        "Beverages": 0.09580510692197247,
+        "Flower": 0.714673590295025,
+        "Pre-Rolls": 0.1587327532847553,
+        "Tincture": 0.03078854949824724
       },
-      "ppi_index": 168.0,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.968,
-      "revenue": 23332.85,
-      "units": 484,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 168.0,
-          "revenue": 23332.85,
-          "units": 484,
-          "sell_through_pct": 0.968
-        }
-      ]
-    },
-    {
-      "brand": "Wana",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 110.69,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9697,
-      "revenue": 22066.28,
-      "units": 705,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 110.69,
-          "revenue": 22066.28,
-          "units": 705,
-          "sell_through_pct": 0.9697
-        }
-      ]
-    },
-    {
-      "brand": "High 5s",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 180.2,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.744,
-      "revenue": 20906.0,
-      "units": 340,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 180.2,
-          "revenue": 20906.0,
-          "units": 340,
-          "sell_through_pct": 0.744
-        }
-      ]
-    },
-    {
-      "brand": "Anthem",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 86.43,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6357,
-      "revenue": 18532.5,
-      "units": 534,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 86.43,
-          "revenue": 18532.5,
-          "units": 534,
-          "sell_through_pct": 0.6357
-        }
-      ]
-    },
-    {
-      "brand": "Level",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 111.08,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8936,
-      "revenue": 17306.8,
-      "units": 504,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 111.08,
-          "revenue": 17306.8,
-          "units": 504,
-          "sell_through_pct": 0.8936
-        }
-      ]
-    },
-    {
-      "brand": "Canna Cure Farms",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 35.68,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.909,
-      "revenue": 16718.26,
-      "units": 1628,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 35.68,
-          "revenue": 16718.26,
-          "units": 1628,
-          "sell_through_pct": 0.909
-        }
-      ]
-    },
-    {
-      "brand": "Kiva",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 99.57,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9466,
-      "revenue": 15692.56,
-      "units": 585,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 99.57,
-          "revenue": 15692.56,
-          "units": 585,
-          "sell_through_pct": 0.9466
-        }
-      ]
-    },
-    {
-      "brand": "Mfny",
-      "category_mix": {
-        "Disposable": 0.11064060576983249,
-        "Pre-Rolls": 0.2729719017918605,
-        "Tincture": 0.3526147812845491,
-        "Vape": 0.2637727111537579
-      },
-      "ppi_index": 94.12,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.5603,
-      "revenue": 14381.7,
-      "units": 339,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 94.12,
-          "revenue": 14381.7,
-          "units": 339,
-          "sell_through_pct": 0.5603
-        }
-      ]
-    },
-    {
-      "brand": "&Shine",
-      "category_mix": {
-        "Concentrate": 1.0,
-        "Disposable": 0.0
-      },
-      "ppi_index": 165.98,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.5,
-      "revenue": 14153.88,
-      "units": 165,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 165.98,
-          "revenue": 14153.88,
-          "units": 165,
-          "sell_through_pct": 0.5
-        }
-      ]
-    },
-    {
-      "brand": "Butter",
-      "category_mix": {
-        "Flower": 0.20715600941688167,
-        "Pre-Rolls": 0.7928439905831184
-      },
-      "ppi_index": 98.04,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.4649,
-      "revenue": 13647.83,
-      "units": 258,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 98.04,
-          "revenue": 13647.83,
-          "units": 258,
-          "sell_through_pct": 0.4649
-        }
-      ]
-    },
-    {
-      "brand": "Drew Martin",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 185.51,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8,
-      "revenue": 13579.73,
-      "units": 196,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 185.51,
-          "revenue": 13579.73,
-          "units": 196,
-          "sell_through_pct": 0.8
-        }
-      ]
-    },
-    {
-      "brand": "B Noble",
-      "category_mix": {
-        "Flower": 0.7412431065045054,
-        "Pre-Rolls": 0.25875689349549463
-      },
-      "ppi_index": 86.09,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7012,
-      "revenue": 12997.76,
-      "units": 345,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 86.09,
-          "revenue": 12997.76,
-          "units": 345,
-          "sell_through_pct": 0.7012
-        }
-      ]
-    },
-    {
-      "brand": "Sta Exotics",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 58.9,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9233,
-      "revenue": 12305.0,
-      "units": 831,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 58.9,
-          "revenue": 12305.0,
-          "units": 831,
-          "sell_through_pct": 0.9233
-        }
-      ]
-    },
-    {
-      "brand": "1906",
-      "category_mix": {
-        "Edibles": 1.0
-      },
-      "ppi_index": 116.51,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8729,
-      "revenue": 12148.45,
-      "units": 357,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 116.51,
-          "revenue": 12148.45,
-          "units": 357,
-          "sell_through_pct": 0.8729
-        }
-      ]
-    },
-    {
-      "brand": "Heavy Hitters",
-      "category_mix": {
-        "Disposable": 0.546206262920144,
-        "Pre-Rolls": 0.34844192634560905,
-        "Vape": 0.105351810734247
-      },
-      "ppi_index": 140.08,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6942,
-      "revenue": 9795.75,
-      "units": 193,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 140.08,
-          "revenue": 9795.75,
-          "units": 193,
-          "sell_through_pct": 0.6942
-        }
-      ]
-    },
-    {
-      "brand": "Flintts Mints",
-      "category_mix": {
-        "Accessories": 1.0
-      },
-      "ppi_index": 14.6,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.648,
-      "revenue": 8722.76,
-      "units": 1180,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 14.6,
-          "revenue": 8722.76,
-          "units": 1180,
-          "sell_through_pct": 0.648
-        }
-      ]
-    },
-    {
-      "brand": "Ithaca Organics",
-      "category_mix": {
-        "Flower": 0.4804689930429933,
-        "Pre-Rolls": 0.4303504312698899,
-        "Tincture": 0.08918057568711675
-      },
-      "ppi_index": 36.63,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.4183,
-      "revenue": 8679.02,
-      "units": 389,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 36.63,
-          "revenue": 8679.02,
-          "units": 389,
-          "sell_through_pct": 0.4183
-        }
-      ]
-    },
-    {
-      "brand": "Ravens View Genetics",
-      "category_mix": {
-        "Flower": 0.851602805634456,
-        "Pre-Rolls": 0.14839719436554402
-      },
-      "ppi_index": 53.62,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.5307,
-      "revenue": 8625.5,
-      "units": 328,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 53.62,
-          "revenue": 8625.5,
-          "units": 328,
-          "sell_through_pct": 0.5307
-        }
-      ]
-    },
-    {
-      "brand": "Good Tide",
-      "category_mix": {
-        "Edibles": 1.0000000000000002
-      },
-      "ppi_index": 57.89,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6362,
-      "revenue": 8437.93,
-      "units": 327,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 57.89,
-          "revenue": 8437.93,
-          "units": 327,
-          "sell_through_pct": 0.6362
-        }
-      ]
-    },
-    {
-      "brand": "Blotter",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 162.94,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8389,
-      "revenue": 7457.5,
-      "units": 151,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 162.94,
-          "revenue": 7457.5,
-          "units": 151,
-          "sell_through_pct": 0.8389
-        }
-      ]
+      "ppi_index": 8.53,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4877,
+      "revenue": 256458.98,
+      "units": 9351.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Hudson Cannabis",
       "category_mix": {
-        "Concentrate": 0.08013044491031912,
-        "Pre-Rolls": 0.9198695550896808
+        "Concentrate": 0.2371002709749043,
+        "Flower": 0.31747255622395804,
+        "Pre-Rolls": 0.44542717280113764
       },
-      "ppi_index": 35.12,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8602,
-      "revenue": 6439.5,
-      "units": 609,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 35.12,
-          "revenue": 6439.5,
-          "units": 609,
-          "sell_through_pct": 0.8602
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 243657.25,
+      "units": 7319.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Zig Zag",
+      "brand": "Select",
       "category_mix": {
-        "Accessories": 1.0
+        "Disposable": 0.9953217040902015,
+        "Edibles": 0.00467829590979848
       },
-      "ppi_index": 9.43,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9321,
-      "revenue": 5549.53,
-      "units": 1882,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 9.43,
-          "revenue": 5549.53,
-          "units": 1882,
-          "sell_through_pct": 0.9321
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 229485.27,
+      "units": 2684.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Rosa Reta",
+      "brand": "Platinum Reserve",
       "category_mix": {
-        "Pre-Rolls": 1.0
+        "Flower": 1.0
       },
-      "ppi_index": 43.82,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7786,
-      "revenue": 4589.2,
-      "units": 327,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 43.82,
-          "revenue": 4589.2,
-          "units": 327,
-          "sell_through_pct": 0.7786
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 221562.33,
+      "units": 4203.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Grassroots",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 211347.87,
+      "units": 4246.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Lost Farm",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 210383.19,
+      "units": 7837.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Heavy Hitters",
+      "category_mix": {
+        "Concentrate": 0.01666502581491856,
+        "Disposable": 0.2526491499369927,
+        "Pre-Rolls": 0.048721754043745666,
+        "Vape": 0.681964070204343
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 207920.47,
+      "units": 2774.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Good Green",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 202355.99,
+      "units": 2728.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Bloom",
+      "category_mix": {
+        "Disposable": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 193762.77,
+      "units": 3307.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Toast",
+      "category_mix": {
+        "Flower": 0.31158014765281156,
+        "Pre-Rolls": 0.6884198523471884
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 188902.6,
+      "units": 3172.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Stone Road",
+      "category_mix": {
+        "Flower": 0.8286516747986159,
+        "Pre-Rolls": 0.17134832520138413
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 185593.06,
+      "units": 2912.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Alchemy Pure",
+      "category_mix": {
+        "Flower": 0.8074563864155522,
+        "Pre-Rolls": 0.19254361358444783
+      },
+      "ppi_index": 27.9,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.6681,
+      "revenue": 176176.76,
+      "units": 3905.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Weekenders",
+      "category_mix": {
+        "Flower": 0.4149040087345782,
+        "Pre-Rolls": 0.5850959912654219
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 174085.11,
+      "units": 5275.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "1906",
+      "category_mix": {
+        "Accessories": 0.0,
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 166091.04,
+      "units": 6301.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "SpaceBuds",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 163234.99,
+      "units": 2664.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Dogwalkers",
       "category_mix": {
         "Pre-Rolls": 1.0
       },
-      "ppi_index": 26.3,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.3272,
-      "revenue": 4517.75,
-      "units": 196,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 26.3,
-          "revenue": 4517.75,
-          "units": 196,
-          "sell_through_pct": 0.3272
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 161922.96,
+      "units": 6093.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Petals",
+      "brand": "Eaton Botanicals",
       "category_mix": {
-        "Accessories": 1.0
+        "Edibles": 0.8838503997077711,
+        "Pre-Rolls": 0.11614960029222886
       },
-      "ppi_index": 25.37,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7806,
-      "revenue": 4284.67,
-      "units": 516,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 25.37,
-          "revenue": 4284.67,
-          "units": 516,
-          "sell_through_pct": 0.7806
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 154728.04,
+      "units": 5209.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Priscillas Garden",
+      "brand": "Rove",
       "category_mix": {
-        "Flower": 1.0
+        "Disposable": 0.0,
+        "Pre-Rolls": 0.32298436474015885,
+        "Vape": 0.6770156352598412
       },
-      "ppi_index": 163.62,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.78,
-      "revenue": 4174.8,
-      "units": 78,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 163.62,
-          "revenue": 4174.8,
-          "units": 78,
-          "sell_through_pct": 0.78
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 145652.84,
+      "units": 2791.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Raw",
+      "brand": "Canna Cure Farms",
       "category_mix": {
-        "Accessories": 0.9999999999999999
+        "Flower": 0.12230153533101347,
+        "Pre-Rolls": 0.8776984646689865
       },
-      "ppi_index": 42.93,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9145,
-      "revenue": 4057.6,
-      "units": 1978,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 42.93,
-          "revenue": 4057.6,
-          "units": 1978,
-          "sell_through_pct": 0.9145
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 138585.75,
+      "units": 12477.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Mfused",
+      "category_mix": {
+        "Disposable": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 129268.13,
+      "units": 2562.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Edie Parker",
+      "category_mix": {
+        "Accessories": 0.005217077264676066,
+        "Disposable": 0.4215372225360586,
+        "Edibles": 0.01353104970929683,
+        "Flower": 0.39017520327146477,
+        "Pre-Rolls": 0.16953944721850372
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 125932.58,
+      "units": 3685.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Bettering Co.",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 123765.99,
+      "units": 4765.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Her Highness",
+      "category_mix": {
+        "Accessories": 0.008821624853043683,
+        "CBD": 0.02969655891123616,
+        "Flower": 0.39746846540039527,
+        "Pre-Rolls": 0.5640133508353249
+      },
+      "ppi_index": 86.46,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.9442,
+      "revenue": 123650.69,
+      "units": 1896.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Old Pal",
+      "category_mix": {
+        "Edibles": 0.011571749043707717,
+        "Flower": 0.7413671217439691,
+        "Pre-Rolls": 0.24706112921232312
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 114295.6,
+      "units": 1603.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Wana",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 109225.98,
+      "units": 3534.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jetty",
+      "category_mix": {
+        "Concentrate": 0.04024882591558246,
+        "Disposable": 0.2598633764360036,
+        "Vape": 0.6998877976484139
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 109151.01,
+      "units": 1593.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Flamer",
+      "category_mix": {
+        "Accessories": 3.141556696782491e-06,
+        "Flower": 0.02709869847154027,
+        "Pre-Rolls": 0.972898159971763
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 108226.6,
+      "units": 4095.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Lowell Farms",
       "category_mix": {
         "Pre-Rolls": 1.0
       },
-      "ppi_index": 88.49,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.55,
-      "revenue": 3658.2,
-      "units": 88,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 88.49,
-          "revenue": 3658.2,
-          "units": 88,
-          "sell_through_pct": 0.55
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 106229.66,
+      "units": 2205.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Lay Up",
+      "brand": "Moods",
       "category_mix": {
-        "Beverages": 1.0
+        "Disposable": 1.0
       },
-      "ppi_index": 15.23,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7841,
-      "revenue": 2948.25,
-      "units": 603,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 15.23,
-          "revenue": 2948.25,
-          "units": 603,
-          "sell_through_pct": 0.7841
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 104032.5,
+      "units": 2394.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Jeeter",
+      "brand": "FlowerHouse",
       "category_mix": {
-        "Pre-Rolls": 1.0
+        "Flower": 0.41470752036149233,
+        "Pre-Rolls": 0.5852924796385077
       },
-      "ppi_index": 8.5,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.155,
-      "revenue": 2720.96,
-      "units": 235,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 8.5,
-          "revenue": 2720.96,
-          "units": 235,
-          "sell_through_pct": 0.155
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 96727.93,
+      "units": 3219.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "butter",
+      "category_mix": {
+        "Flower": 0.30205503327197764,
+        "Pre-Rolls": 0.6979449667280223
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 91629.66,
+      "units": 2205.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "The Travel Agency",
+      "category_mix": {
+        "Accessories": 0.9956168793974405,
+        "Edibles": 0.004383120602559543
+      },
+      "ppi_index": 0.0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.9392,
+      "revenue": 90346.59,
+      "units": 16597.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Smokiez",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 86299.72,
+      "units": 3954.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Umamii",
+      "category_mix": {
+        "Edibles": 0.041038179529340156,
+        "Flower": 0.9427312513717873,
+        "Pre-Rolls": 0.01623056909887255
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 82510.97,
+      "units": 2405.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Head & Heal",
+      "category_mix": {
+        "Tincture": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 74480.14,
+      "units": 867.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Woodstock",
+      "category_mix": {
+        "Concentrate": 0.07436825214728346,
+        "Disposable": 0.0015495509700324999,
+        "Flower": 0.24526673345140731,
+        "Pre-Rolls": 0.08200590732325944,
+        "Vape": 0.5968095561080173
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 73569.7,
+      "units": 1274.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Miss Grass",
       "category_mix": {
         "Pre-Rolls": 1.0
       },
-      "ppi_index": 95.43,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7677,
-      "revenue": 2590.0,
-      "units": 76,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 95.43,
-          "revenue": 2590.0,
-          "units": 76,
-          "sell_through_pct": 0.7677
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 71586.96,
+      "units": 2240.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Myhi",
-      "category_mix": {
-        "Beverages": 1.0
-      },
-      "ppi_index": 51.58,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6528,
-      "revenue": 2534.0,
-      "units": 126,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 51.58,
-          "revenue": 2534.0,
-          "units": 126,
-          "sell_through_pct": 0.6528
-        }
-      ]
-    },
-    {
-      "brand": "Weed Water",
-      "category_mix": {
-        "Beverages": 1.0
-      },
-      "ppi_index": 12.6,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.8008,
-      "revenue": 2518.55,
-      "units": 627,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 12.6,
-          "revenue": 2518.55,
-          "units": 627,
-          "sell_through_pct": 0.8008
-        }
-      ]
-    },
-    {
-      "brand": "Knack",
+      "brand": "Higgs",
       "category_mix": {
         "Pre-Rolls": 1.0
       },
-      "ppi_index": 15.85,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.34,
-      "revenue": 1627.2,
-      "units": 136,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 15.85,
-          "revenue": 1627.2,
-          "units": 136,
-          "sell_through_pct": 0.34
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 64698.9,
+      "units": 1307.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Woodstock",
+      "brand": "STA Exotics",
+      "category_mix": {
+        "Flower": 0.2211683844412135,
+        "Pre-Rolls": 0.7788316155587864
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 62692.55,
+      "units": 2427.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "KOA",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 62001.25,
+      "units": 1006.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Beboe",
+      "category_mix": {
+        "Accessories": 0.0025571527770101737,
+        "Disposable": 0.6028471174041633,
+        "Edibles": 0.3945957298188265
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 60614.29,
+      "units": 1588.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Holiday",
+      "category_mix": {
+        "Disposable": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 60383.15,
+      "units": 1074.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Stay Melo",
       "category_mix": {
         "Flower": 1.0
       },
-      "ppi_index": 162.52,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.4865,
-      "revenue": 1533.0,
-      "units": 18,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 162.52,
-          "revenue": 1533.0,
-          "units": 18,
-          "sell_through_pct": 0.4865
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 58369.06,
+      "units": 1181.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Luvbuds",
+      "brand": "Foy",
       "category_mix": {
-        "Accessories": 1.0
+        "Edibles": 1.0
       },
-      "ppi_index": 6.84,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6693,
-      "revenue": 1499.35,
-      "units": 506,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 6.84,
-          "revenue": 1499.35,
-          "units": 506,
-          "sell_through_pct": 0.6693
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 57209.99,
+      "units": 1959.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Chime & Chill",
+      "brand": "Stiiizy",
       "category_mix": {
-        "Cbd": 1.0
+        "Disposable": 0.5577057228688287,
+        "Pre-Rolls": 0.4422942771311713
       },
-      "ppi_index": 79.31,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6806,
-      "revenue": 1450.5,
-      "units": 49,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 79.31,
-          "revenue": 1450.5,
-          "units": 49,
-          "sell_through_pct": 0.6806
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 54975.05,
+      "units": 1001.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Ongrok",
+      "brand": "&Shine",
       "category_mix": {
-        "Accessories": 1.0
+        "Concentrate": 0.5893882845935685,
+        "Disposable": 0.4106117154064315
       },
-      "ppi_index": 43.51,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.7,
-      "revenue": 1375.2,
-      "units": 77,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 43.51,
-          "revenue": 1375.2,
-          "units": 77,
-          "sell_through_pct": 0.7
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 54638.48,
+      "units": 697.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Bic",
+      "brand": "Highland Goat",
       "category_mix": {
-        "Accessories": 1.0
+        "Edibles": 1.0
       },
-      "ppi_index": 4.41,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.5678,
-      "revenue": 1328.7,
-      "units": 444,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 4.41,
-          "revenue": 1328.7,
-          "units": 444,
-          "sell_through_pct": 0.5678
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 52602.08,
+      "units": 1513.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Silly Nice",
+      "category_mix": {
+        "Concentrate": 0.41293872889275157,
+        "Flower": 0.5870612711072485
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 52008.2,
+      "units": 1009.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "B Noble",
+      "category_mix": {
+        "Flower": 0.6344898254671845,
+        "Pre-Rolls": 0.3655101745328155
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 50141.86,
+      "units": 1353.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Olio",
+      "category_mix": {
+        "Concentrate": 0.33417754137537864,
+        "Disposable": 0.4163345330246269,
+        "Vape": 0.24948792559999441
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 38651.61,
+      "units": 594.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Kiva",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 38349.96,
+      "units": 1291.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "VLSNY",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 36875.0,
+      "units": 744.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "High 5s",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 36722.9,
+      "units": 577.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Level",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 35609.77,
+      "units": 1039.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Packs",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 34671.82,
+      "units": 824.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Incredibles",
       "category_mix": {
         "Edibles": 1.0
       },
-      "ppi_index": 31.2,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.3506,
-      "revenue": 1292.8,
-      "units": 54,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 31.2,
-          "revenue": 1292.8,
-          "units": 54,
-          "sell_through_pct": 0.3506
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 31737.68,
+      "units": 1172.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Drew Martin",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 31166.19,
+      "units": 777.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Chime & Chill",
+      "category_mix": {
+        "CBD": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 26856.45,
+      "units": 750.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Rosa Reta",
+      "category_mix": {
+        "Disposable": 0.7634943449043939,
+        "Pre-Rolls": 0.23650565509560612
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 26577.8,
+      "units": 788.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Tune",
+      "category_mix": {
+        "Beverages": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 24759.29,
+      "units": 4989.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ravens View Genetics",
+      "category_mix": {
+        "Concentrate": 0.10242069316045488,
+        "Flower": 0.6873837775387273,
+        "Pre-Rolls": 0.21019552930081792
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 24495.05,
+      "units": 986.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "House of Puff",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 23729.92,
+      "units": 1070.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Love Oui'd",
+      "category_mix": {
+        "Edibles": 0.9631612629867222,
+        "Tincture": 0.03683873701327782
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 21547.97,
+      "units": 715.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Anthem",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 18532.5,
+      "units": 534.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Dosist",
+      "category_mix": {
+        "Disposable": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 18469.59,
+      "units": 464.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Revelry",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 17643.5,
+      "units": 504.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Blotter",
+      "category_mix": {
+        "Concentrate": 0.3165056866891467,
+        "Pre-Rolls": 0.6834943133108533
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 17497.0,
+      "units": 331.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Dime",
+      "category_mix": {
+        "Vape": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 16925.4,
+      "units": 245.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Puff Co",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 611.2,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4894,
+      "revenue": 16793.7,
+      "units": 115.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Etain",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 16273.2,
+      "units": 343.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "ONGROK",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 22.07,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.5101,
+      "revenue": 16071.52,
+      "units": 931.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "40 Tons",
+      "category_mix": {
+        "Flower": 0.9700964389842757,
+        "Pre-Rolls": 0.02990356101572429
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 16051.6,
+      "units": 364.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jungle Gurl",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 15609.2,
+      "units": 382.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Nova",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 15121.21,
+      "units": 494.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Priscillas Garden",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 10488.8,
+      "units": 196.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ithaca Organics",
+      "category_mix": {
+        "Flower": 0.417480102117435,
+        "Pre-Rolls": 0.3739300195224508,
+        "Tincture": 0.20858987836011414
+      },
+      "ppi_index": 19.78,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.5012,
+      "revenue": 9988.5,
+      "units": 402.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Papa & Barkley",
+      "category_mix": {
+        "Tincture": 0.5357196135481368,
+        "Topical": 0.46428038645186315
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 9049.51,
+      "units": 180.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "RAW",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 9015.32,
+      "units": 4018.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Flintts Mints",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 8722.76,
+      "units": 1180.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Seed & Strain",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 8476.8,
+      "units": 234.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Good Tide",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 8437.8,
+      "units": 305.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "lay up",
+      "category_mix": {
+        "Beverages": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 7571.25,
+      "units": 1548.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Vessel",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 106.33,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4873,
+      "revenue": 7393.09,
+      "units": 192.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "MyHi",
+      "category_mix": {
+        "Beverages": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 7137.35,
+      "units": 328.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Hashtag Honey",
+      "category_mix": {
+        "Concentrate": 0.22489146164978294,
+        "Flower": 0.7751085383502171
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 6910.0,
+      "units": 166.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Zig Zag",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 6877.33,
+      "units": 2374.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "PETALS",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 6479.27,
+      "units": 743.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "ZZZ's Collective",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0.54,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.2674,
+      "revenue": 6458.11,
+      "units": 1343.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "CCELL",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 6269.71,
+      "units": 316.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "P3",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 6185.0,
+      "units": 253.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Doctor Solomons",
       "category_mix": {
-        "Topical": 1.0
+        "Tincture": 0.7195546276965901,
+        "Topical": 0.2804453723034099
       },
-      "ppi_index": 94.58,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.6087,
-      "revenue": 1104.0,
-      "units": 28,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 94.58,
-          "revenue": 1104.0,
-          "units": 28,
-          "sell_through_pct": 0.6087
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 5748.0,
+      "units": 145.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Zzz's Collective",
+      "brand": "I AM GOODNESS",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 5690.16,
+      "units": 164.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "777",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 5526.4,
+      "units": 127.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Knack",
+      "category_mix": {
+        "Flower": 0.028540588009293988,
+        "Pre-Rolls": 0.971459411990706
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 5465.9,
+      "units": 350.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "TribeTokes",
+      "category_mix": {
+        "CBD": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 4681.75,
+      "units": 92.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NYCE",
+      "category_mix": {
+        "Concentrate": 1.0
+      },
+      "ppi_index": 58.25,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.5798,
+      "revenue": 3855.0,
+      "units": 69.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Bic",
       "category_mix": {
         "Accessories": 1.0
       },
-      "ppi_index": 16.04,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.9179,
-      "revenue": 942.17,
-      "units": 190,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 16.04,
-          "revenue": 942.17,
-          "units": 190,
-          "sell_through_pct": 0.9179
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3748.6,
+      "units": 1659.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Reunion",
+      "category_mix": {
+        "CBD": 1.0
+      },
+      "ppi_index": 143.89,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4335,
+      "revenue": 3693.0,
+      "units": 75.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "High Peaks",
+      "category_mix": {
+        "Beverages": 0.15874330517365137,
+        "Pre-Rolls": 0.8412566948263486
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3622.2,
+      "units": 309.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Blazy Susan",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3571.61,
+      "units": 889.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Heady Tree",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3559.2,
+      "units": 297.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Luci",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3486.47,
+      "units": 137.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Continental Exotics",
+      "category_mix": {
+        "Disposable": -0.0295159386068477,
+        "Pre-Rolls": 1.0295159386068478
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3388.0,
+      "units": 87.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Animal",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 3345.8,
+      "units": 105.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Soft Power Sweets",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 22.65,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4958,
+      "revenue": 3262.0,
+      "units": 118.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jane West",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 9.15,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4792,
+      "revenue": 3180.9,
+      "units": 161.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Oedo-Koh",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 2998.05,
+      "units": 133.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Chef for Higher",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 2810.0,
+      "units": 57.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jeeter",
+      "category_mix": {
+        "Pre-Rolls": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 2803.84,
+      "units": 165.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Canna Style",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 101.48,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4828,
+      "revenue": 2671.0,
+      "units": 112.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Weed Water",
+      "category_mix": {
+        "Beverages": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 2645.5,
+      "units": 620.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NWTN Home",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 2289.54,
+      "units": 34.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Scandalous Chocolates",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 2193.0,
+      "units": 220.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "oHHo",
+      "category_mix": {
+        "CBD": 0.9999949341695331,
+        "CBD Lotion": 5.065830466917594e-06
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 1974.01,
+      "units": 30.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Remedy Plant Lab",
+      "category_mix": {
+        "CBD": 1.0
+      },
+      "ppi_index": 254.12,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.3645,
+      "revenue": 1920.6,
+      "units": 39.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Elevate Jane",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 1149.19,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4286,
+      "revenue": 1874.4,
+      "units": 15.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "ooze",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 1598.0,
+      "units": 80.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Laundry Day",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 182.03,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.7949,
+      "revenue": 1326.0,
+      "units": 31.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Honest",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 429.78,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4286,
+      "revenue": 895.85,
+      "units": 18.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "GRAV",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 194.16,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.62,
+      "revenue": 889.8,
+      "units": 31.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Malachite",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 18.88,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4828,
+      "revenue": 741.6,
+      "units": 42.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "MJ Arsenal",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 687.3,
+      "units": 22.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Sackville",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 674.2,
+      "units": 21.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Tsubota Pearl",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 180.51,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.36,
+      "revenue": 672.6,
+      "units": 18.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Foria",
+      "category_mix": {
+        "CBD": 1.0
+      },
+      "ppi_index": 172.59,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4706,
+      "revenue": 662.4,
+      "units": 16.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Elements",
       "category_mix": {
         "Accessories": 1.0
       },
-      "ppi_index": 4.43,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.747,
-      "revenue": 611.8,
-      "units": 310,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 4.43,
-          "revenue": 611.8,
-          "units": 310,
-          "sell_through_pct": 0.747
-        }
-      ]
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 613.8,
+      "units": 311.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "High Peaks",
+      "brand": "The Healing Rose",
       "category_mix": {
-        "Beverages": 1.0
+        "CBD": 1.0
       },
-      "ppi_index": 5.05,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.325,
-      "revenue": 575.0,
-      "units": 117,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 5.05,
-          "revenue": 575.0,
-          "units": 117,
-          "sell_through_pct": 0.325
-        }
-      ]
+      "ppi_index": 35.74,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4907,
+      "revenue": 570.6,
+      "units": 53.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Alchemy Pure",
-      "category_mix": {
-        "Pre-Rolls": 1.0
-      },
-      "ppi_index": 13.6,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.2692,
-      "revenue": 453.7,
-      "units": 35,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 13.6,
-          "revenue": 453.7,
-          "units": 35,
-          "sell_through_pct": 0.2692
-        }
-      ]
-    },
-    {
-      "brand": "Tribetokes",
-      "category_mix": {
-        "Cbd": 1.0
-      },
-      "ppi_index": 29.83,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.24,
-      "revenue": 295.0,
-      "units": 6,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 29.83,
-          "revenue": 295.0,
-          "units": 6,
-          "sell_through_pct": 0.24
-        }
-      ]
-    },
-    {
-      "brand": "Daysavers",
+      "brand": "Holk",
       "category_mix": {
         "Accessories": 1.0
       },
-      "ppi_index": 1.77,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.1611,
-      "revenue": 292.3,
-      "units": 77,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 1.77,
-          "revenue": 292.3,
-          "units": 77,
-          "sell_through_pct": 0.1611
-        }
-      ]
+      "ppi_index": 987.29,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.2857,
+      "revenue": 503.1,
+      "units": 4.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Mk Lighters",
+      "brand": "DaySavers",
       "category_mix": {
         "Accessories": 1.0
       },
-      "ppi_index": 0.43,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.046,
+      "ppi_index": 1.42,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.1805,
+      "revenue": 473.8,
+      "units": 115.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Cloudious9",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 466.1,
+      "units": 8.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Rogue Paq",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 136.52,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.3846,
+      "revenue": 446.72,
+      "units": 10.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Kannastor",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 360.0,
+      "units": 4.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Futurola",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 72.81,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.1935,
+      "revenue": 348.0,
+      "units": 12.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "herb & Earth",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 343.86,
+      "units": 31.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Vlasic Labs",
+      "category_mix": {
+        "CBD": 1.0
+      },
+      "ppi_index": 78.64,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.1935,
+      "revenue": 324.5,
+      "units": 12.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Mantelpiece",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 300.0,
+      "units": 1.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Rin",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 288.0,
+      "units": 8.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "boveda",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 221.5,
+      "units": 116.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "CAM",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 220.0,
+      "units": 4.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Candy Relics",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 1352.2,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.3,
+      "revenue": 203.0,
+      "units": 3.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Flower Mill",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 166.25,
+      "units": 5.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Go Easy",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 150.0,
+      "units": 3.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "La Jolie Muse",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 165.04,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.375,
+      "revenue": 102.0,
+      "units": 3.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "The New Savant",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 339.78,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.4,
+      "revenue": 84.0,
+      "units": 2.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Candle By Design",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 647.2,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.25,
+      "revenue": 80.0,
+      "units": 1.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "SirEEL",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 72.5,
+      "units": 3.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "LuvBuds",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 3.04,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0014,
+      "revenue": 71.4,
+      "units": 12.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "MK Lighters",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0.05,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0038,
       "revenue": 69.0,
-      "units": 23,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 0.43,
-          "revenue": 69.0,
-          "units": 23,
-          "sell_through_pct": 0.046
-        }
-      ]
+      "units": 23.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Pura",
+      "category_mix": {
+        "Flower": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 40.5,
+      "units": 1.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Senior Moments",
+      "category_mix": {
+        "Edibles": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 30.0,
+      "units": 1.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Tracey Tanner",
+      "category_mix": {
+        "Accessories": 1.0
+      },
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 1.0,
+      "revenue": 0.01,
+      "units": 1.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Snugbox",
+      "category_mix": {},
+      "ppi_index": 364.05,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "1 Off Distro",
+      "category_mix": {},
+      "ppi_index": 30.08,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "AP COHEN LICENSING",
+      "category_mix": {},
+      "ppi_index": 34.13,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Basin Mixtures DBA The Sauce",
+      "category_mix": {},
+      "ppi_index": 14.77,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Beezer printing",
+      "category_mix": {},
+      "ppi_index": 412.59,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Bristol Extracts, LLC",
+      "category_mix": {},
+      "ppi_index": 20.88,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "CDS, Brands LLC",
+      "category_mix": {},
+      "ppi_index": 52.01,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "CSH WYOMING LLC",
+      "category_mix": {},
+      "ppi_index": 6.8,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "CSH Wyoming LLC",
+      "category_mix": {},
+      "ppi_index": 11.95,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "California Fragance Company Inc",
+      "category_mix": {},
+      "ppi_index": 10.07,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Canna Cure Farms LLC",
+      "category_mix": {},
+      "ppi_index": 1.92,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Cannabist Brooklyn",
+      "category_mix": {},
+      "ppi_index": 36.41,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Cannacure NY",
+      "category_mix": {},
+      "ppi_index": 1.53,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ccell",
+      "category_mix": {},
+      "ppi_index": 6.12,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Central Proccesors NY LLC",
+      "category_mix": {},
+      "ppi_index": 3.06,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Chime It Up",
+      "category_mix": {},
+      "ppi_index": 44.53,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Columbia Care Riverhead",
+      "category_mix": {},
+      "ppi_index": 11.07,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Curaleaf",
+      "category_mix": {},
+      "ppi_index": 51.38,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "DF New York ONE INC",
+      "category_mix": {},
+      "ppi_index": 9.84,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Dumbo Electric",
+      "category_mix": {},
+      "ppi_index": 0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Etain LLC",
+      "category_mix": {},
+      "ppi_index": 15.4,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Fernway New York,  LLC",
+      "category_mix": {},
+      "ppi_index": 43.76,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Flo Extracts LLC",
+      "category_mix": {},
+      "ppi_index": 6.44,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "FlowerHouseWalden LLC",
+      "category_mix": {},
+      "ppi_index": 17.59,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Fluent",
+      "category_mix": {},
+      "ppi_index": 10.23,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "GMSS",
+      "category_mix": {},
+      "ppi_index": 8.12,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "GTI",
+      "category_mix": {},
+      "ppi_index": 31.8,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
     },
     {
       "brand": "Gen V Labs",
-      "category_mix": {
-        "Beverages": 1.0
-      },
-      "ppi_index": 0.44,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.5625,
-      "revenue": 0.36,
-      "units": 36,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 0.44,
-          "revenue": 0.36,
-          "units": 36,
-          "sell_through_pct": 0.5625
-        }
-      ]
+      "category_mix": {},
+      "ppi_index": 9.76,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
     },
     {
-      "brand": "Papa & Barkley",
-      "category_mix": {
-        "Topical": 1.0
-      },
-      "ppi_index": 0.04,
-      "ppi_mom_pct": null,
-      "sell_through_pct": 0.4531,
-      "revenue": 0.27,
-      "units": 29,
-      "notes": null,
-      "history": [
-        {
-          "month": "2025-09",
-          "ppi_index": 0.04,
-          "revenue": 0.27,
-          "units": 29,
-          "sell_through_pct": 0.4531
-        }
-      ]
+      "brand": "Glenna & Co. LLC",
+      "category_mix": {},
+      "ppi_index": 9.09,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Gnome Nugs LLC",
+      "category_mix": {},
+      "ppi_index": 6.36,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Gotham Manufacturing Corp",
+      "category_mix": {},
+      "ppi_index": 32.55,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Green Thumb Industries",
+      "category_mix": {},
+      "ppi_index": 28.52,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Greener Standards INC",
+      "category_mix": {},
+      "ppi_index": 6.85,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Gron NY LLC",
+      "category_mix": {},
+      "ppi_index": 5.93,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "HIGH END PROCESSING",
+      "category_mix": {},
+      "ppi_index": 29.63,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "HPI CANNA INC",
+      "category_mix": {},
+      "ppi_index": 15.97,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Heaven Holding INC",
+      "category_mix": {},
+      "ppi_index": 30.34,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Hemp Hunter Labs Inc.",
+      "category_mix": {},
+      "ppi_index": 12.69,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Hepworth AG, Inc",
+      "category_mix": {},
+      "ppi_index": 15.19,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "High Falls Canna",
+      "category_mix": {},
+      "ppi_index": 17.64,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "High Falls Hemp",
+      "category_mix": {},
+      "ppi_index": 17.24,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Highland Goat LLC",
+      "category_mix": {},
+      "ppi_index": 11.89,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Hoj",
+      "category_mix": {},
+      "ppi_index": 329.1,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Hudson Valley Hemp Company LLC",
+      "category_mix": {},
+      "ppi_index": 21.45,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jamestown Canna",
+      "category_mix": {},
+      "ppi_index": 160.18,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Jane\u2019s Garden",
+      "category_mix": {},
+      "ppi_index": 9.46,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Kingston Reserve",
+      "category_mix": {},
+      "ppi_index": 10.63,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Liberty Leaf NY, LLC",
+      "category_mix": {},
+      "ppi_index": 46.11,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "MFNY Processor, LLC",
+      "category_mix": {},
+      "ppi_index": 20.31,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Medusa",
+      "category_mix": {},
+      "ppi_index": 629.61,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NOWAVE",
+      "category_mix": {},
+      "ppi_index": 10.85,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NY Hemp Source",
+      "category_mix": {},
+      "ppi_index": 15.78,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NY Hemp Source LLC",
+      "category_mix": {},
+      "ppi_index": 39.11,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NYHO Labs",
+      "category_mix": {},
+      "ppi_index": 26.16,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Nanticoke Hemp Inc",
+      "category_mix": {},
+      "ppi_index": 3.76,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Naturae LLC",
+      "category_mix": {},
+      "ppi_index": 14.27,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Nippon Kodo",
+      "category_mix": {},
+      "ppi_index": 33.39,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "NorthEast Extracts LLC",
+      "category_mix": {},
+      "ppi_index": 11.89,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Northeast Botanicals Distrobution LLC",
+      "category_mix": {},
+      "ppi_index": 15.01,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "OTTO",
+      "category_mix": {},
+      "ppi_index": 11.24,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ohho",
+      "category_mix": {},
+      "ppi_index": 164.41,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Omnium Health Inc, DBA Omnium Canna",
+      "category_mix": {},
+      "ppi_index": 31.31,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Omnium Health Inc.",
+      "category_mix": {},
+      "ppi_index": 16.93,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Pax",
+      "category_mix": {},
+      "ppi_index": 48.54,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "PharmaCann",
+      "category_mix": {},
+      "ppi_index": 70.15,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ravena Production",
+      "category_mix": {},
+      "ppi_index": 36.34,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ravensview Genetics LLC",
+      "category_mix": {},
+      "ppi_index": 12.56,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Raw",
+      "category_mix": {},
+      "ppi_index": 2.93,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Route 27 Hopyard, LLC",
+      "category_mix": {},
+      "ppi_index": 22.71,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Royal Supply",
+      "category_mix": {},
+      "ppi_index": 0.21,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Ryot",
+      "category_mix": {},
+      "ppi_index": 43.23,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "SKX LLC",
+      "category_mix": {},
+      "ppi_index": 25.33,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Torrwood Farm LLC",
+      "category_mix": {},
+      "ppi_index": 19.0,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "TribeTokes LLC",
+      "category_mix": {},
+      "ppi_index": 61.7,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "TruCann LLC",
+      "category_mix": {},
+      "ppi_index": 19.81,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "UrbanXtracts",
+      "category_mix": {},
+      "ppi_index": 41.15,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "VA Grinders",
+      "category_mix": {},
+      "ppi_index": 5.85,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Varsagodis LLC",
+      "category_mix": {},
+      "ppi_index": 0.98,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Vector",
+      "category_mix": {},
+      "ppi_index": 202.25,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Vessel Life Science",
+      "category_mix": {},
+      "ppi_index": 15.1,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
+    },
+    {
+      "brand": "Veterans Holdings",
+      "category_mix": {},
+      "ppi_index": 25.77,
+      "ppi_mom_pct": 0,
+      "sell_through_pct": 0.0,
+      "revenue": 0.0,
+      "units": 0.0,
+      "notes": "",
+      "history": []
     }
   ]
 }
