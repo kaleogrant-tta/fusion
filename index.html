@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Project Fusion</title>
+  <title>Brand PPI + Sell‑Through + Revenue CRM</title>
   <style>
     /*
       A simple bone/coffee/honey themed layout.
@@ -216,6 +216,50 @@
     .metric-row:last-child {
       margin-bottom: 0;
     }
+
+    /*
+      Responsive styles for mobile screens. On narrow viewports (<=600px),
+      stack KPI cards vertically, reduce font sizes, and shrink heatmap cells.
+      This improves legibility and prevents horizontal overflow on phones.
+    */
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header h1 {
+        font-size: 1.6em;
+        margin-bottom: 12px;
+      }
+      .kpi-card {
+        width: 100%;
+        margin: 6px 0;
+      }
+      .kpi-card h2 {
+        font-size: 0.7em;
+      }
+      .kpi-card p {
+        font-size: 1.2em;
+      }
+      .heatmap-cell {
+        min-width: 60px;
+        padding: 6px;
+        font-size: 0.7em;
+      }
+      .heatmap-name-cell {
+        min-width: 100px;
+        font-size: 0.75em;
+      }
+      .heatmap-header-cell {
+        font-size: 0.75em;
+        padding: 6px;
+      }
+      .overlay {
+        max-width: 90%;
+        font-size: 0.8em;
+        padding: 10px 12px;
+      }
+    }
     .metric-name {
       flex: 0 0 90px;
       text-align: left;
@@ -243,7 +287,7 @@
 </head>
 <body>
   <div class="header">
-    <h1 id="title">Project Fusion</h1>
+    <h1 id="title">Brand PPI + Sell‑Through + Revenue CRM</h1>
     <div id="kpiContainer"></div>
   </div>
   <!-- Container for the heatmap. This replaces the previous table layout. -->
@@ -268,19 +312,26 @@
      * @returns {string} A CSS hsl color string.
      */
     function colorScale(r) {
-      if (r <= 0.25) {
-        // pastel green
-        return 'hsl(140, 50%, 90%)';
-      } else if (r <= 0.5) {
-        // pastel yellow
-        return 'hsl(60, 80%, 88%)';
-      } else if (r <= 0.75) {
-        // pastel orange
-        return 'hsl(30, 80%, 85%)';
-      } else {
-        // pastel red
-        return 'hsl(0, 70%, 83%)';
-      }
+      /*
+        Convert a normalized ratio (0–1) into a continuous pastel hue.  By
+        interpolating the hue and lightness values rather than using hard
+        thresholds, subtle differences between values (e.g. PPI of 79 vs
+        149) become more apparent.  A ratio of 0 will yield a soft green
+        (hue ~140°, lightness ~90%) while a ratio of 1 yields a pastel
+        red (hue ~0°, lightness ~75%).  Intermediate values smoothly
+        transition through yellow and orange.
+      */
+      // Clamp ratio just in case
+      const clamped = Math.max(0, Math.min(1, r));
+      // Hue goes from 140 (green) to 0 (red)
+      const hue = 140 - 140 * clamped;
+      // Saturation fixed at 70% for vibrancy
+      const sat = 70;
+      // Lightness decreases slightly as values increase to give higher
+      // values a bit more weight while keeping colours pastel.  Start at
+      // 90% and drop to 75% across the range.
+      const light = 90 - 15 * clamped;
+      return `hsl(${hue.toFixed(1)}, ${sat}%, ${light.toFixed(1)}%)`;
     }
 
     /**
