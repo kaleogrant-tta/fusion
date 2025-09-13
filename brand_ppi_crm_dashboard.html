@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Brand PPI + Sell‑Through + Revenue CRM</title>
+  <style>
+    /*
+      A simple bone/coffee/honey themed layout.
+      The palette is inspired by natural materials with warm browns and off‑white backgrounds.
+    */
+    /*
+      Enhanced pastel/3D style for a dream‑like aesthetic. Elements are given
+      depth through layered shadows and soft gradients. A subtle animated
+      background adds movement without distracting from the content.
+    */
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      /* A repeating radial gradient creates a soft tiled pattern that slowly moves */
+      background: radial-gradient(circle at 20% 20%, rgba(255, 226, 226, 0.6), rgba(255, 255, 255, 0.6) 40%, rgba(229, 235, 255, 0.6) 75%) fixed;
+      background-size: 200% 200%;
+      animation: moveBg 30s linear infinite;
+      color: #4a2c2a;
+      margin: 0;
+      padding: 20px;
+      scroll-behavior: smooth;
+    }
+
+    /* Slow moving background animation */
+    @keyframes moveBg {
+      0% { background-position: 0 0; }
+      100% { background-position: 100% 100%; }
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #4a2c2a;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    }
+
+    /* KPI cards with gradients, rounded corners and layered shadows for a 3D look */
+    .kpi-card {
+      display: inline-block;
+      background: linear-gradient(135deg, rgba(255, 250, 240, 0.9), rgba(255, 230, 237, 0.9));
+      border-radius: 16px;
+      padding: 14px 20px;
+      margin: 8px;
+      box-shadow:
+        0 2px 4px rgba(0,0,0,0.1),
+        0 6px 12px rgba(0,0,0,0.05),
+        inset 0 0 8px rgba(255,255,255,0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .kpi-card:hover {
+      transform: translateY(-4px);
+      box-shadow:
+        0 4px 8px rgba(0,0,0,0.15),
+        0 10px 20px rgba(0,0,0,0.08),
+        inset 0 0 10px rgba(255,255,255,0.6);
+    }
+
+    .kpi-card h2 {
+      margin: 0;
+      font-size: 0.75em;
+      color: #5d4037;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .kpi-card p {
+      margin: 8px 0 0;
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #4a2c2a;
+    }
+
+    /* Table styling with pastel hues and soft shadows */
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-top: 10px;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px 14px;
+      text-align: left;
+    }
+
+    th {
+      background: linear-gradient(180deg, #e1d5c8, #d2c2b5);
+      color: #4a2c2a;
+      font-weight: 600;
+      font-size: 0.9em;
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      /* Slight inner shadow */
+      box-shadow: inset 0 -1px 0 rgba(255,255,255,0.3);
+    }
+
+    tbody tr {
+      background: rgba(255,255,255,0.6);
+      transition: background 0.3s ease;
+      animation: fadeInUp 0.5s ease forwards;
+    }
+
+    tbody tr:nth-child(even) {
+      background: rgba(249, 244, 241, 0.6);
+    }
+
+    tbody tr:hover {
+      background: rgba(255, 248, 230, 0.9);
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1 id="title">Brand PPI + Sell‑Through + Revenue CRM</h1>
+    <div id="kpiContainer"></div>
+  </div>
+  <table id="brandTable">
+    <thead>
+      <tr>
+        <th>Brand</th>
+        <th>Category Mix</th>
+        <th>PPI Index</th>
+        <th>PPI MoM %</th>
+        <th>Sell‑Through %</th>
+        <th>Revenue</th>
+        <th>Units</th>
+        <th>Revenue Share %</th>
+        <th>BEI Score</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  <script>
+    /**
+     * Load the JSON data and populate the dashboard.
+     * Revenue share and BEI (Brand Efficiency Index) are computed client‑side.
+     */
+    async function loadData() {
+      try {
+        const response = await fetch('brand_ppi_crm_data.json');
+        const data = await response.json();
+
+        // Meta information
+        const meta = data.meta || {};
+        document.getElementById('title').textContent = meta.title || 'Brand CRM';
+
+        // Display KPI cards
+        const kpiContainer = document.getElementById('kpiContainer');
+        kpiContainer.innerHTML = '';
+        const kpis = data.kpis || {};
+        function addKpi(title, value) {
+          const card = document.createElement('div');
+          card.className = 'kpi-card';
+          const h2 = document.createElement('h2');
+          h2.textContent = title;
+          const p = document.createElement('p');
+          p.textContent = value;
+          card.appendChild(h2);
+          card.appendChild(p);
+          kpiContainer.appendChild(card);
+        }
+        // Format numbers with comma separators and currency
+        const toCurrency = (val) => {
+          return '$' + Number(val || 0).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0});
+        };
+        addKpi('Total Revenue', toCurrency(kpis.total_revenue));
+        addKpi('Total Units', Number(kpis.total_units || 0).toLocaleString());
+
+        // Data for each brand
+        const brands = data.brands || [];
+        const tbody = document.querySelector('#brandTable tbody');
+        tbody.innerHTML = '';
+        // Determine total revenue for share calculations
+        let totalRevenue = Number(kpis.total_revenue || 0);
+        if (!totalRevenue) {
+          totalRevenue = brands.reduce((acc, b) => acc + (b.revenue || 0), 0);
+        }
+
+        brands.forEach((b) => {
+          const tr = document.createElement('tr');
+          function td(text) {
+            const cell = document.createElement('td');
+            cell.textContent = text;
+            return cell;
+          }
+          // Brand name
+          tr.appendChild(td(b.brand || ''));
+          // Category mix summarised
+          if (b.category_mix) {
+            const mixStr = Object.entries(b.category_mix)
+              .map(([cat, val]) => `${cat}: ${(val * 100).toFixed(1)}%`)
+              .join(', ');
+            tr.appendChild(td(mixStr));
+          } else {
+            tr.appendChild(td(''));
+          }
+          // PPI index
+          tr.appendChild(td(b.ppi_index !== undefined ? b.ppi_index.toFixed(1) : ''));
+          // PPI MoM %
+          tr.appendChild(td(b.ppi_mom_pct !== undefined ? b.ppi_mom_pct.toFixed(1) + '%' : ''));
+          // Sell-through %
+          const st = b.sell_through_pct !== undefined ? b.sell_through_pct * 100 : undefined;
+          tr.appendChild(td(st !== undefined ? st.toFixed(1) + '%' : ''));
+          // Revenue
+          tr.appendChild(td(toCurrency(b.revenue)));
+          // Units
+          tr.appendChild(td(Number(b.units || 0).toLocaleString()));
+          // Revenue share %
+          const share = totalRevenue > 0 ? ((b.revenue || 0) / totalRevenue * 100) : 0;
+          tr.appendChild(td(share ? share.toFixed(1) + '%' : ''));
+          // BEI score
+          // BEI = (Revenue Share / PPI Index) * Sell‑Through * 100
+          let beiScore = '';
+          if (b.ppi_index && share && b.sell_through_pct !== undefined) {
+            const beiRaw = (share / b.ppi_index) * b.sell_through_pct;
+            beiScore = (beiRaw * 100).toFixed(1);
+          }
+          tr.appendChild(td(beiScore));
+          // Notes
+          tr.appendChild(td(b.notes || ''));
+          tbody.appendChild(tr);
+        });
+      } catch (err) {
+        console.error('Failed to load data:', err);
+      }
+    }
+
+    // Execute when the page loads
+    loadData();
+  </script>
+</body>
+</html>
