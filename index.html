@@ -360,7 +360,18 @@
         const range = metricRanges[idx] || { min: 0, max: 1 };
         let ratio = 0;
         if (range.max > range.min) {
-          ratio = (value - range.min) / (range.max - range.min);
+          // Apply log transform when specified on the metric definition
+          if (m.transform === 'log') {
+            const minVal = range.min;
+            const maxVal = range.max;
+            const shift = 1 - (minVal > 0 ? minVal : 0);
+            const logMin = Math.log(minVal + shift);
+            const logMax = Math.log(maxVal + shift);
+            const logVal = Math.log(value + shift);
+            ratio = (logVal - logMin) / (logMax - logMin);
+          } else {
+            ratio = (value - range.min) / (range.max - range.min);
+          }
           ratio = Math.max(0, Math.min(1, ratio));
         }
         const barColor = `hsl(${hues[idx % hues.length]}, 70%, ${65 - 25 * ratio}%)`;
@@ -431,11 +442,21 @@
       } else {
         formatted = value.toFixed(1);
       }
-      // Compute ratio for bar width
+      // Compute ratio for bar width using possible log transform
       let ratio = 0;
       const range = metricRanges[idx] || { min: 0, max: 1 };
       if (range.max > range.min) {
-        ratio = (value - range.min) / (range.max - range.min);
+        if (metric.transform === 'log') {
+          const minVal = range.min;
+          const maxVal = range.max;
+          const shift = 1 - (minVal > 0 ? minVal : 0);
+          const logMin = Math.log(minVal + shift);
+          const logMax = Math.log(maxVal + shift);
+          const logVal = Math.log(value + shift);
+          ratio = (logVal - logMin) / (logMax - logMin);
+        } else {
+          ratio = (value - range.min) / (range.max - range.min);
+        }
         ratio = Math.max(0, Math.min(1, ratio));
       }
       // Determine bar color from ratio
@@ -539,7 +560,11 @@
           { key: 'ppi_index', label: 'PPI', invert: false },
           { key: 'sell_through_pct', label: 'Sell-Through', invert: false },
           { key: 'revenue_share', label: 'Revenue Share', invert: false },
-          { key: 'bei', label: 'BEI', invert: false }
+          // BEI values can span several orders of magnitude.  Use a log
+          // transform when computing their colour ratios to better
+          // distribute values across the spectrum.  The `transform`
+          // property can be checked when computing ratios.
+          { key: 'bei', label: 'BEI', invert: false, transform: 'log' }
         ];
         // Compute min/max for each metric
         const ranges = metrics.map(m => {
@@ -592,7 +617,20 @@
             // Normalize value between 0 and 1
             let ratio = 0;
             if (max > min) {
-              ratio = (val - min) / (max - min);
+              // Apply a logarithmic transform for metrics that specify it.
+              if (m.transform === 'log') {
+                // Shift by 1 to handle zeros gracefully.  If min <= 0,
+                // shift both min and val to ensure the log domain is positive.
+                const shift = 1 - (min > 0 ? min : 0);
+                const logMin = Math.log((min + shift));
+                const logMax = Math.log((max + shift));
+                const logVal = Math.log((val + shift));
+                ratio = (logVal - logMin) / (logMax - logMin);
+              } else {
+                ratio = (val - min) / (max - min);
+              }
+              // Clamp ratio to [0,1]
+              ratio = Math.max(0, Math.min(1, ratio));
             }
             const backgroundColor = colorScale(ratio);
             const cell = document.createElement('div');
