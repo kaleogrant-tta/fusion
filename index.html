@@ -255,6 +255,8 @@
     // Global definitions for metrics and their value ranges, assigned in loadData()
     let metricDefs = [];
     let metricRanges = [];
+    // Timeout handle for delayed hiding of the overlay
+    let hideTimeout;
 
     /**
      * Map a normalized ratio (0 to 1) to a pastel color. Values closer to 0
@@ -397,6 +399,11 @@
         <div class="metric-bar" style="background:${barColor}; width:${(ratio * 100).toFixed(1)}%; height:8px; border-radius:4px;"></div>
       </div>`;
       overlay.innerHTML = html;
+      // Cancel any pending hide
+      if (hideTimeout) {
+        clearTimeout(hideTimeout);
+        hideTimeout = null;
+      }
       // Show overlay and compute size
       overlay.style.display = 'block';
       overlay.classList.add('visible');
@@ -535,8 +542,16 @@
             cell.className = 'heatmap-cell';
             cell.style.backgroundColor = backgroundColor;
             // Attach overlay events to each cell for individual metric display
-            cell.addEventListener('mouseenter', (evt) => showCellOverlay(evt, b, m, idx));
-            cell.addEventListener('mouseleave', hideOverlay);
+            cell.addEventListener('mouseenter', (evt) => {
+              showCellOverlay(evt, b, m, idx);
+            });
+            cell.addEventListener('mouseleave', () => {
+              // Start a timer to hide overlay after a delay
+              if (hideTimeout) clearTimeout(hideTimeout);
+              hideTimeout = setTimeout(() => {
+                hideOverlay();
+              }, 1200);
+            });
             row.appendChild(cell);
           });
           // Append row to heatmap
