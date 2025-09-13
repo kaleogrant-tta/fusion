@@ -158,12 +158,18 @@
       background: rgba(230, 215, 200, 0.7);
       color: #4a2c2a;
       font-size: 0.9em;
+      position: sticky;
+      top: 0;
+      z-index: 3;
     }
     .heatmap-name-cell {
       min-width: 120px;
       text-align: left;
       font-weight: 600;
       background: rgba(250, 240, 235, 0.8);
+      position: sticky;
+      left: 0;
+      z-index: 2;
     }
     .heatmap-corner {
       background: rgba(250, 240, 235, 0.8);
@@ -251,6 +257,31 @@
     let metricRanges = [];
 
     /**
+     * Map a normalized ratio (0 to 1) to a pastel color. Values closer to 0
+     * produce soft greens/yellows, mid values produce oranges, and high
+     * values produce pastel reds. This gradient mirrors typical heatmap
+     * scales and improves legibility of differences across cells.
+     *
+     * @param {number} r A number between 0 and 1.
+     * @returns {string} A CSS hsl color string.
+     */
+    function colorScale(r) {
+      if (r <= 0.25) {
+        // pastel green
+        return 'hsl(140, 50%, 90%)';
+      } else if (r <= 0.5) {
+        // pastel yellow
+        return 'hsl(60, 80%, 88%)';
+      } else if (r <= 0.75) {
+        // pastel orange
+        return 'hsl(30, 80%, 85%)';
+      } else {
+        // pastel red
+        return 'hsl(0, 70%, 83%)';
+      }
+    }
+
+    /**
      * Show the overlay card with relative metric values for a brand.
      * The card is positioned near the hovered row and visualizes
      * the metrics as horizontal bars whose lengths represent the
@@ -325,6 +356,68 @@
       setTimeout(() => {
         overlay.style.display = 'none';
       }, 200);
+    }
+
+    /**
+     * Show an overlay for a single cell (metric) when hovering.
+     * Displays the metric label and formatted value along with the brand name
+     * and a visual bar indicating the value's relative magnitude.
+     *
+     * @param {MouseEvent} event The mouse event on the cell.
+     * @param {Object} brand The brand data object.
+     * @param {Object} metric The metric definition { key, label }.
+     * @param {number} idx The index of the metric in the metrics array (for range lookup).
+     */
+    function showCellOverlay(event, brand, metric, idx) {
+      const overlay = document.getElementById('overlay');
+      if (!overlay) return;
+      // Metric value and formatting
+      const value = Number(brand[metric.key] || 0);
+      let formatted;
+      if (metric.key === 'revenue_share' || metric.key === 'sell_through_pct') {
+        formatted = (value * 100).toFixed(1) + '%';
+      } else {
+        formatted = value.toFixed(1);
+      }
+      // Compute ratio for bar width
+      let ratio = 0;
+      const range = metricRanges[idx] || { min: 0, max: 1 };
+      if (range.max > range.min) {
+        ratio = (value - range.min) / (range.max - range.min);
+        ratio = Math.max(0, Math.min(1, ratio));
+      }
+      // Determine bar color from ratio
+      const barColor = colorScale(ratio);
+      // Compose overlay HTML
+      let html = '';
+      html += `<div style="font-weight:bold; font-size:1.0em; margin-bottom:4px; color:#4a2c2a;">${metric.label}: ${formatted}</div>`;
+      html += `<div style="font-size:0.85em; margin-bottom:4px; color:#6b4e4b;">Brand: ${brand.brand}</div>`;
+      // Bar representation
+      html += `<div class="metric-bar-container" style="height:8px; background:rgba(255,255,255,0.6); border-radius:4px; margin-bottom:4px;">
+        <div class="metric-bar" style="background:${barColor}; width:${(ratio * 100).toFixed(1)}%; height:8px; border-radius:4px;"></div>
+      </div>`;
+      overlay.innerHTML = html;
+      // Show overlay and compute size
+      overlay.style.display = 'block';
+      overlay.classList.add('visible');
+      // Position overlay near the cell
+      const rect = event.target.getBoundingClientRect();
+      const overlayRect = overlay.getBoundingClientRect();
+      let left = rect.right + 8 + window.scrollX;
+      let top = rect.top + window.scrollY;
+      // Reposition if going out of viewport horizontally
+      if (left + overlayRect.width > window.innerWidth + window.scrollX) {
+        left = rect.left - overlayRect.width - 8 + window.scrollX;
+      }
+      // Reposition if going out of viewport vertically
+      if (top + overlayRect.height > window.innerHeight + window.scrollY) {
+        top = window.innerHeight + window.scrollY - overlayRect.height - 10;
+      }
+      if (top < window.scrollY + 10) {
+        top = window.scrollY + 10;
+      }
+      overlay.style.left = `${left}px`;
+      overlay.style.top = `${top}px`;
     }
     /**
      * Load the JSON data and populate the dashboard.
@@ -437,20 +530,16 @@
             if (max > min) {
               ratio = (val - min) / (max - min);
             }
-            const hue = 10; // soft coral hue
-            const lightness = 95 - 35 * ratio; // 95% (light) to 60% (dark)
-            const backgroundColor = `hsl(${hue}, 80%, ${lightness}%)`;
+            const backgroundColor = colorScale(ratio);
             const cell = document.createElement('div');
             cell.className = 'heatmap-cell';
             cell.style.backgroundColor = backgroundColor;
-            // Tooltip on hover
-            const displayVal = m.key === 'revenue_share' ? (val * 100).toFixed(1) + '%' : (m.key === 'sell_through_pct' ? (val * 100).toFixed(1) + '%' : val.toFixed(1));
-            cell.title = `${b.brand} — ${m.label}: ${displayVal}`;
+            // Attach overlay events to each cell for individual metric display
+            cell.addEventListener('mouseenter', (evt) => showCellOverlay(evt, b, m, idx));
+            cell.addEventListener('mouseleave', hideOverlay);
             row.appendChild(cell);
           });
-          // Attach overlay events on the entire row
-          row.addEventListener('mouseenter', (e) => showOverlay(e, b));
-          row.addEventListener('mouseleave', hideOverlay);
+          // Append row to heatmap
           heatmapContainer.appendChild(row);
         });
       } catch (err) {
