@@ -22,7 +22,9 @@
       "revenue": 1272881.05,
       "units": 9392,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0694481745560903,
+      "bei": 1.3660144483888732
     },
     {
       "brand": "Ruby",
@@ -38,7 +40,9 @@
       "revenue": 1206225.65,
       "units": 35569,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.06581146721858533,
+      "bei": 4.5864845786176955
     },
     {
       "brand": "Rythm",
@@ -56,7 +60,9 @@
       "revenue": 916077.21,
       "units": 16425,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.04998101746187217,
+      "bei": 2.0573399794958496
     },
     {
       "brand": "dank. by definition",
@@ -70,7 +76,9 @@
       "revenue": 887103.25,
       "units": 18726,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.04840020311031813,
+      "bei": 2.590601247675327
     },
     {
       "brand": "Off Hours",
@@ -86,7 +94,9 @@
       "revenue": 790281.66,
       "units": 23459,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.04311763355433471,
+      "bei": 3.324669099725092
     },
     {
       "brand": "Ayrloom",
@@ -103,7 +113,9 @@
       "revenue": 683420.41,
       "units": 36597,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.03728730184872719,
+      "bei": 4.9341407765948375
     },
     {
       "brand": "Camino",
@@ -116,7 +128,9 @@
       "revenue": 648872.48,
       "units": 22564,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.03540237263779142,
+      "bei": 3.066733596482278
     },
     {
       "brand": "Rolling Green Cannabis",
@@ -130,7 +144,9 @@
       "revenue": 593334.32,
       "units": 19166,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.03237222003224821,
+      "bei": 2.600805015847049
     },
     {
       "brand": "Fernway",
@@ -145,7 +161,9 @@
       "revenue": 589492.72,
       "units": 8990,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.03216262298673113,
+      "bei": 1.1885669987705516
     },
     {
       "brand": "Hepworth",
@@ -159,7 +177,9 @@
       "revenue": 544788.57,
       "units": 14344,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.029723572132307897,
+      "bei": 2.056283094590653
     },
     {
       "brand": "Jaunty",
@@ -173,7 +193,9 @@
       "revenue": 534680.9,
       "units": 12462,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.02917209936859965,
+      "bei": 1.696249527189188
     },
     {
       "brand": "Nanticoke",
@@ -188,7 +210,9 @@
       "revenue": 357493.49,
       "units": 22954,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.01950478428144242,
+      "bei": 2.938352558216695
     },
     {
       "brand": "Matter.",
@@ -201,7 +225,9 @@
       "revenue": 318720.06,
       "units": 3302,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.01738931250599384,
+      "bei": 0.4543849622679342
     },
     {
       "brand": "Florist Farms",
@@ -216,7 +242,9 @@
       "revenue": 305765.59,
       "units": 6796,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.01668251881632297,
+      "bei": 0.9616947493124443
     },
     {
       "brand": "PAX",
@@ -231,7 +259,9 @@
       "revenue": 305266.83,
       "units": 4680,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.016655306555176025,
+      "bei": 0.6285258521142694
     },
     {
       "brand": "Gr\u00f6n",
@@ -244,7 +274,9 @@
       "revenue": 299029.15,
       "units": 15253,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.01631497979057769,
+      "bei": 2.0563372561857434
     },
     {
       "brand": "Wyld",
@@ -258,7 +290,9 @@
       "revenue": 279383.49,
       "units": 11323,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.015243115907499532,
+      "bei": 1.595135611919164
     },
     {
       "brand": "turn",
@@ -271,7 +305,9 @@
       "revenue": 271375.72,
       "units": 4661,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.014806213332223527,
+      "bei": 0.6004628652860543
     },
     {
       "brand": "LivWell",
@@ -284,7 +320,9 @@
       "revenue": 267485.84,
       "units": 1979,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.014593982138081513,
+      "bei": 0.24708341891274893
     },
     {
       "brand": "MFNY",
@@ -301,7 +339,9 @@
       "revenue": 266749.95,
       "units": 6691,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.014553832104286853,
+      "bei": 0.8946294630124694
     },
     {
       "brand": "Harney Brothers Cannabis",
@@ -317,7 +357,9 @@
       "revenue": 256458.98,
       "units": 9351,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.013992358523616069,
+      "bei": 48.74338037119684
     },
     {
       "brand": "Hudson Cannabis",
@@ -332,7 +374,9 @@
       "revenue": 243657.25,
       "units": 7319,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.013293898302482334,
+      "bei": 1.0131772199132942
     },
     {
       "brand": "Select",
@@ -346,7 +390,9 @@
       "revenue": 229485.27,
       "units": 2684,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.01252067747336761,
+      "bei": 0.4338118451031671
     },
     {
       "brand": "Platinum Reserve",
@@ -359,7 +405,9 @@
       "revenue": 221562.33,
       "units": 4203,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.012088403208527679,
+      "bei": 0.5693483048477618
     },
     {
       "brand": "Grassroots",
@@ -372,7 +420,9 @@
       "revenue": 211347.87,
       "units": 4246,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.011531104000501759,
+      "bei": 0.6225289640178027
     },
     {
       "brand": "Lost Farm",
@@ -385,7 +435,9 @@
       "revenue": 210383.19,
       "units": 7837,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.011478471223047204,
+      "bei": 0.9823253079201716
     },
     {
       "brand": "Heavy Hitters",
@@ -401,7 +453,9 @@
       "revenue": 207920.47,
       "units": 2774,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.011344105636849833,
+      "bei": 0.37362840513964274
     },
     {
       "brand": "Good Green",
@@ -414,7 +468,9 @@
       "revenue": 202355.99,
       "units": 2728,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.011040508550261206,
+      "bei": 0.3478969135106729
     },
     {
       "brand": "Bloom",
@@ -427,7 +483,9 @@
       "revenue": 193762.77,
       "units": 3307,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.010571663922117133,
+      "bei": 0.4535832120014216
     },
     {
       "brand": "Toast",
@@ -441,7 +499,9 @@
       "revenue": 188902.6,
       "units": 3172,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.010306493869870483,
+      "bei": 0.43291863190954266
     },
     {
       "brand": "Stone Road",
@@ -455,7 +515,9 @@
       "revenue": 185593.06,
       "units": 2912,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.01012592592786179,
+      "bei": 0.3904950031954722
     },
     {
       "brand": "Alchemy Pure",
@@ -469,7 +531,9 @@
       "revenue": 176176.76,
       "units": 3905,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.009612174194286597,
+      "bei": 14.021601701316323
     },
     {
       "brand": "Weekenders",
@@ -483,7 +547,9 @@
       "revenue": 174085.11,
       "units": 5275,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00949805412445741,
+      "bei": 0.6339643655358036
     },
     {
       "brand": "1906",
@@ -497,7 +563,9 @@
       "revenue": 166091.04,
       "units": 6301,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.009061899018861641,
+      "bei": 0.856917164904174
     },
     {
       "brand": "SpaceBuds",
@@ -510,7 +578,9 @@
       "revenue": 163234.99,
       "units": 2664,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.008906073414465282,
+      "bei": 0.36032177911822966
     },
     {
       "brand": "Dogwalkers",
@@ -523,7 +593,9 @@
       "revenue": 161922.96,
       "units": 6093,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.008834489279826128,
+      "bei": 0.8462965111434169
     },
     {
       "brand": "Eaton Botanicals",
@@ -537,7 +609,9 @@
       "revenue": 154728.04,
       "units": 5209,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.008441935662913453,
+      "bei": 0.7251899031795768
     },
     {
       "brand": "Rove",
@@ -552,7 +626,9 @@
       "revenue": 145652.84,
       "units": 2791,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.007946794287581146,
+      "bei": 0.374954906463204
     },
     {
       "brand": "Canna Cure Farms",
@@ -566,7 +642,9 @@
       "revenue": 138585.75,
       "units": 12477,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.007561215053823522,
+      "bei": 1.7083630939501857
     },
     {
       "brand": "Mfused",
@@ -579,7 +657,9 @@
       "revenue": 129268.13,
       "units": 2562,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0070528472843392346,
+      "bei": 0.3503823977514648
     },
     {
       "brand": "Edie Parker",
@@ -596,7 +676,9 @@
       "revenue": 125932.58,
       "units": 3685,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.006870860241134712,
+      "bei": 0.511948456980457
     },
     {
       "brand": "Bettering Co.",
@@ -609,7 +691,9 @@
       "revenue": 123765.99,
       "units": 4765,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.006752651457594821,
+      "bei": 0.6516745278512662
     },
     {
       "brand": "Her Highness",
@@ -625,7 +709,9 @@
       "revenue": 123650.69,
       "units": 1896,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.006746360709118114,
+      "bei": 4.489016054650686
     },
     {
       "brand": "Old Pal",
@@ -640,7 +726,9 @@
       "revenue": 114295.6,
       "units": 1603,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.006235948582778473,
+      "bei": 0.22195147290640924
     },
     {
       "brand": "Wana",
@@ -653,7 +741,9 @@
       "revenue": 109225.98,
       "units": 3534,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.005959350973997159,
+      "bei": 0.5086506464661283
     },
     {
       "brand": "Jetty",
@@ -668,7 +758,9 @@
       "revenue": 109151.01,
       "units": 1593,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.005955260623491533,
+      "bei": 0.2109625074742829
     },
     {
       "brand": "Flamer",
@@ -683,7 +775,9 @@
       "revenue": 108226.6,
       "units": 4095,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00590482497041822,
+      "bei": 0.5531970180268148
     },
     {
       "brand": "Lowell Farms",
@@ -696,7 +790,9 @@
       "revenue": 106229.66,
       "units": 2205,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.005795872262152165,
+      "bei": 0.31920869428606957
     },
     {
       "brand": "Moods",
@@ -709,7 +805,9 @@
       "revenue": 104032.5,
       "units": 2394,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.005675995584588571,
+      "bei": 0.3241944016785795
     },
     {
       "brand": "FlowerHouse",
@@ -723,7 +821,9 @@
       "revenue": 96727.93,
       "units": 3219,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.005277459482242494,
+      "bei": 0.4481157750057311
     },
     {
       "brand": "butter",
@@ -737,7 +837,9 @@
       "revenue": 91629.66,
       "units": 2205,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.004999298734312373,
+      "bei": 0.3016532151277604
     },
     {
       "brand": "The Travel Agency",
@@ -751,7 +853,9 @@
       "revenue": 90346.59,
       "units": 16597,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.004929294652369538,
+      "bei": 0.4611234943564816
     },
     {
       "brand": "Smokiez",
@@ -764,7 +868,9 @@
       "revenue": 86299.72,
       "units": 3954,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0047084981104100155,
+      "bei": 0.5367033067833142
     },
     {
       "brand": "Umamii",
@@ -779,7 +885,9 @@
       "revenue": 82510.97,
       "units": 2405,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.004501784551944056,
+      "bei": 0.3364562445399145
     },
     {
       "brand": "Head & Heal",
@@ -792,7 +900,9 @@
       "revenue": 74480.14,
       "units": 867,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.004063623826972711,
+      "bei": 0.12135654254062152
     },
     {
       "brand": "Woodstock",
@@ -809,7 +919,9 @@
       "revenue": 73569.7,
       "units": 1274,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.004013950374733913,
+      "bei": 0.171844780149581
     },
     {
       "brand": "Miss Grass",
@@ -822,7 +934,9 @@
       "revenue": 71586.96,
       "units": 2240,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.003905772416063429,
+      "bei": 0.3160521456597693
     },
     {
       "brand": "Higgs",
@@ -835,7 +949,9 @@
       "revenue": 64698.9,
       "units": 1307,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0035299610287913633,
+      "bei": 0.17724246981278183
     },
     {
       "brand": "STA Exotics",
@@ -849,7 +965,9 @@
       "revenue": 62692.55,
       "units": 2427,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.003420494912518667,
+      "bei": 0.3285146861812012
     },
     {
       "brand": "KOA",
@@ -862,7 +980,9 @@
       "revenue": 62001.25,
       "units": 1006,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.003382777701573759,
+      "bei": 0.1346325599607482
     },
     {
       "brand": "Beboe",
@@ -877,7 +997,9 @@
       "revenue": 60614.29,
       "units": 1588,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.003307105398822206,
+      "bei": 0.2217301641851965
     },
     {
       "brand": "Holiday",
@@ -890,7 +1012,9 @@
       "revenue": 60383.15,
       "units": 1074,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0032944944395602274,
+      "bei": 0.14365736883792907
     },
     {
       "brand": "Stay Melo",
@@ -903,7 +1027,9 @@
       "revenue": 58369.06,
       "units": 1181,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0031846060301981144,
+      "bei": 0.13754615083134428
     },
     {
       "brand": "Foy",
@@ -916,7 +1042,9 @@
       "revenue": 57209.99,
       "units": 1959,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0031213673672588495,
+      "bei": 0.2676987450479288
     },
     {
       "brand": "Stiiizy",
@@ -930,7 +1058,9 @@
       "revenue": 54975.05,
       "units": 1001,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0029994294192923934,
+      "bei": 0.13823529446457708
     },
     {
       "brand": "&Shine",
@@ -944,7 +1074,9 @@
       "revenue": 54638.48,
       "units": 697,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0029810662170824593,
+      "bei": 0.0968727851390004
     },
     {
       "brand": "Highland Goat",
@@ -957,7 +1089,9 @@
       "revenue": 52602.08,
       "units": 1513,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0028699605778980107,
+      "bei": 0.2058647570402418
     },
     {
       "brand": "Silly Nice",
@@ -971,7 +1105,9 @@
       "revenue": 52008.2,
       "units": 1009,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00283755858565736,
+      "bei": 0.1355543202435083
     },
     {
       "brand": "B Noble",
@@ -985,7 +1121,9 @@
       "revenue": 50141.86,
       "units": 1353,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0027357313912773247,
+      "bei": 0.1945339821714659
     },
     {
       "brand": "Olio",
@@ -1000,7 +1138,9 @@
       "revenue": 38651.61,
       "units": 594,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.002108825296875875,
+      "bei": 0.08240173870255842
     },
     {
       "brand": "Kiva",
@@ -1013,7 +1153,9 @@
       "revenue": 38349.96,
       "units": 1291,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0020923673239530752,
+      "bei": 0.17510815331434224
     },
     {
       "brand": "VLSNY",
@@ -1026,7 +1168,9 @@
       "revenue": 36875.0,
       "units": 744,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0020118937561022137,
+      "bei": 0.09922048410032122
     },
     {
       "brand": "High 5s",
@@ -1039,7 +1183,9 @@
       "revenue": 36722.9,
       "units": 577,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.002003595205856705,
+      "bei": 0.07679552341344212
     },
     {
       "brand": "Level",
@@ -1052,7 +1198,9 @@
       "revenue": 35609.77,
       "units": 1039,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0019428630215386012,
+      "bei": 0.15242923439028724
     },
     {
       "brand": "Packs",
@@ -1065,7 +1213,9 @@
       "revenue": 34671.82,
       "units": 824,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0018916886283579621,
+      "bei": 0.1110536942795563
     },
     {
       "brand": "Incredibles",
@@ -1078,7 +1228,9 @@
       "revenue": 31737.68,
       "units": 1172,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0017316024467842741,
+      "bei": 0.16521347646066922
     },
     {
       "brand": "Drew Martin",
@@ -1091,7 +1243,9 @@
       "revenue": 31166.19,
       "units": 777,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0017004220491524135,
+      "bei": 0.11622843808287171
     },
     {
       "brand": "Chime & Chill",
@@ -1104,7 +1258,9 @@
       "revenue": 26856.45,
       "units": 750,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0014652833645036284,
+      "bei": 0.10025200906565601
     },
     {
       "brand": "Rosa Reta",
@@ -1118,7 +1274,9 @@
       "revenue": 26577.8,
       "units": 788,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0014500802676863298,
+      "bei": 0.10625633968537626
     },
     {
       "brand": "Tune",
@@ -1131,7 +1289,9 @@
       "revenue": 24759.29,
       "units": 4989,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00135086267000743,
+      "bei": 0.6781439106463002
     },
     {
       "brand": "Ravens View Genetics",
@@ -1146,7 +1306,9 @@
       "revenue": 24495.05,
       "units": 986,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0013364457803501431,
+      "bei": 0.13641377772278687
     },
     {
       "brand": "House of Puff",
@@ -1159,7 +1321,9 @@
       "revenue": 23729.92,
       "units": 1070,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0012947004171065773,
+      "bei": 0.14588173713876929
     },
     {
       "brand": "Love Oui'd",
@@ -1173,7 +1337,9 @@
       "revenue": 21547.97,
       "units": 715,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0011756535945675341,
+      "bei": 0.09735455403838474
     },
     {
       "brand": "Anthem",
@@ -1186,7 +1352,9 @@
       "revenue": 18532.5,
       "units": 534,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.001011130061965133,
+      "bei": 0.07252923477262269
     },
     {
       "brand": "Dosist",
@@ -1199,7 +1367,9 @@
       "revenue": 18469.59,
       "units": 464,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.001007697703017434,
+      "bei": 0.06324991859260821
     },
     {
       "brand": "Revelry",
@@ -1212,7 +1382,9 @@
       "revenue": 17643.5,
       "units": 504,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0009626263724959839,
+      "bei": 0.053706001589822805
     },
     {
       "brand": "Blotter",
@@ -1226,7 +1398,9 @@
       "revenue": 17497.0,
       "units": 331,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0009546333573022491,
+      "bei": 0.04644739732896653
     },
     {
       "brand": "Dime",
@@ -1239,7 +1413,9 @@
       "revenue": 16925.4,
       "units": 245,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0009234469580890146,
+      "bei": 0.03316740744519124
     },
     {
       "brand": "Puff Co",
@@ -1252,7 +1428,9 @@
       "revenue": 16793.7,
       "units": 115,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0009162614283892542,
+      "bei": 0.044703254217296484
     },
     {
       "brand": "Etain",
@@ -1265,7 +1443,9 @@
       "revenue": 16273.2,
       "units": 343,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0008878630365234589,
+      "bei": 0.05665643778466332
     },
     {
       "brand": "ONGROK",
@@ -1278,7 +1458,9 @@
       "revenue": 16071.52,
       "units": 931,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0008768594098731349,
+      "bei": 1.2355966435809007
     },
     {
       "brand": "40 Tons",
@@ -1292,7 +1474,9 @@
       "revenue": 16051.6,
       "units": 364,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0008757725780461097,
+      "bei": 0.04930596656041604
     },
     {
       "brand": "Jungle Gurl",
@@ -1305,7 +1489,9 @@
       "revenue": 15609.2,
       "units": 382,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0008516353089559506,
+      "bei": 0.05217714183040991
     },
     {
       "brand": "Nova",
@@ -1318,7 +1504,9 @@
       "revenue": 15121.21,
       "units": 494,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0008250106571853655,
+      "bei": 0.06786859634627883
     },
     {
       "brand": "Priscillas Garden",
@@ -1331,7 +1519,9 @@
       "revenue": 10488.8,
       "units": 196,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0005722671519730141,
+      "bei": 0.026605939465945146
     },
     {
       "brand": "Ithaca Organics",
@@ -1346,7 +1536,9 @@
       "revenue": 9988.5,
       "units": 402,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0005449708686868328,
+      "bei": 0.840428921187202
     },
     {
       "brand": "Papa & Barkley",
@@ -1360,7 +1552,9 @@
       "revenue": 9049.51,
       "units": 180,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0004937397332822927,
+      "bei": 0.017336975781533506
     },
     {
       "brand": "RAW",
@@ -1373,7 +1567,9 @@
       "revenue": 9015.32,
       "units": 4018,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00049187433267155,
+      "bei": 0.17174383124006634
     },
     {
       "brand": "Flintts Mints",
@@ -1386,7 +1582,9 @@
       "revenue": 8722.76,
       "units": 1180,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00047591230860957685,
+      "bei": 0.20602264441973023
     },
     {
       "brand": "Seed & Strain",
@@ -1399,7 +1597,9 @@
       "revenue": 8476.8,
       "units": 234,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00046249277265701,
+      "bei": 0.03383515785039213
     },
     {
       "brand": "Good Tide",
@@ -1412,7 +1612,9 @@
       "revenue": 8437.8,
       "units": 305,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0004603649392607256,
+      "bei": 0.04602268711993658
     },
     {
       "brand": "lay up",
@@ -1425,7 +1627,9 @@
       "revenue": 7571.25,
       "units": 1548,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0004130861179902071,
+      "bei": 0.20439689163295746
     },
     {
       "brand": "Vessel",
@@ -1438,7 +1642,9 @@
       "revenue": 7393.09,
       "units": 192,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00040336573855733463,
+      "bei": 0.11264190509970726
     },
     {
       "brand": "MyHi",
@@ -1451,7 +1657,9 @@
       "revenue": 7137.35,
       "units": 328,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00038941260746077656,
+      "bei": 0.044301775592807346
     },
     {
       "brand": "Hashtag Honey",
@@ -1465,7 +1673,9 @@
       "revenue": 6910.0,
       "units": 166,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00037700842995705213,
+      "bei": 0.046763635568971985
     },
     {
       "brand": "Zig Zag",
@@ -1478,7 +1688,9 @@
       "revenue": 6877.33,
       "units": 2374,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0003752259602889339,
+      "bei": 0.36218722035611384
     },
     {
       "brand": "PETALS",
@@ -1491,7 +1703,9 @@
       "revenue": 6479.27,
       "units": 743,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00035350787409085805,
+      "bei": 0.10097340019733164
     },
     {
       "brand": "ZZZ's Collective",
@@ -1504,7 +1718,9 @@
       "revenue": 6458.11,
       "units": 1343,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0003523533880737971,
+      "bei": 10.468810663437038
     },
     {
       "brand": "CCELL",
@@ -1517,7 +1733,9 @@
       "revenue": 6269.71,
       "units": 316,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00034207431597482334,
+      "bei": 0.054916409692538665
     },
     {
       "brand": "P3",
@@ -1530,7 +1748,9 @@
       "revenue": 6185.0,
       "units": 253,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0003374525527184323,
+      "bei": 0.03388758312095123
     },
     {
       "brand": "Doctor Solomons",
@@ -1544,7 +1764,9 @@
       "revenue": 5748.0,
       "units": 145,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0003136099067139125,
+      "bei": 0.01812145537466269
     },
     {
       "brand": "I AM GOODNESS",
@@ -1557,7 +1779,9 @@
       "revenue": 5690.16,
       "units": 164,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00031045416610773075,
+      "bei": 0.025981602318832602
     },
     {
       "brand": "777",
@@ -1570,7 +1794,9 @@
       "revenue": 5526.4,
       "units": 127,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00030151944823656336,
+      "bei": 0.018925398458232698
     },
     {
       "brand": "Knack",
@@ -1584,7 +1810,9 @@
       "revenue": 5465.9,
       "units": 350,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0002982185784807889,
+      "bei": 0.04763114174745071
     },
     {
       "brand": "TribeTokes",
@@ -1597,7 +1825,9 @@
       "revenue": 4681.75,
       "units": 92,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00025543548725780445,
+      "bei": 0.01951080715381947
     },
     {
       "brand": "NYCE",
@@ -1610,7 +1840,9 @@
       "revenue": 3855.0,
       "units": 69,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0002103281472481094,
+      "bei": 0.12756094118666716
     },
     {
       "brand": "Bic",
@@ -1623,7 +1855,9 @@
       "revenue": 3748.6,
       "units": 1659,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00020452298126440022,
+      "bei": 0.2585625553279396
     },
     {
       "brand": "Reunion",
@@ -1636,7 +1870,9 @@
       "revenue": 3693.0,
       "units": 75,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00020148945467892814,
+      "bei": 0.03699520482986673
     },
     {
       "brand": "High Peaks",
@@ -1650,7 +1886,9 @@
       "revenue": 3622.2,
       "units": 309,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00019762661866721187,
+      "bei": 0.043310676893975865
     },
     {
       "brand": "Blazy Susan",
@@ -1663,7 +1901,9 @@
       "revenue": 3571.61,
       "units": 889,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00019486643683341634,
+      "bei": 0.15283642104581674
     },
     {
       "brand": "Heady Tree",
@@ -1676,7 +1916,9 @@
       "revenue": 3559.2,
       "units": 297,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0001941893493347525,
+      "bei": 0.040625386890115585
     },
     {
       "brand": "Luci",
@@ -1689,7 +1931,9 @@
       "revenue": 3486.47,
       "units": 137,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00019022121284983552,
+      "bei": 0.01806126213917922
     },
     {
       "brand": "Continental Exotics",
@@ -1703,7 +1947,9 @@
       "revenue": 3388.0,
       "units": 87,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00018484870632337085,
+      "bei": 0.011805384233195226
     },
     {
       "brand": "Animal",
@@ -1716,7 +1962,9 @@
       "revenue": 3345.8,
       "units": 105,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00018254628146892983,
+      "bei": 0.014220322619687607
     },
     {
       "brand": "Soft Power Sweets",
@@ -1729,7 +1977,9 @@
       "revenue": 3262.0,
       "units": 118,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0001779741676584521,
+      "bei": 0.23720320517489396
     },
     {
       "brand": "Jane West",
@@ -1742,7 +1992,9 @@
       "revenue": 3180.9,
       "units": 161,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0001735493653907941,
+      "bei": 0.5544323726351236
     },
     {
       "brand": "Oedo-Koh",
@@ -1755,7 +2007,9 @@
       "revenue": 2998.05,
       "units": 133,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0001635731003520608,
+      "bei": 0.017147824756479798
     },
     {
       "brand": "Chef for Higher",
@@ -1768,7 +2022,9 @@
       "revenue": 2810.0,
       "units": 57,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00015331312419382292,
+      "bei": 0.0076979877582759055
     },
     {
       "brand": "Jeeter",
@@ -1781,7 +2037,9 @@
       "revenue": 2803.84,
       "units": 165,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00015297703563687135,
+      "bei": 0.01866484085369343
     },
     {
       "brand": "Canna Style",
@@ -1794,7 +2052,9 @@
       "revenue": 2671.0,
       "units": 112,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0001457293077301427,
+      "bei": 0.042257122986253996
     },
     {
       "brand": "Weed Water",
@@ -1807,7 +2067,9 @@
       "revenue": 2645.5,
       "units": 620,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00014433803204795678,
+      "bei": 0.08876877739726738
     },
     {
       "brand": "NWTN Home",
@@ -1820,7 +2082,9 @@
       "revenue": 2289.54,
       "units": 34,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00012491691472125456,
+      "bei": 0.004472659770176324
     },
     {
       "brand": "Scandalous Chocolates",
@@ -1833,7 +2097,9 @@
       "revenue": 2193.0,
       "units": 220,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00011964970866799063,
+      "bei": 0.03004009758171997
     },
     {
       "brand": "oHHo",
@@ -1847,7 +2113,9 @@
       "revenue": 1974.01,
       "units": 30,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0001077016513487005,
+      "bei": 0.003976431654004079
     },
     {
       "brand": "Remedy Plant Lab",
@@ -1860,7 +2128,9 @@
       "revenue": 1920.6,
       "units": 39,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00010478761079240438,
+      "bei": 0.009157296603651737
     },
     {
       "brand": "Elevate Jane",
@@ -1873,7 +2143,9 @@
       "revenue": 1874.4,
       "units": 15,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.00010226694661526751,
+      "bei": 0.0023240516075982848
     },
     {
       "brand": "ooze",
@@ -1886,7 +2158,9 @@
       "revenue": 1598.0,
       "units": 80,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 8.718660941698542e-05,
+      "bei": 0.010944841754580145
     },
     {
       "brand": "Laundry Day",
@@ -1899,7 +2173,9 @@
       "revenue": 1326.0,
       "units": 31,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 7.234633547366876e-05,
+      "bei": 0.01925279613927663
     },
     {
       "brand": "Honest",
@@ -1912,7 +2188,9 @@
       "revenue": 895.85,
       "units": 18,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 4.887742430926558e-05,
+      "bei": 0.002970206161768216
     },
     {
       "brand": "GRAV",
@@ -1925,7 +2203,9 @@
       "revenue": 889.8,
       "units": 31,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 4.8547337333688124e-05,
+      "bei": 0.009447378891050419
     },
     {
       "brand": "Malachite",
@@ -1938,7 +2218,9 @@
       "revenue": 741.6,
       "units": 42,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 4.0461570427807506e-05,
+      "bei": 0.06301563291143698
     },
     {
       "brand": "MJ Arsenal",
@@ -1951,7 +2233,9 @@
       "revenue": 687.3,
       "units": 22,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.749897162221156e-05,
+      "bei": 0.0030684045186328093
     },
     {
       "brand": "Sackville",
@@ -1964,7 +2248,9 @@
       "revenue": 674.2,
       "units": 21,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.6784237840382716e-05,
+      "bei": 0.002843555800895386
     },
     {
       "brand": "Tsubota Pearl",
@@ -1977,7 +2263,9 @@
       "revenue": 672.6,
       "units": 18,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.669694211130438e-05,
+      "bei": 0.004460128008126123
     },
     {
       "brand": "Foria",
@@ -1990,7 +2278,9 @@
       "revenue": 662.4,
       "units": 16,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.614043183843e-05,
+      "bei": 0.006005539273716511
     },
     {
       "brand": "Elements",
@@ -2003,7 +2293,9 @@
       "revenue": 613.8,
       "units": 311,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.3488824067675624e-05,
+      "bei": 0.054989858896019095
     },
     {
       "brand": "The Healing Rose",
@@ -2016,7 +2308,9 @@
       "revenue": 570.6,
       "units": 53,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.113183938256063e-05,
+      "bei": 0.026024520587772576
     },
     {
       "brand": "Holk",
@@ -2029,7 +2323,9 @@
       "revenue": 503.1,
       "units": 4,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 2.744905081206844e-05,
+      "bei": 0.0004839964091222584
     },
     {
       "brand": "DaySavers",
@@ -2042,7 +2338,9 @@
       "revenue": 473.8,
       "units": 115,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 2.585044777332146e-05,
+      "bei": 0.20286981839497925
     },
     {
       "brand": "Cloudious9",
@@ -2055,7 +2353,9 @@
       "revenue": 466.1,
       "units": 8,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 2.5430337077131983e-05,
+      "bei": 0.001100785086881308
     },
     {
       "brand": "Rogue Paq",
@@ -2068,7 +2368,9 @@
       "revenue": 446.72,
       "units": 10,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 2.437296755867067e-05,
+      "bei": 0.004184751483511044
     },
     {
       "brand": "Kannastor",
@@ -2081,7 +2383,9 @@
       "revenue": 360.0,
       "units": 4,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.9641539042625e-05,
+      "bei": 0.0005767423961306378
     },
     {
       "brand": "Futurola",
@@ -2094,7 +2398,9 @@
       "revenue": 348.0,
       "units": 12,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.89868210745375e-05,
+      "bei": 0.003074435044287035
     },
     {
       "brand": "herb & Earth",
@@ -2107,7 +2413,9 @@
       "revenue": 343.86,
       "units": 31,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.8760943375547313e-05,
+      "bei": 0.006280864872965287
     },
     {
       "brand": "Vlasic Labs",
@@ -2120,7 +2428,9 @@
       "revenue": 324.5,
       "units": 12,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.770466505369948e-05,
+      "bei": 0.0026536426707132843
     },
     {
       "brand": "Mantelpiece",
@@ -2133,7 +2443,9 @@
       "revenue": 300.0,
       "units": 1,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.63679492021875e-05,
+      "bei": 0.00010273373253362646
     },
     {
       "brand": "Rin",
@@ -2146,7 +2458,9 @@
       "revenue": 288.0,
       "units": 8,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.57132312341e-05,
+      "bei": 0.001038136313035148
     },
     {
       "brand": "boveda",
@@ -2159,7 +2473,9 @@
       "revenue": 221.5,
       "units": 116,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.2085002494281771e-05,
+      "bei": 0.02105401131407974
     },
     {
       "brand": "CAM",
@@ -2172,7 +2488,9 @@
       "revenue": 220.0,
       "units": 4,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.2003162748270833e-05,
+      "bei": 0.0005479144907230946
     },
     {
       "brand": "Candy Relics",
@@ -2185,7 +2503,9 @@
       "revenue": 203.0,
       "units": 3,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.1075645626813542e-05,
+      "bei": 0.00014972484174675843
     },
     {
       "brand": "Flower Mill",
@@ -2198,7 +2518,9 @@
       "revenue": 166.25,
       "units": 5,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 9.070571849545574e-06,
+      "bei": 0.000650639971992366
     },
     {
       "brand": "Go Easy",
@@ -2211,7 +2533,9 @@
       "revenue": 150.0,
       "units": 3,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 8.18397460109375e-06,
+      "bei": 0.00041092461343109814
     },
     {
       "brand": "La Jolie Muse",
@@ -2224,7 +2548,9 @@
       "revenue": 102.0,
       "units": 3,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 5.56510272874375e-06,
+      "bei": 0.0007703630576887804
     },
     {
       "brand": "The New Savant",
@@ -2237,7 +2563,9 @@
       "revenue": 84.0,
       "units": 2,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 4.5830257766125e-06,
+      "bei": 0.00032876798971395266
     },
     {
       "brand": "Candle By Design",
@@ -2250,7 +2578,9 @@
       "revenue": 80.0,
       "units": 1,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 4.364786453916667e-06,
+      "bei": 0.00010272986381841147
     },
     {
       "brand": "SirEEL",
@@ -2263,7 +2593,9 @@
       "revenue": 72.5,
       "units": 3,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.955587723861979e-06,
+      "bei": 0.0006206790716871143
     },
     {
       "brand": "LuvBuds",
@@ -2276,7 +2608,9 @@
       "revenue": 71.4,
       "units": 12,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.8955719101206255e-06,
+      "bei": 0.00010907601348337751
     },
     {
       "brand": "MK Lighters",
@@ -2289,7 +2623,9 @@
       "revenue": 69.0,
       "units": 23,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 3.7646283165031254e-06,
+      "bei": 0.014305587602711877
     },
     {
       "brand": "Pura",
@@ -2302,7 +2638,9 @@
       "revenue": 40.5,
       "units": 1,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 2.2096731422953125e-06,
+      "bei": 0.00012328013514256372
     },
     {
       "brand": "Senior Moments",
@@ -2315,7 +2653,9 @@
       "revenue": 30.0,
       "units": 1,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 1.6367949202187502e-06,
+      "bei": 0.00013698174911865014
     },
     {
       "brand": "Tracey Tanner",
@@ -2328,7 +2668,9 @@
       "revenue": 0.01,
       "units": 1,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 5.455983067395834e-10,
+      "bei": 2.6342135319601362e-08
     },
     {
       "brand": "Canna Cure Farms LLC",
@@ -2339,7 +2681,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "High Falls Canna",
@@ -2350,7 +2694,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Jane\u2019s Garden",
@@ -2361,7 +2707,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Ccell",
@@ -2372,7 +2720,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "High Falls Hemp",
@@ -2383,7 +2733,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Gen V Labs",
@@ -2394,7 +2746,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Liberty Leaf NY, LLC",
@@ -2405,7 +2759,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "NorthEast Extracts LLC",
@@ -2416,7 +2772,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "DF New York ONE INC",
@@ -2427,7 +2785,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "California Fragance Company Inc",
@@ -2438,7 +2798,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "CDS, Brands LLC",
@@ -2449,7 +2811,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "OTTO",
@@ -2460,7 +2824,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Jamestown Canna",
@@ -2471,7 +2837,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Cannabist Brooklyn",
@@ -2482,7 +2850,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "NY Hemp Source",
@@ -2493,7 +2863,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "NYHO Labs",
@@ -2504,7 +2876,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "UrbanXtracts",
@@ -2515,7 +2889,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Heaven Holding INC",
@@ -2526,7 +2902,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Hudson Valley Hemp Company LLC",
@@ -2537,7 +2915,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Raw",
@@ -2548,7 +2928,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Glenna & Co. LLC",
@@ -2559,7 +2941,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Fluent",
@@ -2570,7 +2954,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Gotham Manufacturing Corp",
@@ -2581,7 +2967,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "GMSS",
@@ -2592,7 +2980,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Green Thumb Industries",
@@ -2603,7 +2993,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Gnome Nugs LLC",
@@ -2614,7 +3006,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "MFNY Processor, LLC",
@@ -2625,7 +3019,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Northeast Botanicals Distrobution LLC",
@@ -2636,7 +3032,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Cannacure NY",
@@ -2647,7 +3045,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "TruCann LLC",
@@ -2658,7 +3058,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Vessel Life Science",
@@ -2669,7 +3071,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "HIGH END PROCESSING",
@@ -2680,7 +3084,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Naturae LLC",
@@ -2691,7 +3097,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "GTI",
@@ -2702,7 +3110,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Route 27 Hopyard, LLC",
@@ -2713,7 +3123,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Hemp Hunter Labs Inc.",
@@ -2724,7 +3136,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Bristol Extracts, LLC",
@@ -2735,7 +3149,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "SKX LLC",
@@ -2746,7 +3162,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "CSH WYOMING LLC",
@@ -2757,7 +3175,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Columbia Care Riverhead",
@@ -2768,7 +3188,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Chime It Up",
@@ -2779,7 +3201,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Nanticoke Hemp Inc",
@@ -2790,7 +3214,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Basin Mixtures DBA The Sauce",
@@ -2801,7 +3227,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Central Proccesors NY LLC",
@@ -2812,7 +3240,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Kingston Reserve",
@@ -2823,7 +3253,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Omnium Health Inc, DBA Omnium Canna",
@@ -2834,7 +3266,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Hoj",
@@ -2845,7 +3279,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Vector",
@@ -2856,7 +3292,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "CSH Wyoming LLC",
@@ -2867,7 +3305,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Flo Extracts LLC",
@@ -2878,7 +3318,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "NY Hemp Source LLC",
@@ -2889,7 +3331,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Varsagodis LLC",
@@ -2900,7 +3344,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Medusa",
@@ -2911,7 +3357,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Nippon Kodo",
@@ -2922,7 +3370,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "FlowerHouseWalden LLC",
@@ -2933,7 +3383,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Pax",
@@ -2944,7 +3396,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Snugbox",
@@ -2955,7 +3409,9 @@
       "revenue": 0.0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Greener Standards INC",
@@ -2966,7 +3422,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Ryot",
@@ -2977,7 +3435,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Beezer printing",
@@ -2988,7 +3448,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "1 Off Distro",
@@ -2999,7 +3461,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "PharmaCann",
@@ -3010,7 +3474,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Fernway New York,  LLC",
@@ -3021,7 +3487,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Curaleaf",
@@ -3032,7 +3500,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Hepworth AG, Inc",
@@ -3043,7 +3513,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Torrwood Farm LLC",
@@ -3054,7 +3526,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Etain LLC",
@@ -3065,7 +3539,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Ravena Production",
@@ -3076,7 +3552,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "TribeTokes LLC",
@@ -3087,7 +3565,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Ohho",
@@ -3098,7 +3578,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Dumbo Electric",
@@ -3109,7 +3591,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Highland Goat LLC",
@@ -3120,7 +3604,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Gron NY LLC",
@@ -3131,7 +3617,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Omnium Health Inc.",
@@ -3142,7 +3630,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "NOWAVE",
@@ -3153,7 +3643,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Ravensview Genetics LLC",
@@ -3164,7 +3656,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "HPI CANNA INC",
@@ -3175,7 +3669,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Royal Supply",
@@ -3186,7 +3682,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "Veterans Holdings",
@@ -3197,7 +3695,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "VA Grinders",
@@ -3208,7 +3708,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     },
     {
       "brand": "AP COHEN LICENSING",
@@ -3219,7 +3721,9 @@
       "revenue": 0,
       "units": 0,
       "notes": "",
-      "history": []
+      "history": [],
+      "revenue_share": 0.0,
+      "bei": 0.0
     }
   ]
 }

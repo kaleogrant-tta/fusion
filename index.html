@@ -466,15 +466,22 @@
         }
         // Prepare metrics per brand
         // Compute revenue share and BEI
+        // For each brand, compute the current revenue share and, if a
+        // precomputed BEI is not provided, derive a BEI value. The BEI
+        // calculation scales the product of revenue share and sell-through
+        // (expressed as a fraction) by 10000, then divides by the PPI index.
         brands.forEach((b) => {
           const share = totalRevenue > 0 ? ((b.revenue || 0) / totalRevenue) : 0;
           b.revenue_share = share;
-          // compute BEI: (Revenue Share / PPI Index) * Sell-Through * 100
-          if (b.ppi_index && b.sell_through_pct !== undefined) {
-            const beiRaw = (share * 100) / b.ppi_index * b.sell_through_pct;
-            b.bei = beiRaw;
-          } else {
-            b.bei = 0;
+          // Only compute BEI on the client if not present in the data. This
+          // allows server-side pre-calculated BEI values to pass through.
+          if (b.bei === undefined || b.bei === null) {
+            if (b.ppi_index && b.sell_through_pct !== undefined) {
+              const beiRaw = (share * b.sell_through_pct * 10000) / b.ppi_index;
+              b.bei = beiRaw;
+            } else {
+              b.bei = 0;
+            }
           }
         });
         // Define metrics we will visualize in the heatmap
