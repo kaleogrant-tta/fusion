@@ -313,24 +313,23 @@
      */
     function colorScale(r) {
       /*
-        Convert a normalized ratio (0–1) into a continuous pastel hue.  By
-        interpolating the hue and lightness values rather than using hard
-        thresholds, subtle differences between values (e.g. PPI of 79 vs
-        149) become more apparent.  A ratio of 0 will yield a soft green
-        (hue ~140°, lightness ~90%) while a ratio of 1 yields a pastel
-        red (hue ~0°, lightness ~75%).  Intermediate values smoothly
-        transition through yellow and orange.
+        Convert a normalized ratio (0–1) into a pastel colour spanning the
+        entire spectrum.  We map the ratio to a hue range from 240° (soft
+        blue) down to 0° (soft red).  As r increases the hue sweeps
+        through blue → cyan → green → yellow → orange → red.  Lightness
+        also decreases slightly to give higher values more visual weight
+        while still remaining pastel.  This approach highlights even
+        moderate differences between values: for example, PPI scores of
+        79 and 149 will have distinct hues rather than both falling into
+        the same green band.
       */
-      // Clamp ratio just in case
       const clamped = Math.max(0, Math.min(1, r));
-      // Hue goes from 140 (green) to 0 (red)
-      const hue = 140 - 140 * clamped;
-      // Saturation fixed at 70% for vibrancy
+      // Start hue at 240 (blue) and interpolate down to 0 (red)
+      const hue = 240 - 240 * clamped;
+      // Keep saturation high for vibrancy
       const sat = 70;
-      // Lightness decreases slightly as values increase to give higher
-      // values a bit more weight while keeping colours pastel.  Start at
-      // 90% and drop to 75% across the range.
-      const light = 90 - 15 * clamped;
+      // Lightness starts at 88% for low values and drops to 73% at high values
+      const light = 88 - 15 * clamped;
       return `hsl(${hue.toFixed(1)}, ${sat}%, ${light.toFixed(1)}%)`;
     }
 
