@@ -168,6 +168,71 @@
     .heatmap-corner {
       background: rgba(250, 240, 235, 0.8);
     }
+
+    /*
+      Overlay card for showing relative metric values.
+      This floating card appears when hovering over a heatmap row and
+      displays the current brand's metrics as horizontal bars. A soft
+      pastel palette and gentle shadows integrate the overlay into the
+      overall aesthetic. The element transitions smoothly into view and
+      out of view using opacity and transform animations.
+    */
+    .overlay {
+      position: absolute;
+      pointer-events: none; /* do not intercept mouse events */
+      background: linear-gradient(135deg, rgba(255, 245, 235, 0.95), rgba(255, 230, 240, 0.95));
+      border-radius: 12px;
+      padding: 12px 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15), 0 0 6px rgba(0, 0, 0, 0.05), inset 0 0 4px rgba(255,255,255,0.5);
+      opacity: 0;
+      transform: translateY(10px) scale(0.95);
+      transition: opacity 0.3s ease, transform 0.3s ease;
+      z-index: 1000;
+      max-width: 260px;
+    }
+    .overlay.visible {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+    .overlay h3 {
+      margin-top: 0;
+      margin-bottom: 8px;
+      font-size: 1.1em;
+      color: #4a2c2a;
+    }
+    .metric-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+      font-size: 0.85em;
+      color: #4a2c2a;
+    }
+    .metric-row:last-child {
+      margin-bottom: 0;
+    }
+    .metric-name {
+      flex: 0 0 90px;
+      text-align: left;
+      font-weight: 600;
+    }
+    .metric-bar-container {
+      flex: 1;
+      height: 8px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.6);
+      margin-right: 8px;
+      overflow: hidden;
+    }
+    .metric-bar {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.3s ease;
+    }
+    .metric-value {
+      flex: 0 0 45px;
+      text-align: right;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -177,7 +242,90 @@
   </div>
   <!-- Container for the heatmap. This replaces the previous table layout. -->
   <div id="heatmapContainer" style="margin-top: 20px;"></div>
+  <!-- Floating overlay for metric details. Initially hidden. -->
+  <div id="overlay" class="overlay" style="display:none;"></div>
   <script>
+
+    // Global definitions for metrics and their value ranges, assigned in loadData()
+    let metricDefs = [];
+    let metricRanges = [];
+
+    /**
+     * Show the overlay card with relative metric values for a brand.
+     * The card is positioned near the hovered row and visualizes
+     * the metrics as horizontal bars whose lengths represent the
+     * brand's values relative to the full range of values.
+     *
+     * @param {MouseEvent} event - The mouse event from the hovered row.
+     * @param {Object} brand - The brand data object containing metrics.
+     */
+    function showOverlay(event, brand) {
+      const overlay = document.getElementById('overlay');
+      if (!overlay || !metricDefs || !metricRanges) return;
+      // Build the HTML for the overlay: brand name and metrics with bars
+      let html = `<h3>${brand.brand || ''}</h3>`;
+      // Define pastel hues for bars (rotate through hues for variety)
+      const hues = [10, 160, 200, 300];
+      metricDefs.forEach((m, idx) => {
+        const value = Number(brand[m.key] || 0);
+        let formatted;
+        if (m.key === 'revenue_share' || m.key === 'sell_through_pct') {
+          formatted = (value * 100).toFixed(1) + '%';
+        } else {
+          formatted = value.toFixed(1);
+        }
+        const range = metricRanges[idx] || { min: 0, max: 1 };
+        let ratio = 0;
+        if (range.max > range.min) {
+          ratio = (value - range.min) / (range.max - range.min);
+          ratio = Math.max(0, Math.min(1, ratio));
+        }
+        const barColor = `hsl(${hues[idx % hues.length]}, 70%, ${65 - 25 * ratio}%)`;
+        html +=
+          `<div class="metric-row">
+            <span class="metric-name">${m.label}</span>
+            <div class="metric-bar-container"><div class="metric-bar" style="background:${barColor}; width:${(ratio * 100).toFixed(1)}%;"></div></div>
+            <span class="metric-value">${formatted}</span>
+          </div>`;
+      });
+      overlay.innerHTML = html;
+      // Temporarily display to compute size
+      overlay.style.display = 'block';
+      overlay.classList.add('visible');
+      const rowRect = event.currentTarget.getBoundingClientRect();
+      const overlayRect = overlay.getBoundingClientRect();
+      // Compute top and left positions: default to right of row
+      let left = rowRect.right + 8 + window.scrollX;
+      let top = rowRect.top + window.scrollY;
+      // If overlay goes beyond right edge, place to the left of row
+      if (left + overlayRect.width > window.innerWidth + window.scrollX) {
+        left = rowRect.left - overlayRect.width - 8 + window.scrollX;
+      }
+      // Adjust top if overlay goes below viewport bottom
+      if (top + overlayRect.height > window.innerHeight + window.scrollY) {
+        top = window.innerHeight + window.scrollY - overlayRect.height - 10;
+      }
+      // Ensure overlay does not go above the viewport
+      if (top < window.scrollY + 10) {
+        top = window.scrollY + 10;
+      }
+      overlay.style.left = `${left}px`;
+      overlay.style.top = `${top}px`;
+    }
+
+    /**
+     * Hide the overlay card. It fades out smoothly using CSS and
+     * becomes display:none after the transition to avoid impacting layout.
+     */
+    function hideOverlay() {
+      const overlay = document.getElementById('overlay');
+      if (!overlay) return;
+      overlay.classList.remove('visible');
+      // Hide completely after transition ends
+      setTimeout(() => {
+        overlay.style.display = 'none';
+      }, 200);
+    }
     /**
      * Load the JSON data and populate the dashboard.
      * Revenue share and BEI (Brand Efficiency Index) are computed client‑side.
@@ -246,6 +394,12 @@
           const max = Math.max(...values);
           return { min, max };
         });
+
+        // Expose metrics and ranges globally for the overlay
+        metricDefs = metrics;
+        metricRanges = ranges;
+        window.metricDefs = metrics;
+        window.metricRanges = ranges;
         // Create heatmap elements
         const heatmapContainer = document.getElementById('heatmapContainer');
         heatmapContainer.innerHTML = '';
@@ -283,7 +437,6 @@
             if (max > min) {
               ratio = (val - min) / (max - min);
             }
-            // Choose color: map ratio to pastel scale (higher = darker) with a fixed hue
             const hue = 10; // soft coral hue
             const lightness = 95 - 35 * ratio; // 95% (light) to 60% (dark)
             const backgroundColor = `hsl(${hue}, 80%, ${lightness}%)`;
@@ -295,6 +448,9 @@
             cell.title = `${b.brand} — ${m.label}: ${displayVal}`;
             row.appendChild(cell);
           });
+          // Attach overlay events on the entire row
+          row.addEventListener('mouseenter', (e) => showOverlay(e, b));
+          row.addEventListener('mouseleave', hideOverlay);
           heatmapContainer.appendChild(row);
         });
       } catch (err) {
