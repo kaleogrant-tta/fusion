@@ -287,8 +287,8 @@
 </head>
 <body>
   <div class="header">
-    <!-- Title replaced by an image.  Ensure the referenced file exists in the same
-         directory as this HTML.  If your image has a different name, update the
+    <!-- Title replaced by an image. Ensure the referenced file exists in the same
+         directory as this HTML. If your image has a different name, update the
          src attribute accordingly. -->
     <img id="titleImage" src="title_image.png" alt="Project Fusion Title" style="max-width: 380px; height: auto; margin-bottom: 8px;">
     <div id="kpiContainer"></div>
@@ -306,361 +306,208 @@
     let hideTimeout;
 
     /**
-     * Map a normalized ratio (0 to 1) to a pastel color. Values closer to 0
-     * produce soft greens/yellows, mid values produce oranges, and high
-     * values produce pastel reds. This gradient mirrors typical heatmap
-     * scales and improves legibility of differences across cells.
-     *
-     * @param {number} r A number between 0 and 1.
-     * @returns {string} A CSS hsl color string.
+     * Map a normalized ratio (0 to 1) to a pastel color across a full spectrum.
+     * The ratio controls the hue from blue (low values) through green, yellow,
+     * orange to red (high values). This helps differentiate values more subtly.
+     * @param {number} r Ratio between 0 and 1.
+     * @returns {string} A CSS HSL color string.
      */
     function colorScale(r) {
-      /*
-        Convert a normalized ratio (0–1) into a pastel colour spanning the
-        entire spectrum.  We map the ratio to a hue range from 240° (soft
-        blue) down to 0° (soft red).  As r increases the hue sweeps
-        through blue → cyan → green → yellow → orange → red.  Lightness
-        also decreases slightly to give higher values more visual weight
-        while still remaining pastel.  This approach highlights even
-        moderate differences between values: for example, PPI scores of
-        79 and 149 will have distinct hues rather than both falling into
-        the same green band.
-      */
-      const clamped = Math.max(0, Math.min(1, r));
-      // Start hue at 240 (blue) and interpolate down to 0 (red)
-      const hue = 240 - 240 * clamped;
-      // Keep saturation high for vibrancy
-      const sat = 70;
-      // Lightness starts at 88% for low values and drops to 73% at high values
-      const light = 88 - 15 * clamped;
-      return `hsl(${hue.toFixed(1)}, ${sat}%, ${light.toFixed(1)}%)`;
+      // Ensure r is within [0,1]
+      r = Math.max(0, Math.min(1, r));
+      // Use a full 240 degree hue spectrum: 240deg (blue) down to 0deg (red)
+      const hue = 240 * (1 - r);
+      const saturation = 70;
+      const lightness = 85 - 15 * r; // lighten for lower values, darken slightly for high
+      return `hsl(${hue.toFixed(0)}, ${saturation}%, ${lightness}%)`;
     }
 
     /**
-     * Show the overlay card with relative metric values for a brand.
-     * The card is positioned near the hovered row and visualizes
-     * the metrics as horizontal bars whose lengths represent the
-     * brand's values relative to the full range of values.
-     *
-     * @param {MouseEvent} event - The mouse event from the hovered row.
-     * @param {Object} brand - The brand data object containing metrics.
+     * Converts a number to a formatted string with commas and optionally a fixed
+     * number of decimal places. Used for revenue and BEI values. If the
+     * argument is not a finite number, returns "N/A".
+     * @param {number} value The number to format.
+     * @param {number} [decimals] Optional decimals to display.
+     * @returns {string}
+     */
+    function formatNumber(value, decimals = 0) {
+      if (!Number.isFinite(value)) return "N/A";
+      return value.toLocaleString(undefined, { minimumFractionDigits: decimals, maximumFractionDigits: decimals });
+    }
+
+    /**
+     * Loads the CRM data from an external JSON file and constructs the KPI
+     * cards and heatmap. Sorting is based on BEI descending by default.
+     */
+    function loadData() {
+      fetch('brand_ppi_crm_data_with_units_on_hand_ranked.json')
+        .then(response => response.json())
+        .then(data => {
+          const meta = data.meta;
+          const kpis = data.kpis;
+          const brands = data.brands || [];
+          // Set KPI values
+          document.getElementById('kpiContainer').innerHTML = [
+            kpiCard('Total Revenue', `$${formatNumber(kpis.total_revenue)}`),
+            kpiCard('Total Units', `${formatNumber(kpis.total_units)}`)
+          ].join('');
+
+          // Metric definitions and their labels for display
+          metricDefs = [
+            { key: 'ppi_index', label: 'PPI' },
+            { key: 'sell_through_pct', label: 'Sell‑Through' },
+            { key: 'revenue_share', label: 'Revenue Share' },
+            { key: 'bei', label: 'BEI' }
+          ];
+          // Determine ranges (min/max) for each metric
+          metricRanges = metricDefs.map(def => {
+            const values = brands.map(b => b[def.key]).filter(v => Number.isFinite(v));
+            const min = Math.min(...values);
+            const max = Math.max(...values);
+            return { min, max };
+          });
+
+          // Render heatmap rows
+          const container = document.getElementById('heatmapContainer');
+          container.innerHTML = '';
+          // Header row
+          const headerRow = document.createElement('div');
+          headerRow.className = 'heatmap-row heatmap-header';
+          // Top-left corner cell
+          const corner = document.createElement('div');
+          corner.className = 'heatmap-cell heatmap-corner';
+          headerRow.appendChild(corner);
+          metricDefs.forEach(def => {
+            const cell = document.createElement('div');
+            cell.className = 'heatmap-cell heatmap-header-cell';
+            cell.textContent = def.label;
+            headerRow.appendChild(cell);
+          });
+          container.appendChild(headerRow);
+
+          // Rows for each brand
+          brands.forEach(brand => {
+            const row = document.createElement('div');
+            row.className = 'heatmap-row';
+            // Brand name cell
+            const nameCell = document.createElement('div');
+            nameCell.className = 'heatmap-cell heatmap-name-cell';
+            nameCell.textContent = brand.brand;
+            row.appendChild(nameCell);
+            // Data cells
+            metricDefs.forEach((def, idx) => {
+              const cell = document.createElement('div');
+              cell.className = 'heatmap-cell';
+              const value = brand[def.key];
+              // Color ratio normalization; use logarithmic mapping for BEI to handle wide range
+              let ratio;
+              const range = metricRanges[idx];
+              if (!Number.isFinite(value) || range.max === range.min) {
+                ratio = 0;
+              } else {
+                if (def.key === 'bei') {
+                  // Add 1 to avoid log(0); use natural log for mapping to 0-1
+                  const logVal = Math.log(value + 1);
+                  const logMin = Math.log(range.min + 1);
+                  const logMax = Math.log(range.max + 1);
+                  ratio = (logVal - logMin) / (logMax - logMin);
+                } else {
+                  ratio = (value - range.min) / (range.max - range.min);
+                }
+              }
+              cell.style.backgroundColor = colorScale(ratio);
+              cell.dataset.value = value;
+              cell.dataset.metric = def.label;
+              cell.dataset.brand = brand.brand;
+              // Display placeholder; actual values shown in overlay
+              cell.textContent = '';
+              row.appendChild(cell);
+            });
+            // Attach hover events for overlay display
+            row.addEventListener('mouseover', event => showOverlay(event, brand));
+            row.addEventListener('mouseout', event => hideOverlay(event));
+            container.appendChild(row);
+          });
+        });
+    }
+
+    /**
+     * Creates HTML for a KPI card.
+     * @param {string} title The card heading.
+     * @param {string} value The card value.
+     * @returns {string} HTML string.
+     */
+    function kpiCard(title, value) {
+      return `<div class="kpi-card"><h2>${title}</h2><p>${value}</p></div>`;
+    }
+
+    /**
+     * Shows a floating overlay for a given brand with bars representing the
+     * relative values of the metrics. The overlay remains visible as long as
+     * the user hovers the row, disappearing shortly after leaving.
+     * @param {MouseEvent} event The mouseover event.
+     * @param {Object} brand The brand data.
      */
     function showOverlay(event, brand) {
       const overlay = document.getElementById('overlay');
-      if (!overlay || !metricDefs || !metricRanges) return;
-      // Build the HTML for the overlay: brand name and metrics with bars
-      let html = `<h3>${brand.brand || ''}</h3>`;
-      // Define pastel hues for bars (rotate through hues for variety)
-      const hues = [10, 160, 200, 300];
-      metricDefs.forEach((m, idx) => {
-        const value = Number(brand[m.key] || 0);
-        let formatted;
-        if (m.key === 'revenue_share' || m.key === 'sell_through_pct') {
-          formatted = (value * 100).toFixed(1) + '%';
+      clearTimeout(hideTimeout);
+      // Build overlay content
+      let html = `<h3>${brand.brand}</h3>`;
+      metricDefs.forEach((def, idx) => {
+        const value = brand[def.key];
+        let ratio;
+        const range = metricRanges[idx];
+        if (!Number.isFinite(value) || range.max === range.min) {
+          ratio = 0;
         } else {
-          formatted = value.toFixed(1);
-        }
-        const range = metricRanges[idx] || { min: 0, max: 1 };
-        let ratio = 0;
-        if (range.max > range.min) {
-          // Apply log transform when specified on the metric definition
-          if (m.transform === 'log') {
-            const minVal = range.min;
-            const maxVal = range.max;
-            const shift = 1 - (minVal > 0 ? minVal : 0);
-            const logMin = Math.log(minVal + shift);
-            const logMax = Math.log(maxVal + shift);
-            const logVal = Math.log(value + shift);
+          if (def.key === 'bei') {
+            const logVal = Math.log(value + 1);
+            const logMin = Math.log(range.min + 1);
+            const logMax = Math.log(range.max + 1);
             ratio = (logVal - logMin) / (logMax - logMin);
           } else {
             ratio = (value - range.min) / (range.max - range.min);
           }
-          ratio = Math.max(0, Math.min(1, ratio));
         }
-        const barColor = `hsl(${hues[idx % hues.length]}, 70%, ${65 - 25 * ratio}%)`;
-        html +=
-          `<div class="metric-row">
-            <span class="metric-name">${m.label}</span>
-            <div class="metric-bar-container"><div class="metric-bar" style="background:${barColor}; width:${(ratio * 100).toFixed(1)}%;"></div></div>
-            <span class="metric-value">${formatted}</span>
+        // Format values with two decimals for PPI and BEI, percentage for others
+        let display;
+        if (def.key === 'sell_through_pct' || def.key === 'revenue_share') {
+          display = `${(value * 100).toFixed(1)}%`;
+        } else {
+          display = value.toFixed(2);
+        }
+        html += `
+          <div class="metric-row">
+            <div class="metric-name">${def.label}</div>
+            <div class="metric-bar-container">
+              <div class="metric-bar" style="width: ${(ratio * 100).toFixed(1)}%; background-color: ${colorScale(ratio)};"></div>
+            </div>
+            <div class="metric-value">${display}</div>
           </div>`;
       });
       overlay.innerHTML = html;
-      // Temporarily display to compute size
       overlay.style.display = 'block';
       overlay.classList.add('visible');
-      const rowRect = event.currentTarget.getBoundingClientRect();
-      const overlayRect = overlay.getBoundingClientRect();
-      // Compute top and left positions: default to right of row
-      let left = rowRect.right + 8 + window.scrollX;
-      let top = rowRect.top + window.scrollY;
-      // If overlay goes beyond right edge, place to the left of row
-      if (left + overlayRect.width > window.innerWidth + window.scrollX) {
-        left = rowRect.left - overlayRect.width - 8 + window.scrollX;
-      }
-      // Adjust top if overlay goes below viewport bottom
-      if (top + overlayRect.height > window.innerHeight + window.scrollY) {
-        top = window.innerHeight + window.scrollY - overlayRect.height - 10;
-      }
-      // Ensure overlay does not go above the viewport
-      if (top < window.scrollY + 10) {
-        top = window.scrollY + 10;
-      }
-      overlay.style.left = `${left}px`;
-      overlay.style.top = `${top}px`;
+      // Position overlay near the mouse
+      const rect = event.target.getBoundingClientRect();
+      overlay.style.top = `${window.scrollY + rect.top - overlay.offsetHeight - 10}px`;
+      overlay.style.left = `${window.scrollX + rect.left + 10}px`;
     }
 
     /**
-     * Hide the overlay card. It fades out smoothly using CSS and
-     * becomes display:none after the transition to avoid impacting layout.
+     * Hides the overlay after a short delay to allow the user to move
+     * between cells without the overlay flickering.
      */
     function hideOverlay() {
       const overlay = document.getElementById('overlay');
-      if (!overlay) return;
-      overlay.classList.remove('visible');
-      // Hide completely after transition ends
-      setTimeout(() => {
+      hideTimeout = setTimeout(() => {
+        overlay.classList.remove('visible');
         overlay.style.display = 'none';
-      }, 200);
+      }, 800); // Delay in ms
     }
 
-    /**
-     * Show an overlay for a single cell (metric) when hovering.
-     * Displays the metric label and formatted value along with the brand name
-     * and a visual bar indicating the value's relative magnitude.
-     *
-     * @param {MouseEvent} event The mouse event on the cell.
-     * @param {Object} brand The brand data object.
-     * @param {Object} metric The metric definition { key, label }.
-     * @param {number} idx The index of the metric in the metrics array (for range lookup).
-     */
-    function showCellOverlay(event, brand, metric, idx) {
-      const overlay = document.getElementById('overlay');
-      if (!overlay) return;
-      // Metric value and formatting
-      const value = Number(brand[metric.key] || 0);
-      let formatted;
-      if (metric.key === 'revenue_share' || metric.key === 'sell_through_pct') {
-        formatted = (value * 100).toFixed(1) + '%';
-      } else {
-        formatted = value.toFixed(1);
-      }
-      // Compute ratio for bar width using possible log transform
-      let ratio = 0;
-      const range = metricRanges[idx] || { min: 0, max: 1 };
-      if (range.max > range.min) {
-        if (metric.transform === 'log') {
-          const minVal = range.min;
-          const maxVal = range.max;
-          const shift = 1 - (minVal > 0 ? minVal : 0);
-          const logMin = Math.log(minVal + shift);
-          const logMax = Math.log(maxVal + shift);
-          const logVal = Math.log(value + shift);
-          ratio = (logVal - logMin) / (logMax - logMin);
-        } else {
-          ratio = (value - range.min) / (range.max - range.min);
-        }
-        ratio = Math.max(0, Math.min(1, ratio));
-      }
-      // Determine bar color from ratio
-      const barColor = colorScale(ratio);
-      // Compose overlay HTML
-      let html = '';
-      html += `<div style="font-weight:bold; font-size:1.0em; margin-bottom:4px; color:#4a2c2a;">${metric.label}: ${formatted}</div>`;
-      html += `<div style="font-size:0.85em; margin-bottom:4px; color:#6b4e4b;">Brand: ${brand.brand}</div>`;
-      // Bar representation
-      html += `<div class="metric-bar-container" style="height:8px; background:rgba(255,255,255,0.6); border-radius:4px; margin-bottom:4px;">
-        <div class="metric-bar" style="background:${barColor}; width:${(ratio * 100).toFixed(1)}%; height:8px; border-radius:4px;"></div>
-      </div>`;
-      overlay.innerHTML = html;
-      // Cancel any pending hide
-      if (hideTimeout) {
-        clearTimeout(hideTimeout);
-        hideTimeout = null;
-      }
-      // Show overlay and compute size
-      overlay.style.display = 'block';
-      overlay.classList.add('visible');
-      // Position overlay near the cell
-      const rect = event.target.getBoundingClientRect();
-      const overlayRect = overlay.getBoundingClientRect();
-      let left = rect.right + 8 + window.scrollX;
-      let top = rect.top + window.scrollY;
-      // Reposition if going out of viewport horizontally
-      if (left + overlayRect.width > window.innerWidth + window.scrollX) {
-        left = rect.left - overlayRect.width - 8 + window.scrollX;
-      }
-      // Reposition if going out of viewport vertically
-      if (top + overlayRect.height > window.innerHeight + window.scrollY) {
-        top = window.innerHeight + window.scrollY - overlayRect.height - 10;
-      }
-      if (top < window.scrollY + 10) {
-        top = window.scrollY + 10;
-      }
-      overlay.style.left = `${left}px`;
-      overlay.style.top = `${top}px`;
-    }
-    /**
-     * Load the JSON data and populate the dashboard.
-     * Revenue share and BEI (Brand Efficiency Index) are computed client‑side.
-     */
-    async function loadData() {
-      try {
-        const response = await fetch('brand_ppi_crm_data.json');
-        const data = await response.json();
-        // Update title
-        const meta = data.meta || {};
-        document.getElementById('title').textContent = meta.title || 'Brand CRM';
-        // KPI cards
-        const kpiContainer = document.getElementById('kpiContainer');
-        kpiContainer.innerHTML = '';
-        const kpis = data.kpis || {};
-        function addKpi(title, value) {
-          const card = document.createElement('div');
-          card.className = 'kpi-card';
-          const h2 = document.createElement('h2');
-          h2.textContent = title;
-          const p = document.createElement('p');
-          p.textContent = value;
-          card.appendChild(h2);
-          card.appendChild(p);
-          kpiContainer.appendChild(card);
-        }
-        const toCurrency = (val) => {
-          return '$' + Number(val || 0).toLocaleString(undefined, {minimumFractionDigits: 0, maximumFractionDigits: 0});
-        };
-        addKpi('Total Revenue', toCurrency(kpis.total_revenue));
-        addKpi('Total Units', Number(kpis.total_units || 0).toLocaleString());
-        // Build heatmap data
-        const brands = data.brands || [];
-        // Compute total revenue for revenue share
-        let totalRevenue = Number(kpis.total_revenue || 0);
-        if (!totalRevenue) {
-          totalRevenue = brands.reduce((acc, b) => acc + (b.revenue || 0), 0);
-        }
-        // Prepare metrics per brand
-        // Compute revenue share and BEI
-        // For each brand, compute the current revenue share and, if a
-        // precomputed BEI is not provided, derive a BEI value. The BEI
-        // calculation scales the product of revenue share and sell-through
-        // (expressed as a fraction) by 10000, then divides by the PPI index.
-        brands.forEach((b) => {
-          const share = totalRevenue > 0 ? ((b.revenue || 0) / totalRevenue) : 0;
-          b.revenue_share = share;
-          // Only compute BEI on the client if not present in the data. This
-          // allows server-side pre-calculated BEI values to pass through.
-          if (b.bei === undefined || b.bei === null) {
-            if (b.ppi_index && b.sell_through_pct !== undefined) {
-              const beiRaw = (share * b.sell_through_pct * 10000) / b.ppi_index;
-              b.bei = beiRaw;
-            } else {
-              b.bei = 0;
-            }
-          }
-        });
-        // Define metrics we will visualize in the heatmap
-        const metrics = [
-          { key: 'ppi_index', label: 'PPI', invert: false },
-          { key: 'sell_through_pct', label: 'Sell-Through', invert: false },
-          { key: 'revenue_share', label: 'Revenue Share', invert: false },
-          // BEI values can span several orders of magnitude.  Use a log
-          // transform when computing their colour ratios to better
-          // distribute values across the spectrum.  The `transform`
-          // property can be checked when computing ratios.
-          { key: 'bei', label: 'BEI', invert: false, transform: 'log' }
-        ];
-        // Compute min/max for each metric
-        const ranges = metrics.map(m => {
-          const values = brands.map(b => {
-            const val = b[m.key];
-            return val !== undefined && val !== null ? Number(val) : 0;
-          });
-          const min = Math.min(...values);
-          const max = Math.max(...values);
-          return { min, max };
-        });
-
-        // Expose metrics and ranges globally for the overlay
-        metricDefs = metrics;
-        metricRanges = ranges;
-        window.metricDefs = metrics;
-        window.metricRanges = ranges;
-        // Create heatmap elements
-        const heatmapContainer = document.getElementById('heatmapContainer');
-        heatmapContainer.innerHTML = '';
-        heatmapContainer.className = 'heatmap';
-        // Header row for metric labels
-        const headerRow = document.createElement('div');
-        headerRow.className = 'heatmap-row heatmap-header';
-        // empty corner cell
-        const corner = document.createElement('div');
-        corner.className = 'heatmap-cell heatmap-corner';
-        corner.textContent = '';
-        headerRow.appendChild(corner);
-        metrics.forEach((m) => {
-          const cell = document.createElement('div');
-          cell.className = 'heatmap-cell heatmap-header-cell';
-          cell.textContent = m.label;
-          headerRow.appendChild(cell);
-        });
-        heatmapContainer.appendChild(headerRow);
-        // For each brand create row
-        brands.forEach((b) => {
-          const row = document.createElement('div');
-          row.className = 'heatmap-row';
-          // brand name cell
-          const nameCell = document.createElement('div');
-          nameCell.className = 'heatmap-cell heatmap-name-cell';
-          nameCell.textContent = b.brand;
-          row.appendChild(nameCell);
-          // cells for each metric
-          metrics.forEach((m, idx) => {
-            const val = b[m.key];
-            const { min, max } = ranges[idx];
-            // Normalize value between 0 and 1
-            let ratio = 0;
-            if (max > min) {
-              // Apply a logarithmic transform for metrics that specify it.
-              if (m.transform === 'log') {
-                // Shift by 1 to handle zeros gracefully.  If min <= 0,
-                // shift both min and val to ensure the log domain is positive.
-                const shift = 1 - (min > 0 ? min : 0);
-                const logMin = Math.log((min + shift));
-                const logMax = Math.log((max + shift));
-                const logVal = Math.log((val + shift));
-                ratio = (logVal - logMin) / (logMax - logMin);
-              } else {
-                ratio = (val - min) / (max - min);
-              }
-              // Clamp ratio to [0,1]
-              ratio = Math.max(0, Math.min(1, ratio));
-            }
-            const backgroundColor = colorScale(ratio);
-            const cell = document.createElement('div');
-            cell.className = 'heatmap-cell';
-            cell.style.backgroundColor = backgroundColor;
-            // Attach overlay events to each cell for individual metric display
-            cell.addEventListener('mouseenter', (evt) => {
-              showCellOverlay(evt, b, m, idx);
-            });
-            cell.addEventListener('mouseleave', () => {
-              // Start a timer to hide overlay after a delay
-              if (hideTimeout) clearTimeout(hideTimeout);
-              hideTimeout = setTimeout(() => {
-                hideOverlay();
-              }, 1200);
-            });
-            row.appendChild(cell);
-          });
-          // Append row to heatmap
-          heatmapContainer.appendChild(row);
-        });
-      } catch (err) {
-        console.error('Failed to load data:', err);
-      }
-    }
-    // Load data on page load
-    loadData();
+    // Initialize when page loads
+    window.addEventListener('DOMContentLoaded', loadData);
   </script>
 </body>
 </html>
