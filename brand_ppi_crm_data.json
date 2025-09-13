@@ -18,13 +18,13 @@
       },
       "ppi_index": 508.4,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.933969769291965,
       "revenue": 1272881.05,
       "units": 9392,
       "notes": "",
       "history": [],
       "revenue_share": 0.0694481745560903,
-      "bei": 1.3660144483888732
+      "bei": 1.2758161992112464
     },
     {
       "brand": "Ruby",
@@ -36,13 +36,13 @@
       },
       "ppi_index": 143.49,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9363959457680664,
       "revenue": 1206225.65,
       "units": 35569,
       "notes": "",
       "history": [],
       "revenue_share": 0.06581146721858533,
-      "bei": 4.5864845786176955
+      "bei": 4.294765564745369
     },
     {
       "brand": "Rythm",
@@ -56,13 +56,13 @@
       },
       "ppi_index": 242.94,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9453237410071943,
       "revenue": 916077.21,
       "units": 16425,
       "notes": "",
       "history": [],
       "revenue_share": 0.04998101746187217,
-      "bei": 2.0573399794958496
+      "bei": 1.9448523259406807
     },
     {
       "brand": "dank. by definition",
@@ -72,13 +72,13 @@
       },
       "ppi_index": 186.83,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9869294824496679,
       "revenue": 887103.25,
       "units": 18726,
       "notes": "",
       "history": [],
       "revenue_share": 0.04840020311031813,
-      "bei": 2.590601247675327
+      "bei": 2.5567407486016744
     },
     {
       "brand": "Off Hours",
@@ -90,13 +90,13 @@
       },
       "ppi_index": 129.69,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9361133280127694,
       "revenue": 790281.66,
       "units": 23459,
       "notes": "",
       "history": [],
       "revenue_share": 0.04311763355433471,
-      "bei": 3.324669099725092
+      "bei": 3.1122670554848733
     },
     {
       "brand": "Ayrloom",
@@ -109,13 +109,13 @@
       },
       "ppi_index": 75.57,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9547873728150273,
       "revenue": 683420.41,
       "units": 36597,
       "notes": "",
       "history": [],
       "revenue_share": 0.03728730184872719,
-      "bei": 4.9341407765948375
+      "bei": 4.711055309184483
     },
     {
       "brand": "Camino",
@@ -124,13 +124,13 @@
       },
       "ppi_index": 115.44,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9648920248022237,
       "revenue": 648872.48,
       "units": 22564,
       "notes": "",
       "history": [],
       "revenue_share": 0.03540237263779142,
-      "bei": 3.066733596482278
+      "bei": 2.959066789438791
     },
     {
       "brand": "Rolling Green Cannabis",
@@ -140,13 +140,13 @@
       },
       "ppi_index": 124.47,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9350180505415162,
       "revenue": 593334.32,
       "units": 19166,
       "notes": "",
       "history": [],
       "revenue_share": 0.03237222003224821,
-      "bei": 2.600805015847049
+      "bei": 2.431799635755904
     },
     {
       "brand": "Fernway",
@@ -157,13 +157,13 @@
       },
       "ppi_index": 270.6,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9240415253366224,
       "revenue": 589492.72,
       "units": 8990,
       "notes": "",
       "history": [],
       "revenue_share": 0.03216262298673113,
-      "bei": 1.1885669987705516
+      "bei": 1.098285262508712
     },
     {
       "brand": "Hepworth",
@@ -173,13 +173,13 @@
       },
       "ppi_index": 144.55,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9986771565828866,
       "revenue": 544788.57,
       "units": 14344,
       "notes": "",
       "history": [],
       "revenue_share": 0.029723572132307897,
-      "bei": 2.056283094590653
+      "bei": 2.0535629540352525
     },
     {
       "brand": "Jaunty",
@@ -189,13 +189,13 @@
       },
       "ppi_index": 171.98,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.961129106894956,
       "revenue": 534680.9,
       "units": 12462,
       "notes": "",
       "history": [],
       "revenue_share": 0.02917209936859965,
-      "bei": 1.696249527189188
+      "bei": 1.6303147931383355
     },
     {
       "brand": "Nanticoke",
@@ -206,13 +206,13 @@
       },
       "ppi_index": 66.38,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9636439966414777,
       "revenue": 357493.49,
       "units": 22954,
       "notes": "",
       "history": [],
       "revenue_share": 0.01950478428144242,
-      "bei": 2.938352558216695
+      "bei": 2.8315258027416457
     },
     {
       "brand": "Matter.",
@@ -221,13 +221,13 @@
       },
       "ppi_index": 382.7,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9957780458383595,
       "revenue": 318720.06,
       "units": 3302,
       "notes": "",
       "history": [],
       "revenue_share": 0.01738931250599384,
-      "bei": 0.4543849622679342
+      "bei": 0.4524665697855002
     },
     {
       "brand": "Florist Farms",
@@ -238,13 +238,13 @@
       },
       "ppi_index": 173.47,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.94955987145452,
       "revenue": 305765.59,
       "units": 6796,
       "notes": "",
       "history": [],
       "revenue_share": 0.01668251881632297,
-      "bei": 0.9616947493124443
+      "bei": 0.9131867425356115
     },
     {
       "brand": "PAX",
@@ -255,13 +255,13 @@
       },
       "ppi_index": 264.99,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9399477806788512,
       "revenue": 305266.83,
       "units": 4680,
       "notes": "",
       "history": [],
       "revenue_share": 0.016655306555176025,
-      "bei": 0.6285258521142694
+      "bei": 0.5907814797940913
     },
     {
       "brand": "Gr\u00f6n",
@@ -270,13 +270,13 @@
       },
       "ppi_index": 79.34,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9947824952716363,
       "revenue": 299029.15,
       "units": 15253,
       "notes": "",
       "history": [],
       "revenue_share": 0.01631497979057769,
-      "bei": 2.0563372561857434
+      "bei": 2.045608306828484
     },
     {
       "brand": "Wyld",
@@ -286,13 +286,13 @@
       },
       "ppi_index": 95.56,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9440553610138402,
       "revenue": 279383.49,
       "units": 11323,
       "notes": "",
       "history": [],
       "revenue_share": 0.015243115907499532,
-      "bei": 1.595135611919164
+      "bei": 1.5058963259763796
     },
     {
       "brand": "turn",
@@ -301,13 +301,13 @@
       },
       "ppi_index": 246.58,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.98582910321489,
       "revenue": 271375.72,
       "units": 4661,
       "notes": "",
       "history": [],
       "revenue_share": 0.014806213332223527,
-      "bei": 0.6004628652860543
+      "bei": 0.5919537679987943
     },
     {
       "brand": "LivWell",
@@ -316,13 +316,13 @@
       },
       "ppi_index": 590.65,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9865403788634097,
       "revenue": 267485.84,
       "units": 1979,
       "notes": "",
       "history": [],
       "revenue_share": 0.014593982138081513,
-      "bei": 0.24708341891274893
+      "bei": 0.24375776970504986
     },
     {
       "brand": "MFNY",
@@ -335,13 +335,13 @@
       },
       "ppi_index": 162.68,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9592831541218638,
       "revenue": 266749.95,
       "units": 6691,
       "notes": "",
       "history": [],
       "revenue_share": 0.014553832104286853,
-      "bei": 0.8946294630124694
+      "bei": 0.858202973048951
     },
     {
       "brand": "Harney Brothers Cannabis",
@@ -353,13 +353,13 @@
       },
       "ppi_index": 1.4,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4877,
+      "sell_through_pct": 0.980188679245283,
       "revenue": 256458.98,
       "units": 9351,
       "notes": "",
       "history": [],
       "revenue_share": 0.013992358523616069,
-      "bei": 48.74338037119684
+      "bei": 97.9653672913551
     },
     {
       "brand": "Hudson Cannabis",
@@ -370,13 +370,13 @@
       },
       "ppi_index": 131.21,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9846629893717207,
       "revenue": 243657.25,
       "units": 7319,
       "notes": "",
       "history": [],
       "revenue_share": 0.013293898302482334,
-      "bei": 1.0131772199132942
+      "bei": 0.9976381101231535
     },
     {
       "brand": "Select",
@@ -386,13 +386,13 @@
       },
       "ppi_index": 288.62,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8212974296205631,
       "revenue": 229485.27,
       "units": 2684,
       "notes": "",
       "history": [],
       "revenue_share": 0.01252067747336761,
-      "bei": 0.4338118451031671
+      "bei": 0.356288553322185
     },
     {
       "brand": "Platinum Reserve",
@@ -401,13 +401,13 @@
       },
       "ppi_index": 212.32,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9896397457028491,
       "revenue": 221562.33,
       "units": 4203,
       "notes": "",
       "history": [],
       "revenue_share": 0.012088403208527679,
-      "bei": 0.5693483048477618
+      "bei": 0.5634497116258872
     },
     {
       "brand": "Grassroots",
@@ -416,13 +416,13 @@
       },
       "ppi_index": 185.23,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.815597387629658,
       "revenue": 211347.87,
       "units": 4246,
       "notes": "",
       "history": [],
       "revenue_share": 0.011531104000501759,
-      "bei": 0.6225289640178027
+      "bei": 0.5077329967767172
     },
     {
       "brand": "Lost Farm",
@@ -431,13 +431,13 @@
       },
       "ppi_index": 116.85,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9586544342507646,
       "revenue": 210383.19,
       "units": 7837,
       "notes": "",
       "history": [],
       "revenue_share": 0.011478471223047204,
-      "bei": 0.9823253079201716
+      "bei": 0.9417105123144203
     },
     {
       "brand": "Heavy Hitters",
@@ -449,13 +449,13 @@
       },
       "ppi_index": 303.62,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9655412460842325,
       "revenue": 207920.47,
       "units": 2774,
       "notes": "",
       "history": [],
       "revenue_share": 0.011344105636849833,
-      "bei": 0.37362840513964274
+      "bei": 0.3607536358709952
     },
     {
       "brand": "Good Green",
@@ -464,13 +464,13 @@
       },
       "ppi_index": 317.35,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9191374663072777,
       "revenue": 202355.99,
       "units": 2728,
       "notes": "",
       "history": [],
       "revenue_share": 0.011040508550261206,
-      "bei": 0.3478969135106729
+      "bei": 0.319765087620322
     },
     {
       "brand": "Bloom",
@@ -479,13 +479,13 @@
       },
       "ppi_index": 233.07,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9683748169838946,
       "revenue": 193762.77,
       "units": 3307,
       "notes": "",
       "history": [],
       "revenue_share": 0.010571663922117133,
-      "bei": 0.4535832120014216
+      "bei": 0.4392385599088437
     },
     {
       "brand": "Toast",
@@ -495,13 +495,13 @@
       },
       "ppi_index": 238.07,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9432054713053821,
       "revenue": 188902.6,
       "units": 3172,
       "notes": "",
       "history": [],
       "revenue_share": 0.010306493869870483,
-      "bei": 0.43291863190954266
+      "bei": 0.4083312222471215
     },
     {
       "brand": "Stone Road",
@@ -511,13 +511,13 @@
       },
       "ppi_index": 259.31,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9111389236545682,
       "revenue": 185593.06,
       "units": 2912,
       "notes": "",
       "history": [],
       "revenue_share": 0.01012592592786179,
-      "bei": 0.3904950031954722
+      "bei": 0.35579519690400974
     },
     {
       "brand": "Alchemy Pure",
@@ -527,13 +527,13 @@
       },
       "ppi_index": 4.58,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.6681,
+      "sell_through_pct": 0.9730874657363568,
       "revenue": 176176.76,
       "units": 3905,
       "notes": "",
       "history": [],
       "revenue_share": 0.009612174194286597,
-      "bei": 14.021601701316323
+      "bei": 20.422459010774567
     },
     {
       "brand": "Weekenders",
@@ -543,13 +543,13 @@
       },
       "ppi_index": 149.82,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9507930785868781,
       "revenue": 174085.11,
       "units": 5275,
       "notes": "",
       "history": [],
       "revenue_share": 0.00949805412445741,
-      "bei": 0.6339643655358036
+      "bei": 0.6027689308221638
     },
     {
       "brand": "1906",
@@ -559,13 +559,13 @@
       },
       "ppi_index": 105.75,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9893232846600722,
       "revenue": 166091.04,
       "units": 6301,
       "notes": "",
       "history": [],
       "revenue_share": 0.009061899018861641,
-      "bei": 0.856917164904174
+      "bei": 0.8477681042645944
     },
     {
       "brand": "SpaceBuds",
@@ -574,13 +574,13 @@
       },
       "ppi_index": 247.17,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.999624765478424,
       "revenue": 163234.99,
       "units": 2664,
       "notes": "",
       "history": [],
       "revenue_share": 0.008906073414465282,
-      "bei": 0.36032177911822966
+      "bei": 0.3601865739478289
     },
     {
       "brand": "Dogwalkers",
@@ -589,13 +589,13 @@
       },
       "ppi_index": 104.39,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9375288505923989,
       "revenue": 161922.96,
       "units": 6093,
       "notes": "",
       "history": [],
       "revenue_share": 0.008834489279826128,
-      "bei": 0.8462965111434169
+      "bei": 0.793427395352645
     },
     {
       "brand": "Eaton Botanicals",
@@ -605,13 +605,13 @@
       },
       "ppi_index": 116.41,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9002765295540961,
       "revenue": 154728.04,
       "units": 5209,
       "notes": "",
       "history": [],
       "revenue_share": 0.008441935662913453,
-      "bei": 0.7251899031795768
+      "bei": 0.6528714493021803
     },
     {
       "brand": "Rove",
@@ -622,13 +622,13 @@
       },
       "ppi_index": 211.94,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9303333333333333,
       "revenue": 145652.84,
       "units": 2791,
       "notes": "",
       "history": [],
       "revenue_share": 0.007946794287581146,
-      "bei": 0.374954906463204
+      "bei": 0.34883304797960085
     },
     {
       "brand": "Canna Cure Farms",
@@ -638,13 +638,13 @@
       },
       "ppi_index": 44.26,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9858565107458913,
       "revenue": 138585.75,
       "units": 12477,
       "notes": "",
       "history": [],
       "revenue_share": 0.007561215053823522,
-      "bei": 1.7083630939501857
+      "bei": 1.6842008788887854
     },
     {
       "brand": "Mfused",
@@ -672,13 +672,13 @@
       },
       "ppi_index": 134.21,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9916576964477933,
       "revenue": 125932.58,
       "units": 3685,
       "notes": "",
       "history": [],
       "revenue_share": 0.006870860241134712,
-      "bei": 0.511948456980457
+      "bei": 0.5076776275492421
     },
     {
       "brand": "Bettering Co.",
@@ -687,13 +687,13 @@
       },
       "ppi_index": 103.62,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9378075182050778,
       "revenue": 123765.99,
       "units": 4765,
       "notes": "",
       "history": [],
       "revenue_share": 0.006752651457594821,
-      "bei": 0.6516745278512662
+      "bei": 0.6111452716416618
     },
     {
       "brand": "Her Highness",
@@ -705,13 +705,13 @@
       },
       "ppi_index": 14.19,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.9442,
+      "sell_through_pct": 0.983402489626556,
       "revenue": 123650.69,
       "units": 1896,
       "notes": "",
       "history": [],
       "revenue_share": 0.006746360709118114,
-      "bei": 4.489016054650686
+      "bei": 4.675396699975709
     },
     {
       "brand": "Old Pal",
@@ -722,13 +722,13 @@
       },
       "ppi_index": 280.96,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9987538940809969,
       "revenue": 114295.6,
       "units": 1603,
       "notes": "",
       "history": [],
       "revenue_share": 0.006235948582778473,
-      "bei": 0.22195147290640924
+      "bei": 0.22167489786228906
     },
     {
       "brand": "Wana",
@@ -737,13 +737,13 @@
       },
       "ppi_index": 117.16,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.990748528174937,
       "revenue": 109225.98,
       "units": 3534,
       "notes": "",
       "history": [],
       "revenue_share": 0.005959350973997159,
-      "bei": 0.5086506464661283
+      "bei": 0.5039448793415469
     },
     {
       "brand": "Jetty",
@@ -754,13 +754,13 @@
       },
       "ppi_index": 282.29,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.993142144638404,
       "revenue": 109151.01,
       "units": 1593,
       "notes": "",
       "history": [],
       "revenue_share": 0.005955260623491533,
-      "bei": 0.2109625074742829
+      "bei": 0.20951575711130466
     },
     {
       "brand": "Flamer",
@@ -771,13 +771,13 @@
       },
       "ppi_index": 106.74,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9122298952996213,
       "revenue": 108226.6,
       "units": 4095,
       "notes": "",
       "history": [],
       "revenue_share": 0.00590482497041822,
-      "bei": 0.5531970180268148
+      "bei": 0.5046428578346639
     },
     {
       "brand": "Lowell Farms",
@@ -786,13 +786,13 @@
       },
       "ppi_index": 181.57,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9641451683428072,
       "revenue": 106229.66,
       "units": 2205,
       "notes": "",
       "history": [],
       "revenue_share": 0.005795872262152165,
-      "bei": 0.31920869428606957
+      "bei": 0.3077635202889302
     },
     {
       "brand": "Moods",
@@ -801,13 +801,13 @@
       },
       "ppi_index": 175.08,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8775659824046921,
       "revenue": 104032.5,
       "units": 2394,
       "notes": "",
       "history": [],
       "revenue_share": 0.005675995584588571,
-      "bei": 0.3241944016785795
+      "bei": 0.28450197859916404
     },
     {
       "brand": "FlowerHouse",
@@ -817,13 +817,13 @@
       },
       "ppi_index": 117.77,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9959777227722773,
       "revenue": 96727.93,
       "units": 3219,
       "notes": "",
       "history": [],
       "revenue_share": 0.005277459482242494,
-      "bei": 0.4481157750057311
+      "bei": 0.44631332912854216
     },
     {
       "brand": "butter",
@@ -833,13 +833,13 @@
       },
       "ppi_index": 165.73,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8781362007168458,
       "revenue": 91629.66,
       "units": 2205,
       "notes": "",
       "history": [],
       "revenue_share": 0.004999298734312373,
-      "bei": 0.3016532151277604
+      "bei": 0.26489260826631295
     },
     {
       "brand": "The Travel Agency",
@@ -849,13 +849,13 @@
       },
       "ppi_index": 0.0,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.9392,
+      "sell_through_pct": 0.7619594160315857,
       "revenue": 90346.59,
       "units": 16597,
       "notes": "",
       "history": [],
       "revenue_share": 0.004929294652369538,
-      "bei": 0.4611234943564816
+      "bei": 0.37410284122477516
     },
     {
       "brand": "Smokiez",
@@ -864,13 +864,13 @@
       },
       "ppi_index": 87.73,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.998989388580091,
       "revenue": 86299.72,
       "units": 3954,
       "notes": "",
       "history": [],
       "revenue_share": 0.0047084981104100155,
-      "bei": 0.5367033067833142
+      "bei": 0.5361609082923761
     },
     {
       "brand": "Umamii",
@@ -881,13 +881,13 @@
       },
       "ppi_index": 133.8,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9979253112033195,
       "revenue": 82510.97,
       "units": 2405,
       "notes": "",
       "history": [],
       "revenue_share": 0.004501784551944056,
-      "bei": 0.3364562445399145
+      "bei": 0.33575820253879435
     },
     {
       "brand": "Head & Heal",
@@ -896,13 +896,13 @@
       },
       "ppi_index": 334.85,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9818799546998868,
       "revenue": 74480.14,
       "units": 867,
       "notes": "",
       "history": [],
       "revenue_share": 0.004063623826972711,
-      "bei": 0.12135654254062152
+      "bei": 0.11915755649232031
     },
     {
       "brand": "Woodstock",
@@ -915,13 +915,13 @@
       },
       "ppi_index": 233.58,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9754977029096478,
       "revenue": 73569.7,
       "units": 1274,
       "notes": "",
       "history": [],
       "revenue_share": 0.004013950374733913,
-      "bei": 0.171844780149581
+      "bei": 0.1676341882929297
     },
     {
       "brand": "Miss Grass",
@@ -930,13 +930,13 @@
       },
       "ppi_index": 123.58,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9811651335961454,
       "revenue": 71586.96,
       "units": 2240,
       "notes": "",
       "history": [],
       "revenue_share": 0.003905772416063429,
-      "bei": 0.3160521456597693
+      "bei": 0.31009934571961595
     },
     {
       "brand": "Higgs",
@@ -945,13 +945,13 @@
       },
       "ppi_index": 199.16,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8921501706484641,
       "revenue": 64698.9,
       "units": 1307,
       "notes": "",
       "history": [],
       "revenue_share": 0.0035299610287913633,
-      "bei": 0.17724246981278183
+      "bei": 0.1581268996896286
     },
     {
       "brand": "STA Exotics",
@@ -961,13 +961,13 @@
       },
       "ppi_index": 104.12,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9677033492822966,
       "revenue": 62692.55,
       "units": 2427,
       "notes": "",
       "history": [],
       "revenue_share": 0.003420494912518667,
-      "bei": 0.3285146861812012
+      "bei": 0.317904762105971
     },
     {
       "brand": "KOA",
@@ -976,13 +976,13 @@
       },
       "ppi_index": 251.26,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8801399825021873,
       "revenue": 62001.25,
       "units": 1006,
       "notes": "",
       "history": [],
       "revenue_share": 0.003382777701573759,
-      "bei": 0.1346325599607482
+      "bei": 0.1184954989680776
     },
     {
       "brand": "Beboe",
@@ -993,13 +993,13 @@
       },
       "ppi_index": 149.15,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9374262101534829,
       "revenue": 60614.29,
       "units": 1588,
       "notes": "",
       "history": [],
       "revenue_share": 0.003307105398822206,
-      "bei": 0.2217301641851965
+      "bei": 0.2078556674888383
     },
     {
       "brand": "Holiday",
@@ -1008,13 +1008,13 @@
       },
       "ppi_index": 229.33,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9063291139240506,
       "revenue": 60383.15,
       "units": 1074,
       "notes": "",
       "history": [],
       "revenue_share": 0.0032944944395602274,
-      "bei": 0.14365736883792907
+      "bei": 0.13020085580754076
     },
     {
       "brand": "Stay Melo",
@@ -1023,13 +1023,13 @@
       },
       "ppi_index": 231.53,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9991539763113367,
       "revenue": 58369.06,
       "units": 1181,
       "notes": "",
       "history": [],
       "revenue_share": 0.0031846060301981144,
-      "bei": 0.13754615083134428
+      "bei": 0.13742978352945653
     },
     {
       "brand": "Foy",
@@ -1038,13 +1038,13 @@
       },
       "ppi_index": 116.6,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9098931723176963,
       "revenue": 57209.99,
       "units": 1959,
       "notes": "",
       "history": [],
       "revenue_share": 0.0031213673672588495,
-      "bei": 0.2676987450479288
+      "bei": 0.24357726035712615
     },
     {
       "brand": "Stiiizy",
@@ -1054,13 +1054,13 @@
       },
       "ppi_index": 216.98,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7515015015015015,
       "revenue": 54975.05,
       "units": 1001,
       "notes": "",
       "history": [],
       "revenue_share": 0.0029994294192923934,
-      "bei": 0.13823529446457708
+      "bei": 0.10388403135063187
     },
     {
       "brand": "&Shine",
@@ -1070,13 +1070,13 @@
       },
       "ppi_index": 307.73,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.808584686774942,
       "revenue": 54638.48,
       "units": 697,
       "notes": "",
       "history": [],
       "revenue_share": 0.0029810662170824593,
-      "bei": 0.0968727851390004
+      "bei": 0.07832985062863489
     },
     {
       "brand": "Highland Goat",
@@ -1085,13 +1085,13 @@
       },
       "ppi_index": 139.41,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9545741324921135,
       "revenue": 52602.08,
       "units": 1513,
       "notes": "",
       "history": [],
       "revenue_share": 0.0028699605778980107,
-      "bei": 0.2058647570402418
+      "bei": 0.19651317186238854
     },
     {
       "brand": "Silly Nice",
@@ -1101,13 +1101,13 @@
       },
       "ppi_index": 209.33,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.994088669950739,
       "revenue": 52008.2,
       "units": 1009,
       "notes": "",
       "history": [],
       "revenue_share": 0.00283755858565736,
-      "bei": 0.1355543202435083
+      "bei": 0.13475301391694572
     },
     {
       "brand": "B Noble",
@@ -1117,13 +1117,13 @@
       },
       "ppi_index": 140.63,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9026017344896597,
       "revenue": 50141.86,
       "units": 1353,
       "notes": "",
       "history": [],
       "revenue_share": 0.0027357313912773247,
-      "bei": 0.1945339821714659
+      "bei": 0.17558670972514567
     },
     {
       "brand": "Olio",
@@ -1134,13 +1134,13 @@
       },
       "ppi_index": 255.92,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9818181818181818,
       "revenue": 38651.61,
       "units": 594,
       "notes": "",
       "history": [],
       "revenue_share": 0.002108825296875875,
-      "bei": 0.08240173870255842
+      "bei": 0.08090352527160281
     },
     {
       "brand": "Kiva",
@@ -1149,13 +1149,13 @@
       },
       "ppi_index": 119.49,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9743396226415094,
       "revenue": 38349.96,
       "units": 1291,
       "notes": "",
       "history": [],
       "revenue_share": 0.0020923673239530752,
-      "bei": 0.17510815331434224
+      "bei": 0.17061481202174777
     },
     {
       "brand": "VLSNY",
@@ -1164,13 +1164,13 @@
       },
       "ppi_index": 202.77,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9986577181208054,
       "revenue": 36875.0,
       "units": 744,
       "notes": "",
       "history": [],
       "revenue_share": 0.0020118937561022137,
-      "bei": 0.09922048410032122
+      "bei": 0.09908730224246845
     },
     {
       "brand": "High 5s",
@@ -1179,13 +1179,13 @@
       },
       "ppi_index": 260.9,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8314121037463977,
       "revenue": 36722.9,
       "units": 577,
       "notes": "",
       "history": [],
       "revenue_share": 0.002003595205856705,
-      "bei": 0.07679552341344212
+      "bei": 0.06384872767947566
     },
     {
       "brand": "Level",
@@ -1194,13 +1194,13 @@
       },
       "ppi_index": 127.46,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.918656056587091,
       "revenue": 35609.77,
       "units": 1039,
       "notes": "",
       "history": [],
       "revenue_share": 0.0019428630215386012,
-      "bei": 0.15242923439028724
+      "bei": 0.1400300393735707
     },
     {
       "brand": "Packs",
@@ -1224,13 +1224,13 @@
       },
       "ppi_index": 104.81,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9184952978056427,
       "revenue": 31737.68,
       "units": 1172,
       "notes": "",
       "history": [],
       "revenue_share": 0.0017316024467842741,
-      "bei": 0.16521347646066922
+      "bei": 0.1517478012632479
     },
     {
       "brand": "Drew Martin",
@@ -1239,13 +1239,13 @@
       },
       "ppi_index": 146.3,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.940677966101695,
       "revenue": 31166.19,
       "units": 777,
       "notes": "",
       "history": [],
       "revenue_share": 0.0017004220491524135,
-      "bei": 0.11622843808287171
+      "bei": 0.10933353073897256
     },
     {
       "brand": "Chime & Chill",
@@ -1254,13 +1254,13 @@
       },
       "ppi_index": 146.16,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8710801393728222,
       "revenue": 26856.45,
       "units": 750,
       "notes": "",
       "history": [],
       "revenue_share": 0.0014652833645036284,
-      "bei": 0.10025200906565601
+      "bei": 0.08732753402931709
     },
     {
       "brand": "Rosa Reta",
@@ -1270,13 +1270,13 @@
       },
       "ppi_index": 136.47,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8893905191873589,
       "revenue": 26577.8,
       "units": 788,
       "notes": "",
       "history": [],
       "revenue_share": 0.0014500802676863298,
-      "bei": 0.10625633968537626
+      "bei": 0.09450338111972514
     },
     {
       "brand": "Tune",
@@ -1285,13 +1285,13 @@
       },
       "ppi_index": 19.92,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9803497740224013,
       "revenue": 24759.29,
       "units": 4989,
       "notes": "",
       "history": [],
       "revenue_share": 0.00135086267000743,
-      "bei": 0.6781439106463002
+      "bei": 0.6648182295567678
     },
     {
       "brand": "Ravens View Genetics",
@@ -1302,13 +1302,13 @@
       },
       "ppi_index": 97.97,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7596302003081664,
       "revenue": 24495.05,
       "units": 986,
       "notes": "",
       "history": [],
       "revenue_share": 0.0013364457803501431,
-      "bei": 0.13641377772278687
+      "bei": 0.1036240252963543
     },
     {
       "brand": "House of Puff",
@@ -1317,13 +1317,13 @@
       },
       "ppi_index": 88.75,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9898242368177613,
       "revenue": 23729.92,
       "units": 1070,
       "notes": "",
       "history": [],
       "revenue_share": 0.0012947004171065773,
-      "bei": 0.14588173713876929
+      "bei": 0.14439727912903155
     },
     {
       "brand": "Love Oui'd",
@@ -1333,13 +1333,13 @@
       },
       "ppi_index": 120.76,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9903047091412742,
       "revenue": 21547.97,
       "units": 715,
       "notes": "",
       "history": [],
       "revenue_share": 0.0011756535945675341,
-      "bei": 0.09735455403838474
+      "bei": 0.09641067332056105
     },
     {
       "brand": "Anthem",
@@ -1348,13 +1348,13 @@
       },
       "ppi_index": 139.41,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.636471990464839,
       "revenue": 18532.5,
       "units": 534,
       "notes": "",
       "history": [],
       "revenue_share": 0.001011130061965133,
-      "bei": 0.07252923477262269
+      "bei": 0.04616282642262278
     },
     {
       "brand": "Dosist",
@@ -1394,13 +1394,13 @@
       },
       "ppi_index": 205.53,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8994565217391305,
       "revenue": 17497.0,
       "units": 331,
       "notes": "",
       "history": [],
       "revenue_share": 0.0009546333573022491,
-      "bei": 0.04644739732896653
+      "bei": 0.04177741444534762
     },
     {
       "brand": "Dime",
@@ -1424,13 +1424,13 @@
       },
       "ppi_index": 100.31,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4894,
+      "sell_through_pct": 0.8333333333333334,
       "revenue": 16793.7,
       "units": 115,
       "notes": "",
       "history": [],
       "revenue_share": 0.0009162614283892542,
-      "bei": 0.044703254217296484
+      "bei": 0.07611914966846561
     },
     {
       "brand": "Etain",
@@ -1454,13 +1454,13 @@
       },
       "ppi_index": 3.62,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.5101,
+      "sell_through_pct": 0.9461382113821138,
       "revenue": 16071.52,
       "units": 931,
       "notes": "",
       "history": [],
       "revenue_share": 0.0008768594098731349,
-      "bei": 1.2355966435809007
+      "bei": 2.291796115168353
     },
     {
       "brand": "40 Tons",
@@ -1515,13 +1515,13 @@
       },
       "ppi_index": 215.09,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8789237668161435,
       "revenue": 10488.8,
       "units": 196,
       "notes": "",
       "history": [],
       "revenue_share": 0.0005722671519730141,
-      "bei": 0.026605939465945146
+      "bei": 0.023384592535090797
     },
     {
       "brand": "Ithaca Organics",
@@ -1532,13 +1532,13 @@
       },
       "ppi_index": 3.25,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.5012,
+      "sell_through_pct": 0.4191866527632951,
       "revenue": 9988.5,
       "units": 402,
       "notes": "",
       "history": [],
       "revenue_share": 0.0005449708686868328,
-      "bei": 0.840428921187202
+      "bei": 0.702906197841042
     },
     {
       "brand": "Papa & Barkley",
@@ -1548,13 +1548,13 @@
       },
       "ppi_index": 284.79,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7860262008733624,
       "revenue": 9049.51,
       "units": 180,
       "notes": "",
       "history": [],
       "revenue_share": 0.0004937397332822927,
-      "bei": 0.017336975781533506
+      "bei": 0.013627317208192272
     },
     {
       "brand": "RAW",
@@ -1563,13 +1563,13 @@
       },
       "ppi_index": 28.64,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9516816674561819,
       "revenue": 9015.32,
       "units": 4018,
       "notes": "",
       "history": [],
       "revenue_share": 0.00049187433267155,
-      "bei": 0.17174383124006634
+      "bei": 0.16344545568985946
     },
     {
       "brand": "Flintts Mints",
@@ -1578,13 +1578,13 @@
       },
       "ppi_index": 23.1,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.6479956068094453,
       "revenue": 8722.76,
       "units": 1180,
       "notes": "",
       "history": [],
       "revenue_share": 0.00047591230860957685,
-      "bei": 0.20602264441973023
+      "bei": 0.13350176848724968
     },
     {
       "brand": "Seed & Strain",
@@ -1608,13 +1608,13 @@
       },
       "ppi_index": 100.03,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.6199186991869918,
       "revenue": 8437.8,
       "units": 305,
       "notes": "",
       "history": [],
       "revenue_share": 0.0004603649392607256,
-      "bei": 0.04602268711993658
+      "bei": 0.028530324332481007
     },
     {
       "brand": "lay up",
@@ -1623,13 +1623,13 @@
       },
       "ppi_index": 20.21,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8968713789107764,
       "revenue": 7571.25,
       "units": 1548,
       "notes": "",
       "history": [],
       "revenue_share": 0.0004130861179902071,
-      "bei": 0.20439689163295746
+      "bei": 0.1833177220439271
     },
     {
       "brand": "Vessel",
@@ -1638,13 +1638,13 @@
       },
       "ppi_index": 17.45,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4873,
+      "sell_through_pct": 0.9056603773584906,
       "revenue": 7393.09,
       "units": 192,
       "notes": "",
       "history": [],
       "revenue_share": 0.00040336573855733463,
-      "bei": 0.11264190509970726
+      "bei": 0.20934806131537076
     },
     {
       "brand": "MyHi",
@@ -1653,13 +1653,13 @@
       },
       "ppi_index": 87.9,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8,
       "revenue": 7137.35,
       "units": 328,
       "notes": "",
       "history": [],
       "revenue_share": 0.00038941260746077656,
-      "bei": 0.044301775592807346
+      "bei": 0.03544142047424588
     },
     {
       "brand": "Hashtag Honey",
@@ -1669,13 +1669,13 @@
       },
       "ppi_index": 80.62,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9940119760479041,
       "revenue": 6910.0,
       "units": 166,
       "notes": "",
       "history": [],
       "revenue_share": 0.00037700842995705213,
-      "bei": 0.046763635568971985
+      "bei": 0.04648361379909789
     },
     {
       "brand": "Zig Zag",
@@ -1684,13 +1684,13 @@
       },
       "ppi_index": 10.36,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9439363817097416,
       "revenue": 6877.33,
       "units": 2374,
       "notes": "",
       "history": [],
       "revenue_share": 0.0003752259602889339,
-      "bei": 0.36218722035611384
+      "bei": 0.3418816942844589
     },
     {
       "brand": "PETALS",
@@ -1699,13 +1699,13 @@
       },
       "ppi_index": 35.01,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8367117117117117,
       "revenue": 6479.27,
       "units": 743,
       "notes": "",
       "history": [],
       "revenue_share": 0.00035350787409085805,
-      "bei": 0.10097340019733164
+      "bei": 0.08448562651646105
     },
     {
       "brand": "ZZZ's Collective",
@@ -1714,13 +1714,13 @@
       },
       "ppi_index": 0.09,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.2674,
+      "sell_through_pct": 0.9738941261783901,
       "revenue": 6458.11,
       "units": 1343,
       "notes": "",
       "history": [],
       "revenue_share": 0.0003523533880737971,
-      "bei": 10.468810663437038
+      "bei": 38.12832166490287
     },
     {
       "brand": "CCELL",
@@ -1729,13 +1729,13 @@
       },
       "ppi_index": 62.29,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9968454258675079,
       "revenue": 6269.71,
       "units": 316,
       "notes": "",
       "history": [],
       "revenue_share": 0.00034207431597482334,
-      "bei": 0.054916409692538665
+      "bei": 0.05474317180707324
     },
     {
       "brand": "P3",
@@ -1760,13 +1760,13 @@
       },
       "ppi_index": 173.06,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8579881656804734,
       "revenue": 5748.0,
       "units": 145,
       "notes": "",
       "history": [],
       "revenue_share": 0.0003136099067139125,
-      "bei": 0.01812145537466269
+      "bei": 0.015547994256367397
     },
     {
       "brand": "I AM GOODNESS",
@@ -1806,13 +1806,13 @@
       },
       "ppi_index": 62.61,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.5627009646302251,
       "revenue": 5465.9,
       "units": 350,
       "notes": "",
       "history": [],
       "revenue_share": 0.0002982185784807889,
-      "bei": 0.04763114174745071
+      "bei": 0.0268020894077295
     },
     {
       "brand": "TribeTokes",
@@ -1821,13 +1821,13 @@
       },
       "ppi_index": 130.92,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7796610169491526,
       "revenue": 4681.75,
       "units": 92,
       "notes": "",
       "history": [],
       "revenue_share": 0.00025543548725780445,
-      "bei": 0.01951080715381947
+      "bei": 0.015211815747045688
     },
     {
       "brand": "NYCE",
@@ -1851,13 +1851,13 @@
       },
       "ppi_index": 7.91,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8307461191787682,
       "revenue": 3748.6,
       "units": 1659,
       "notes": "",
       "history": [],
       "revenue_share": 0.00020452298126440022,
-      "bei": 0.2585625553279396
+      "bei": 0.21479983940363132
     },
     {
       "brand": "Reunion",
@@ -1866,13 +1866,13 @@
       },
       "ppi_index": 23.61,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4335,
+      "sell_through_pct": 0.7653061224489796,
       "revenue": 3693.0,
       "units": 75,
       "notes": "",
       "history": [],
       "revenue_share": 0.00020148945467892814,
-      "bei": 0.03699520482986673
+      "bei": 0.06531178029423544
     },
     {
       "brand": "High Peaks",
@@ -1882,13 +1882,13 @@
       },
       "ppi_index": 45.63,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.5517857142857143,
       "revenue": 3622.2,
       "units": 309,
       "notes": "",
       "history": [],
       "revenue_share": 0.00019762661866721187,
-      "bei": 0.043310676893975865
+      "bei": 0.023898212786140252
     },
     {
       "brand": "Blazy Susan",
@@ -1927,13 +1927,13 @@
       },
       "ppi_index": 105.32,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9856115107913669,
       "revenue": 3486.47,
       "units": 137,
       "notes": "",
       "history": [],
       "revenue_share": 0.00019022121284983552,
-      "bei": 0.01806126213917922
+      "bei": 0.017801387863795346
     },
     {
       "brand": "Continental Exotics",
@@ -1973,13 +1973,13 @@
       },
       "ppi_index": 3.72,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4958,
+      "sell_through_pct": 0.9833333333333333,
       "revenue": 3262.0,
       "units": 118,
       "notes": "",
       "history": [],
       "revenue_share": 0.0001779741676584521,
-      "bei": 0.23720320517489396
+      "bei": 0.47045142884626673
     },
     {
       "brand": "Jane West",
@@ -1988,13 +1988,13 @@
       },
       "ppi_index": 1.5,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4792,
+      "sell_through_pct": 0.9526627218934911,
       "revenue": 3180.9,
       "units": 161,
       "notes": "",
       "history": [],
       "revenue_share": 0.0001735493653907941,
-      "bei": 0.5544323726351236
+      "bei": 1.1022267387738796
     },
     {
       "brand": "Oedo-Koh",
@@ -2003,13 +2003,13 @@
       },
       "ppi_index": 95.39,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9851851851851852,
       "revenue": 2998.05,
       "units": 133,
       "notes": "",
       "history": [],
       "revenue_share": 0.0001635731003520608,
-      "bei": 0.017147824756479798
+      "bei": 0.016893782908235653
     },
     {
       "brand": "Chef for Higher",
@@ -2018,13 +2018,13 @@
       },
       "ppi_index": 199.16,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.95,
       "revenue": 2810.0,
       "units": 57,
       "notes": "",
       "history": [],
       "revenue_share": 0.00015331312419382292,
-      "bei": 0.0076979877582759055
+      "bei": 0.00731308837036211
     },
     {
       "brand": "Jeeter",
@@ -2033,13 +2033,13 @@
       },
       "ppi_index": 81.96,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.11348005502063274,
       "revenue": 2803.84,
       "units": 165,
       "notes": "",
       "history": [],
       "revenue_share": 0.00015297703563687135,
-      "bei": 0.01866484085369343
+      "bei": 0.002118087167028484
     },
     {
       "brand": "Canna Style",
@@ -2048,13 +2048,13 @@
       },
       "ppi_index": 16.65,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4828,
+      "sell_through_pct": 0.9824561403508771,
       "revenue": 2671.0,
       "units": 112,
       "notes": "",
       "history": [],
       "revenue_share": 0.0001457293077301427,
-      "bei": 0.042257122986253996
+      "bei": 0.0859895815066434
     },
     {
       "brand": "Weed Water",
@@ -2063,13 +2063,13 @@
       },
       "ppi_index": 16.26,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7989690721649485,
       "revenue": 2645.5,
       "units": 620,
       "notes": "",
       "history": [],
       "revenue_share": 0.00014433803204795678,
-      "bei": 0.08876877739726738
+      "bei": 0.07092350771431156
     },
     {
       "brand": "NWTN Home",
@@ -2078,13 +2078,13 @@
       },
       "ppi_index": 279.29,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.723404255319149,
       "revenue": 2289.54,
       "units": 34,
       "notes": "",
       "history": [],
       "revenue_share": 0.00012491691472125456,
-      "bei": 0.004472659770176324
+      "bei": 0.0032355411103403195
     },
     {
       "brand": "Scandalous Chocolates",
@@ -2124,13 +2124,13 @@
       },
       "ppi_index": 41.71,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.3645,
+      "sell_through_pct": 0.5735294117647058,
       "revenue": 1920.6,
       "units": 39,
       "notes": "",
       "history": [],
       "revenue_share": 0.00010478761079240438,
-      "bei": 0.009157296603651737
+      "bei": 0.014408721356508423
     },
     {
       "brand": "Elevate Jane",
@@ -2139,13 +2139,13 @@
       },
       "ppi_index": 188.6,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4286,
+      "sell_through_pct": 0.7894736842105263,
       "revenue": 1874.4,
       "units": 15,
       "notes": "",
       "history": [],
       "revenue_share": 0.00010226694661526751,
-      "bei": 0.0023240516075982848
+      "bei": 0.0042808623073868745
     },
     {
       "brand": "ooze",
@@ -2169,13 +2169,13 @@
       },
       "ppi_index": 29.87,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.7949,
+      "sell_through_pct": 0.6888888888888889,
       "revenue": 1326.0,
       "units": 31,
       "notes": "",
       "history": [],
       "revenue_share": 7.234633547366876e-05,
-      "bei": 0.01925279613927663
+      "bei": 0.01668516459981201
     },
     {
       "brand": "Honest",
@@ -2184,13 +2184,13 @@
       },
       "ppi_index": 70.53,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4286,
+      "sell_through_pct": 0.8181818181818182,
       "revenue": 895.85,
       "units": 18,
       "notes": "",
       "history": [],
       "revenue_share": 4.887742430926558e-05,
-      "bei": 0.002970206161768216
+      "bei": 0.005670015580518802
     },
     {
       "brand": "GRAV",
@@ -2199,13 +2199,13 @@
       },
       "ppi_index": 31.86,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.62,
+      "sell_through_pct": 0.9117647058823529,
       "revenue": 889.8,
       "units": 31,
       "notes": "",
       "history": [],
       "revenue_share": 4.8547337333688124e-05,
-      "bei": 0.009447378891050419
+      "bei": 0.013893204251544736
     },
     {
       "brand": "Malachite",
@@ -2214,13 +2214,13 @@
       },
       "ppi_index": 3.1,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4828,
+      "sell_through_pct": 0.9333333333333333,
       "revenue": 741.6,
       "units": 42,
       "notes": "",
       "history": [],
       "revenue_share": 4.0461570427807506e-05,
-      "bei": 0.06301563291143698
+      "bei": 0.1218197819331839
     },
     {
       "brand": "MJ Arsenal",
@@ -2229,13 +2229,13 @@
       },
       "ppi_index": 122.21,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.6666666666666666,
       "revenue": 687.3,
       "units": 22,
       "notes": "",
       "history": [],
       "revenue_share": 3.749897162221156e-05,
-      "bei": 0.0030684045186328093
+      "bei": 0.0020456030124218726
     },
     {
       "brand": "Sackville",
@@ -2244,13 +2244,13 @@
       },
       "ppi_index": 129.36,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8076923076923077,
       "revenue": 674.2,
       "units": 21,
       "notes": "",
       "history": [],
       "revenue_share": 3.6784237840382716e-05,
-      "bei": 0.002843555800895386
+      "bei": 0.0022967181468770428
     },
     {
       "brand": "Tsubota Pearl",
@@ -2259,13 +2259,13 @@
       },
       "ppi_index": 29.62,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.36,
+      "sell_through_pct": 0.6,
       "revenue": 672.6,
       "units": 18,
       "notes": "",
       "history": [],
       "revenue_share": 3.669694211130438e-05,
-      "bei": 0.004460128008126123
+      "bei": 0.007433546680210204
     },
     {
       "brand": "Foria",
@@ -2274,13 +2274,13 @@
       },
       "ppi_index": 28.32,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4706,
+      "sell_through_pct": 0.8888888888888888,
       "revenue": 662.4,
       "units": 16,
       "notes": "",
       "history": [],
       "revenue_share": 3.614043183843e-05,
-      "bei": 0.006005539273716511
+      "bei": 0.011343512818088514
     },
     {
       "brand": "Elements",
@@ -2289,13 +2289,13 @@
       },
       "ppi_index": 6.09,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7475961538461539,
       "revenue": 613.8,
       "units": 311,
       "notes": "",
       "history": [],
       "revenue_share": 3.3488824067675624e-05,
-      "bei": 0.054989858896019095
+      "bei": 0.04111020701120657
     },
     {
       "brand": "The Healing Rose",
@@ -2319,13 +2319,13 @@
       },
       "ppi_index": 162.03,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.2857,
+      "sell_through_pct": 0.4,
       "revenue": 503.1,
       "units": 4,
       "notes": "",
       "history": [],
       "revenue_share": 2.744905081206844e-05,
-      "bei": 0.0004839964091222584
+      "bei": 0.0006776288542138726
     },
     {
       "brand": "DaySavers",
@@ -2334,13 +2334,13 @@
       },
       "ppi_index": 0.23,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.1805,
+      "sell_through_pct": 0.22030651340996169,
       "revenue": 473.8,
       "units": 115,
       "notes": "",
       "history": [],
       "revenue_share": 2.585044777332146e-05,
-      "bei": 0.20286981839497925
+      "bei": 0.24760965300116342
     },
     {
       "brand": "Cloudious9",
@@ -2349,13 +2349,13 @@
       },
       "ppi_index": 231.02,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.7272727272727273,
       "revenue": 466.1,
       "units": 8,
       "notes": "",
       "history": [],
       "revenue_share": 2.5430337077131983e-05,
-      "bei": 0.001100785086881308
+      "bei": 0.0008005709722773151
     },
     {
       "brand": "Rogue Paq",
@@ -2364,13 +2364,13 @@
       },
       "ppi_index": 22.4,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.3846,
+      "sell_through_pct": 0.625,
       "revenue": 446.72,
       "units": 10,
       "notes": "",
       "history": [],
       "revenue_share": 2.437296755867067e-05,
-      "bei": 0.004184751483511044
+      "bei": 0.006800493180432664
     },
     {
       "brand": "Kannastor",
@@ -2379,13 +2379,13 @@
       },
       "ppi_index": 340.56,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.3333333333333333,
       "revenue": 360.0,
       "units": 4,
       "notes": "",
       "history": [],
       "revenue_share": 1.9641539042625e-05,
-      "bei": 0.0005767423961306378
+      "bei": 0.00019224746537687925
     },
     {
       "brand": "Futurola",
@@ -2394,13 +2394,13 @@
       },
       "ppi_index": 11.95,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.1935,
+      "sell_through_pct": 0.24,
       "revenue": 348.0,
       "units": 12,
       "notes": "",
       "history": [],
       "revenue_share": 1.89868210745375e-05,
-      "bei": 0.003074435044287035
+      "bei": 0.00381325276810795
     },
     {
       "brand": "herb & Earth",
@@ -2424,13 +2424,13 @@
       },
       "ppi_index": 12.91,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.1935,
+      "sell_through_pct": 0.24,
       "revenue": 324.5,
       "units": 12,
       "notes": "",
       "history": [],
       "revenue_share": 1.770466505369948e-05,
-      "bei": 0.0026536426707132843
+      "bei": 0.003291339746621127
     },
     {
       "brand": "Mantelpiece",
@@ -2454,13 +2454,13 @@
       },
       "ppi_index": 151.36,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.8,
       "revenue": 288.0,
       "units": 8,
       "notes": "",
       "history": [],
       "revenue_share": 1.57132312341e-05,
-      "bei": 0.001038136313035148
+      "bei": 0.0008305090504281184
     },
     {
       "brand": "boveda",
@@ -2469,13 +2469,13 @@
       },
       "ppi_index": 5.74,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.9354838709677419,
       "revenue": 221.5,
       "units": 116,
       "notes": "",
       "history": [],
       "revenue_share": 1.2085002494281771e-05,
-      "bei": 0.02105401131407974
+      "bei": 0.019695688003493948
     },
     {
       "brand": "CAM",
@@ -2514,13 +2514,13 @@
       },
       "ppi_index": 139.41,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.35714285714285715,
       "revenue": 166.25,
       "units": 5,
       "notes": "",
       "history": [],
       "revenue_share": 9.070571849545574e-06,
-      "bei": 0.000650639971992366
+      "bei": 0.00023237141856870215
     },
     {
       "brand": "Go Easy",
@@ -2529,13 +2529,13 @@
       },
       "ppi_index": 199.16,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.75,
       "revenue": 150.0,
       "units": 3,
       "notes": "",
       "history": [],
       "revenue_share": 8.18397460109375e-06,
-      "bei": 0.00041092461343109814
+      "bei": 0.0003081934600733236
     },
     {
       "brand": "La Jolie Muse",
@@ -2544,13 +2544,13 @@
       },
       "ppi_index": 27.09,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.375,
+      "sell_through_pct": 0.6,
       "revenue": 102.0,
       "units": 3,
       "notes": "",
       "history": [],
       "revenue_share": 5.56510272874375e-06,
-      "bei": 0.0007703630576887804
+      "bei": 0.0012325808923020487
     },
     {
       "brand": "The New Savant",
@@ -2559,13 +2559,13 @@
       },
       "ppi_index": 55.76,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.4,
+      "sell_through_pct": 0.6666666666666666,
       "revenue": 84.0,
       "units": 2,
       "notes": "",
       "history": [],
       "revenue_share": 4.5830257766125e-06,
-      "bei": 0.00032876798971395266
+      "bei": 0.0005479466495232544
     },
     {
       "brand": "Candle By Design",
@@ -2574,13 +2574,13 @@
       },
       "ppi_index": 106.22,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.25,
+      "sell_through_pct": 0.5,
       "revenue": 80.0,
       "units": 1,
       "notes": "",
       "history": [],
       "revenue_share": 4.364786453916667e-06,
-      "bei": 0.00010272986381841147
+      "bei": 0.00020545972763682293
     },
     {
       "brand": "SirEEL",
@@ -2589,13 +2589,13 @@
       },
       "ppi_index": 63.73,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 1.0,
+      "sell_through_pct": 0.3,
       "revenue": 72.5,
       "units": 3,
       "notes": "",
       "history": [],
       "revenue_share": 3.955587723861979e-06,
-      "bei": 0.0006206790716871143
+      "bei": 0.0001862037215061343
     },
     {
       "brand": "LuvBuds",
@@ -2604,13 +2604,13 @@
       },
       "ppi_index": 0.5,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.0014,
+      "sell_through_pct": 0.24,
       "revenue": 71.4,
       "units": 12,
       "notes": "",
       "history": [],
       "revenue_share": 3.8955719101206255e-06,
-      "bei": 0.00010907601348337751
+      "bei": 0.018698745168579
     },
     {
       "brand": "MK Lighters",
@@ -2619,13 +2619,13 @@
       },
       "ppi_index": 0.01,
       "ppi_mom_pct": 0,
-      "sell_through_pct": 0.0038,
+      "sell_through_pct": 0.04609218436873747,
       "revenue": 69.0,
       "units": 23,
       "notes": "",
       "history": [],
       "revenue_share": 3.7646283165031254e-06,
-      "bei": 0.014305587602711877
+      "bei": 0.17351994244403182
     },
     {
       "brand": "Pura",
