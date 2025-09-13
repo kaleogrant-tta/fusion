@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Brand PPI + Sell‑Through + Revenue CRM",
+    "title": "Brand PPI + Sell\u2011Through + Revenue CRM",
     "as_of": "2025-09-13",
     "currency": "USD",
-    "geography": "NY Adult‑Use",
-    "notes": ""
+    "geography": "NY Adult\u2011Use",
+    "notes": " | Updated PPI and BEI using cost from 2025-09-13-Catalog for brands with near-zero cost"
   },
   "kpis": {
     "total_revenue": 18335617.839999996,
@@ -16,21 +16,22 @@
       "revenue": 1272882.99,
       "units": 9586.0,
       "avg_unit_cost": 1.0467350251609757,
-      "ppi_index": 51.84169596759533,
+      "ppi_index": 14.083064153122091,
       "sell_through_pct": 0.3415398866996829,
       "category_mix": {
         "Flower": 0.9999984916131216,
         "Pre-Rolls": 1.5083868785142617e-06
       },
       "history": [],
-      "revenue_share": 0.06942133071857262
+      "revenue_share": 0.06942133071857262,
+      "bei": 16.83593369338318
     },
     {
       "brand": "Ruby",
       "revenue": 1206226.4300000004,
       "units": 35647.0,
       "avg_unit_cost": 0.2181879720279721,
-      "ppi_index": 10.80620619141008,
+      "ppi_index": 2.9355616594916034,
       "sell_through_pct": 0.4992786811770803,
       "category_mix": {
         "Edibles": 0.015284186734326487,
@@ -39,14 +40,15 @@
         "Vape": 0.009781513409551138
       },
       "history": [],
-      "revenue_share": 0.06578597135508364
+      "revenue_share": 0.06578597135508364,
+      "bei": 111.88841124123317
     },
     {
       "brand": "Rythm",
       "revenue": 916079.8900000001,
       "units": 16681.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.09040198448194292,
@@ -57,28 +59,30 @@
         "Accessories": 0.00012444329500563533
       },
       "history": [],
-      "revenue_share": 0.04996176829130511
+      "revenue_share": 0.04996176829130511,
+      "bei": 0
     },
     {
       "brand": "dank. by definition",
       "revenue": 887104.4799999999,
       "units": 18798.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.804155019034511,
         "Pre-Rolls": 0.19584498096548902
       },
       "history": [],
-      "revenue_share": 0.04838148830004193
+      "revenue_share": 0.04838148830004193,
+      "bei": 0
     },
     {
       "brand": "Off Hours",
       "revenue": 790281.7499999999,
       "units": 23508.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.2820798278588617,
@@ -87,14 +91,15 @@
         "Beverages": 0.027362405876132145
       },
       "history": [],
-      "revenue_share": 0.04310090649227886
+      "revenue_share": 0.04310090649227886,
+      "bei": 0
     },
     {
       "brand": "Ayrloom",
       "revenue": 683427.8,
       "units": 36818.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Beverages": 0.18521479518392436,
@@ -105,41 +110,44 @@
         "Vape": 0.0
       },
       "history": [],
-      "revenue_share": 0.03727323540246737
+      "revenue_share": 0.03727323540246737,
+      "bei": 0
     },
     {
       "brand": "Camino",
       "revenue": 648872.88,
       "units": 22604.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.03538865642064452
+      "revenue_share": 0.03538865642064452,
+      "bei": 0
     },
     {
       "brand": "Rolling Green Cannabis",
       "revenue": 593334.7799999999,
       "units": 19212.0,
       "avg_unit_cost": 0.1672752564771344,
-      "ppi_index": 8.284649678036239,
+      "ppi_index": 2.25056782430219,
       "sell_through_pct": 0.7696190361735369,
       "category_mix": {
         "Flower": 0.8180968929547665,
         "Pre-Rolls": 0.18190310704523338
       },
       "history": [],
-      "revenue_share": 0.03235968295028557
+      "revenue_share": 0.03235968295028557,
+      "bei": 110.65930888264582
     },
     {
       "brand": "Fernway",
       "revenue": 589495.2999999998,
       "units": 9248.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.8022235461419285,
@@ -147,42 +155,45 @@
         "Accessories": 1.3062021020354186e-06
       },
       "history": [],
-      "revenue_share": 0.03215028286169821
+      "revenue_share": 0.03215028286169821,
+      "bei": 0
     },
     {
       "brand": "Hepworth",
       "revenue": 544788.65,
       "units": 14352.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.7099020326506434,
         "Vape": 0.2900979673493565
       },
       "history": [],
-      "revenue_share": 0.029712042144089547
+      "revenue_share": 0.029712042144089547,
+      "bei": 0
     },
     {
       "brand": "Jaunty",
       "revenue": 541746.1000000001,
       "units": 12622.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 0.006237608355648522,
         "Vape": 0.9937623916443515
       },
       "history": [],
-      "revenue_share": 0.029546105548630925
+      "revenue_share": 0.029546105548630925,
+      "bei": 0
     },
     {
       "brand": "Nanticoke",
       "revenue": 357495.13,
       "units": 23260.0,
       "avg_unit_cost": 0.07527108293319658,
-      "ppi_index": 3.727954547020455,
+      "ppi_index": 1.012718084655816,
       "sell_through_pct": 0.5202299210485115,
       "category_mix": {
         "Edibles": 0.05189234326073197,
@@ -190,27 +201,29 @@
         "Pre-Rolls": 0.4453865427481486
       },
       "history": [],
-      "revenue_share": 0.01949730481511825
+      "revenue_share": 0.01949730481511825,
+      "bei": 100.15700813790617
     },
     {
       "brand": "Matter.",
       "revenue": 318720.06,
       "units": 3314.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.01738256451357191
+      "revenue_share": 0.01738256451357191,
+      "bei": 0
     },
     {
       "brand": "Florist Farms",
       "revenue": 305765.66000000003,
       "units": 6803.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.16689853268676413,
@@ -218,14 +231,15 @@
         "Vape": 0.18349117425416578
       },
       "history": [],
-      "revenue_share": 0.016676048915731552
+      "revenue_share": 0.016676048915731552,
+      "bei": 0
     },
     {
       "brand": "PAX",
       "revenue": 305266.82999999996,
       "units": 4680.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 0.06921485704817651,
@@ -233,68 +247,73 @@
         "Vape": 0.5954505112789359
       },
       "history": [],
-      "revenue_share": 0.016648843396705526
+      "revenue_share": 0.016648843396705526,
+      "bei": 0
     },
     {
-      "brand": "Grön",
+      "brand": "Gr\u00f6n",
       "revenue": 299032.5299999999,
       "units": 15593.0,
       "avg_unit_cost": 0.12505921052631577,
-      "ppi_index": 6.19381353848908,
+      "ppi_index": 1.6825814006845254,
       "sell_through_pct": 0.9111786361245836,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.01630883303793814
+      "revenue_share": 0.01630883303793814,
+      "bei": 88.31822483147869
     },
     {
       "brand": "Wyld",
       "revenue": 279384.37999999995,
       "units": 11412.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 0.1,
+      "ppi_index": 1.345427812636372,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 3.5792981697831506e-07,
         "Edibles": 0.9999996420701831
       },
       "history": [],
-      "revenue_share": 0.015237249294676618
+      "revenue_share": 0.015237249294676618,
+      "bei": 113.25207604278047
     },
     {
       "brand": "turn",
       "revenue": 271376.90000000014,
       "units": 4745.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.9999988945263949,
         "Vape": 1.1054736051594661e-06
       },
       "history": [],
-      "revenue_share": 0.014800532077407226
+      "revenue_share": 0.014800532077407226,
+      "bei": 0
     },
     {
       "brand": "LivWell",
       "revenue": 267485.84,
       "units": 1979.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.01458831888481376
+      "revenue_share": 0.01458831888481376,
+      "bei": 0
     },
     {
       "brand": "MFNY",
       "revenue": 266750.21,
       "units": 6737.0,
       "avg_unit_cost": 0.4065847665847666,
-      "ppi_index": 20.136943302438574,
+      "ppi_index": 5.470304531574123,
       "sell_through_pct": 0.4790585223636493,
       "category_mix": {
         "Concentrate": 0.08459089872881448,
@@ -304,14 +323,15 @@
         "Vape": 0.26757729637776106
       },
       "history": [],
-      "revenue_share": 0.014548198611451867
+      "revenue_share": 0.014548198611451867,
+      "bei": 12.74049459153148
     },
     {
       "brand": "Harney Brothers Cannabis",
       "revenue": 256458.97999999998,
       "units": 9351.0,
       "avg_unit_cost": 0.17556708371477978,
-      "ppi_index": 8.695319404697702,
+      "ppi_index": 2.362128374133229,
       "sell_through_pct": 0.48748827025336255,
       "category_mix": {
         "Beverages": 0.09580510692197249,
@@ -320,14 +340,15 @@
         "Tincture": 0.030788549498247247
       },
       "history": [],
-      "revenue_share": 0.013986928732803477
+      "revenue_share": 0.013986928732803477,
+      "bei": 28.865762626527122
     },
     {
       "brand": "Hudson Cannabis",
       "revenue": 243657.84000000003,
       "units": 7390.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.2371007228825471,
@@ -336,67 +357,72 @@
         "Vape": 2.462469502315214e-07
       },
       "history": [],
-      "revenue_share": 0.013288771729766816
+      "revenue_share": 0.013288771729766816,
+      "bei": 0
     },
     {
       "brand": "Select",
       "revenue": 229485.27000000005,
       "units": 2722.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.9953217040902015,
         "Edibles": 0.0046782959097984795
       },
       "history": [],
-      "revenue_share": 0.012515818774285715
+      "revenue_share": 0.012515818774285715,
+      "bei": 0
     },
     {
       "brand": "Platinum Reserve",
       "revenue": 221562.46,
       "units": 4217.0,
       "avg_unit_cost": 0.3255845442536329,
-      "ppi_index": 16.125241392728928,
+      "ppi_index": 4.380505012033753,
       "sell_through_pct": 0.1482718610456735,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.012083719345232603
+      "revenue_share": 0.012083719345232603,
+      "bei": 4.0901118723738605
     },
     {
       "brand": "Grassroots",
       "revenue": 211348.47999999998,
       "units": 4307.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.011526662577954342
+      "revenue_share": 0.011526662577954342,
+      "bei": 0
     },
     {
       "brand": "Lost Farm",
       "revenue": 210383.19000000003,
       "units": 7869.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.011474016956278364
+      "revenue_share": 0.011474016956278364,
+      "bei": 0
     },
     {
       "brand": "Heavy Hitters",
       "revenue": 207920.47999999998,
       "units": 2775.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.2526491377857535,
@@ -405,150 +431,161 @@
         "Concentrate": 0.01666507310871926
       },
       "history": [],
-      "revenue_share": 0.011339704056571896
+      "revenue_share": 0.011339704056571896,
+      "bei": 0
     },
     {
       "brand": "Good Green",
       "revenue": 202356.09999999995,
       "units": 2739.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.011036230235915519
+      "revenue_share": 0.011036230235915519,
+      "bei": 0
     },
     {
       "brand": "Bloom",
       "revenue": 193762.90000000002,
       "units": 3326.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 1.0
       },
       "history": [],
-      "revenue_share": 0.010567568635581906
+      "revenue_share": 0.010567568635581906,
+      "bei": 0
     },
     {
       "brand": "Toast",
       "revenue": 188902.71000000002,
       "units": 3267.0,
       "avg_unit_cost": 0.3081489567152274,
-      "ppi_index": 15.26170820958795,
+      "ppi_index": 4.1459217679954845,
       "sell_through_pct": 0.12061581628885772,
       "category_mix": {
         "Flower": 0.311580019153775,
         "Pre-Rolls": 0.688419980846225
       },
       "history": [],
-      "revenue_share": 0.010302500392863775
+      "revenue_share": 0.010302500392863775,
+      "bei": 2.9972695198789268
     },
     {
       "brand": "Stone Road",
       "revenue": 185593.11,
       "units": 2917.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.8286517209609775,
         "Pre-Rolls": 0.17134827903902253
       },
       "history": [],
-      "revenue_share": 0.010121999248649264
+      "revenue_share": 0.010121999248649264,
+      "bei": 0
     },
     {
       "brand": "Alchemy Pure",
       "revenue": 176178.28,
       "units": 4093.0,
       "avg_unit_cost": 0.45337804878048776,
-      "ppi_index": 22.454476441776677,
+      "ppi_index": 6.099874364680779,
       "sell_through_pct": 0.6245994201129254,
       "category_mix": {
         "Flower": 0.8074538473187501,
         "Pre-Rolls": 0.19254615268124994
       },
       "history": [],
-      "revenue_share": 0.00960852705032164
+      "revenue_share": 0.00960852705032164,
+      "bei": 9.83869513529616
     },
     {
       "brand": "Weekenders",
       "revenue": 174085.11,
       "units": 5275.0,
       "avg_unit_cost": 0.38988764044943824,
-      "ppi_index": 19.309983932747887,
+      "ppi_index": 5.245656752638438,
       "sell_through_pct": 0.4136930436828484,
       "category_mix": {
         "Flower": 0.4149040087345782,
         "Pre-Rolls": 0.5850959912654219
       },
       "history": [],
-      "revenue_share": 0.009494368366482054
+      "revenue_share": 0.009494368366482054,
+      "bei": 7.48763087748841
     },
     {
       "brand": "1906",
       "revenue": 166091.52000000002,
       "units": 6349.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 0.0,
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.0090584086911794
+      "revenue_share": 0.0090584086911794,
+      "bei": 0
     },
     {
       "brand": "SpaceBuds",
       "revenue": 163234.99,
       "units": 2664.0,
       "avg_unit_cost": 0.5253451612903224,
-      "ppi_index": 26.018795086628373,
+      "ppi_index": 7.0681399123394035,
       "sell_through_pct": 0.30054151624548736,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.008902617376977357
+      "revenue_share": 0.008902617376977357,
+      "bei": 3.785445899789256
     },
     {
       "brand": "Dogwalkers",
       "revenue": 161923.06999999998,
       "units": 6109.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.008831067020101026
+      "revenue_share": 0.008831067020101026,
+      "bei": 0
     },
     {
       "brand": "Eaton Botanicals",
       "revenue": 154728.04,
       "units": 5209.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 0.8838503997077711,
         "Pre-Rolls": 0.11614960029222886
       },
       "history": [],
-      "revenue_share": 0.008438659735940485
+      "revenue_share": 0.008438659735940485,
+      "bei": 0
     },
     {
       "brand": "Rove",
       "revenue": 145657.63,
       "units": 2907.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 0.32300635400974187,
@@ -556,41 +593,44 @@
         "Disposable": 0.0
       },
       "history": [],
-      "revenue_share": 0.007943971742377896
+      "revenue_share": 0.007943971742377896,
+      "bei": 0
     },
     {
       "brand": "Canna Cure Farms LLC",
       "revenue": 138586.57,
       "units": 12533.0,
       "avg_unit_cost": 0.03903380402225074,
-      "ppi_index": 1.9332290903985174,
+      "ppi_index": 0.5251716556453363,
       "sell_through_pct": 0.5175076389462383,
       "category_mix": {
         "Flower": 0.12230102815878911,
         "Pre-Rolls": 0.877698971841211
       },
       "history": [],
-      "revenue_share": 0.0075583256157132055
+      "revenue_share": 0.0075583256157132055,
+      "bei": 74.48024282590295
     },
     {
       "brand": "Mfused",
       "revenue": 129268.14,
       "units": 2563.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 1.0
       },
       "history": [],
-      "revenue_share": 0.007050110944066231
+      "revenue_share": 0.007050110944066231,
+      "bei": 0
     },
     {
       "brand": "Edie Parker",
       "revenue": 125932.62000000002,
       "units": 3689.0,
-      "avg_unit_cost": 0.0,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 20.0,
+      "ppi_index": 269.08556252727436,
       "sell_through_pct": 0.9967576330721427,
       "category_mix": {
         "Accessories": 0.005217075607574908,
@@ -601,27 +641,29 @@
         "Vape": 3.1763017397716337e-07
       },
       "history": [],
-      "revenue_share": 0.006868196157823065
+      "revenue_share": 0.006868196157823065,
+      "bei": 0.2544145022664679
     },
     {
       "brand": "Bettering Co.",
       "revenue": 123765.99000000002,
       "units": 4765.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.006750031064129118
+      "revenue_share": 0.006750031064129118,
+      "bei": 0
     },
     {
       "brand": "Her Highness",
       "revenue": 123650.73999999998,
       "units": 1902.0,
       "avg_unit_cost": 1.78125,
-      "ppi_index": 88.22005447661205,
+      "ppi_index": 23.96543291258537,
       "sell_through_pct": 0.9443892750744787,
       "category_mix": {
         "Accessories": 0.008821621285889595,
@@ -630,28 +672,30 @@
         "Pre-Rolls": 0.5640133653870572
       },
       "history": [],
-      "revenue_share": 0.006743745483735497
+      "revenue_share": 0.006743745483735497,
+      "bei": 2.6574612409055383
     },
     {
       "brand": "Moods",
       "revenue": 120305.79999999999,
       "units": 2747.0,
       "avg_unit_cost": 0.3043257161248793,
-      "ppi_index": 15.072354388867835,
+      "ppi_index": 4.094482825748937,
       "sell_through_pct": 0.4692517936453707,
       "category_mix": {
         "Flower": 0.13526529892989367,
         "Disposable": 0.8647347010701064
       },
       "history": [],
-      "revenue_share": 0.006561316943329138
+      "revenue_share": 0.006561316943329138,
+      "bei": 7.519654802239362
     },
     {
       "brand": "Old Pal",
       "revenue": 114295.6,
       "units": 1603.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 0.011571749043707717,
@@ -659,27 +703,29 @@
         "Pre-Rolls": 0.24706112921232312
       },
       "history": [],
-      "revenue_share": 0.0062335286979345135
+      "revenue_share": 0.0062335286979345135,
+      "bei": 0
     },
     {
       "brand": "Wana",
       "revenue": 109225.98,
       "units": 3534.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.005957038423964012
+      "revenue_share": 0.005957038423964012,
+      "bei": 0
     },
     {
       "brand": "Jetty",
       "revenue": 109151.09999999998,
       "units": 1604.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.040248792728611996,
@@ -688,14 +734,15 @@
         "Pre-Rolls": 4.5808058736925236e-07
       },
       "history": [],
-      "revenue_share": 0.00595295456921456
+      "revenue_share": 0.00595295456921456,
+      "bei": 0
     },
     {
       "brand": "Flamer",
       "revenue": 108226.6,
       "units": 4095.0,
       "avg_unit_cost": 0.1949858021769995,
-      "ppi_index": 9.657071208545009,
+      "ppi_index": 2.623393213181487,
       "sell_through_pct": 0.49212834995793775,
       "category_mix": {
         "Pre-Rolls": 0.972898159971763,
@@ -703,82 +750,88 @@
         "Flower": 0.02709869847154027
       },
       "history": [],
-      "revenue_share": 0.005902533579419325
+      "revenue_share": 0.005902533579419325,
+      "bei": 11.072698124000206
     },
     {
       "brand": "Lowell Farms",
       "revenue": 106229.65999999999,
       "units": 2205.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.005793623150688442
+      "revenue_share": 0.005793623150688442,
+      "bei": 0
     },
     {
       "brand": "FlowerHouse",
       "revenue": 96728.33,
       "units": 3259.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.41470994071747125,
         "Pre-Rolls": 0.5852900592825286
       },
       "history": [],
-      "revenue_share": 0.005275433358399448
+      "revenue_share": 0.005275433358399448,
+      "bei": 0
     },
     {
       "brand": "butter",
       "revenue": 91630.33999999998,
       "units": 2273.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.3020549743676604,
         "Pre-Rolls": 0.6979450256323397
       },
       "history": [],
-      "revenue_share": 0.004997395822686932
+      "revenue_share": 0.004997395822686932,
+      "bei": 0
     },
     {
       "brand": "The Travel Agency",
       "revenue": 90346.58999999998,
       "units": 16597.0,
-      "avg_unit_cost": 9.311627906976743e-06,
-      "ppi_index": 0.0004611774434916095,
+      "avg_unit_cost": 0.1,
+      "ppi_index": 1.345427812636372,
       "sell_through_pct": 0.9391693073789045,
       "category_mix": {
         "Accessories": 0.9956168793974405,
         "Edibles": 0.004383120602559544
       },
       "history": [],
-      "revenue_share": 0.004927381819820913
+      "revenue_share": 0.004927381819820913,
+      "bei": 34.395347914242386
     },
     {
       "brand": "Smokiez",
       "revenue": 86299.72000000002,
       "units": 3955.0,
       "avg_unit_cost": 0.19470446643487563,
-      "ppi_index": 9.643137479704933,
+      "ppi_index": 2.6196080438600657,
       "sell_through_pct": 0.5140369118793865,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.00470667095884455
+      "revenue_share": 0.00470667095884455,
+      "bei": 9.235742769180792
     },
     {
       "brand": "Umamii",
       "revenue": 82511.93000000001,
       "units": 2563.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 0.04104182267945981,
@@ -787,27 +840,29 @@
         "Disposable": 3.6358378721719397e-07
       },
       "history": [],
-      "revenue_share": 0.004500089973515723
+      "revenue_share": 0.004500089973515723,
+      "bei": 0
     },
     {
       "brand": "Head & Heal",
       "revenue": 74480.13999999998,
       "units": 867.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Tincture": 1.0
       },
       "history": [],
-      "revenue_share": 0.00406204692145787
+      "revenue_share": 0.00406204692145787,
+      "bei": 0
     },
     {
       "brand": "Woodstock",
       "revenue": 73570.92000000001,
       "units": 1396.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.0015495252743883043,
@@ -817,67 +872,72 @@
         "Pre-Rolls": 0.08201324653817024
       },
       "history": [],
-      "revenue_share": 0.004012459282364713
+      "revenue_share": 0.004012459282364713,
+      "bei": 0
     },
     {
       "brand": "Miss Grass",
       "revenue": 71586.96,
       "units": 2240.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0039042567654213292
+      "revenue_share": 0.0039042567654213292,
+      "bei": 0
     },
     {
       "brand": "Higgs",
       "revenue": 64698.9,
       "units": 1307.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0035285912132645113
+      "revenue_share": 0.0035285912132645113,
+      "bei": 0
     },
     {
       "brand": "STA Exotics",
       "revenue": 62692.75,
       "units": 2429.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 0.7788323211216608,
         "Flower": 0.2211676788783392
       },
       "history": [],
-      "revenue_share": 0.003419178483488725
+      "revenue_share": 0.003419178483488725,
+      "bei": 0
     },
     {
       "brand": "KOA",
       "revenue": 62001.25,
       "units": 1006.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0033814650011270092
+      "revenue_share": 0.0033814650011270092,
+      "bei": 0
     },
     {
       "brand": "Beboe",
       "revenue": 60614.50000000001,
       "units": 1609.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 0.0025571439177094588,
@@ -885,122 +945,131 @@
         "Edibles": 0.3945956825512047
       },
       "history": [],
-      "revenue_share": 0.0033058335164341548
+      "revenue_share": 0.0033058335164341548,
+      "bei": 0
     },
     {
       "brand": "Holiday",
       "revenue": 60383.15,
       "units": 1074.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 1.0
       },
       "history": [],
-      "revenue_share": 0.0032932159977871796
+      "revenue_share": 0.0032932159977871796,
+      "bei": 0
     },
     {
       "brand": "Stay Melo",
       "revenue": 58369.06,
       "units": 1181.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.003183370231062801
+      "revenue_share": 0.003183370231062801,
+      "bei": 0
     },
     {
       "brand": "Foy",
       "revenue": 57210.59,
       "units": 2021.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.003120188831335285
+      "revenue_share": 0.003120188831335285,
+      "bei": 0
     },
     {
       "brand": "Stiiizy",
       "revenue": 54975.25000000001,
       "units": 1021.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.5577036939349981,
         "Pre-Rolls": 0.442296306065002
       },
       "history": [],
-      "revenue_share": 0.0029982763864149133
+      "revenue_share": 0.0029982763864149133,
+      "bei": 0
     },
     {
       "brand": "&Shine",
       "revenue": 54638.48,
       "units": 697.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.5893882845935685,
         "Disposable": 0.4106117154064315
       },
       "history": [],
-      "revenue_share": 0.0029799094023875016
+      "revenue_share": 0.0029799094023875016,
+      "bei": 0
     },
     {
       "brand": "Highland Goat",
       "revenue": 52602.079999999994,
       "units": 1513.0,
       "avg_unit_cost": 0.245,
-      "ppi_index": 12.134126791169097,
+      "ppi_index": 3.296298140959111,
       "sell_through_pct": 0.5021573182874212,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.002868846878191698
+      "revenue_share": 0.002868846878191698,
+      "bei": 4.370394889434406
     },
     {
       "brand": "Silly Nice",
       "revenue": 52008.200000000004,
       "units": 1009.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.4129387288927515,
         "Flower": 0.5870612711072485
       },
       "history": [],
-      "revenue_share": 0.0028364574596740186
+      "revenue_share": 0.0028364574596740186,
+      "bei": 0
     },
     {
       "brand": "B Noble",
       "revenue": 50141.85999999999,
       "units": 1353.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.6344898254671845,
         "Pre-Rolls": 0.3655101745328155
       },
       "history": [],
-      "revenue_share": 0.0027346697797449296
+      "revenue_share": 0.0027346697797449296,
+      "bei": 0
     },
     {
       "brand": "Olio",
       "revenue": 38652.11000000001,
       "units": 622.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.3341732184866492,
@@ -1009,145 +1078,156 @@
         "Edibles": 2.845898969034291e-06
       },
       "history": [],
-      "revenue_share": 0.002108034228095584
+      "revenue_share": 0.002108034228095584,
+      "bei": 0
     },
     {
       "brand": "Kiva",
       "revenue": 38350.53,
       "units": 1348.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.0020915864594612432
+      "revenue_share": 0.0020915864594612432,
+      "bei": 0
     },
     {
       "brand": "VLSNY",
       "revenue": 36875.74,
       "units": 818.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.0020111533912729068
+      "revenue_share": 0.0020111533912729068,
+      "bei": 0
     },
     {
       "brand": "High 5s",
       "revenue": 36722.9,
       "units": 577.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.002002817702705785
+      "revenue_share": 0.002002817702705785,
+      "bei": 0
     },
     {
       "brand": "Level",
       "revenue": 35609.77,
       "units": 1047.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.0019421090857552473
+      "revenue_share": 0.0019421090857552473,
+      "bei": 0
     },
     {
       "brand": "Packs",
       "revenue": 34671.82,
       "units": 824.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0018909545510030115
+      "revenue_share": 0.0018909545510030115,
+      "bei": 0
     },
     {
       "brand": "Incredibles",
       "revenue": 31738.079999999998,
       "units": 1176.0,
       "avg_unit_cost": 0.639848139289092,
-      "ppi_index": 31.689789588683542,
+      "ppi_index": 8.608694824631757,
       "sell_through_pct": 0.06140030282462278,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.0017309523069771837
+      "revenue_share": 0.0017309523069771837,
+      "bei": 0.12345773428891962
     },
     {
       "brand": "Drew Martin",
       "revenue": 31166.2,
       "units": 778.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.001699762738946789
+      "revenue_share": 0.001699762738946789,
+      "bei": 0
     },
     {
       "brand": "Chime & Chill",
       "revenue": 26856.45,
       "units": 750.0,
       "avg_unit_cost": 0.8130795454545454,
-      "ppi_index": 40.26942977898609,
+      "ppi_index": 10.939398343402845,
       "sell_through_pct": 0.4601226993865031,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 0.0014647147554205354
+      "revenue_share": 0.0014647147554205354,
+      "bei": 0.6160745645593684
     },
     {
       "brand": "Rosa Reta",
       "revenue": 26579.03,
       "units": 911.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 0.7634834679820897,
         "Pre-Rolls": 0.23651653201791034
       },
       "history": [],
-      "revenue_share": 0.0014495846407758684
+      "revenue_share": 0.0014495846407758684,
+      "bei": 0
     },
     {
       "brand": "Tune",
       "revenue": 24759.29,
       "units": 4989.0,
       "avg_unit_cost": 0.5256482439422816,
-      "ppi_index": 26.03380587571848,
+      "ppi_index": 7.072217670634139,
       "sell_through_pct": 0.21362507493363023,
       "category_mix": {
         "Beverages": 1.0
       },
       "history": [],
-      "revenue_share": 0.0013503384623334844
+      "revenue_share": 0.0013503384623334844,
+      "bei": 0.4078864206902839
     },
     {
       "brand": "Butter",
       "revenue": 24495.29,
       "units": 1043.0,
       "avg_unit_cost": 0.37146137787056366,
-      "ppi_index": 18.39738553919916,
+      "ppi_index": 4.997744691072851,
       "sell_through_pct": 0.2372611464968153,
       "category_mix": {
         "Concentrate": 0.10241968966278824,
@@ -1155,186 +1235,200 @@
         "Pre-Rolls": 0.21020326764859693
       },
       "history": [],
-      "revenue_share": 0.0013359402564860616
+      "revenue_share": 0.0013359402564860616,
+      "bei": 0.6342195059929925
     },
     {
       "brand": "House of Puff",
       "revenue": 23729.949999999997,
       "units": 1073.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 2.5,
+      "ppi_index": 33.635695315909295,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0012941996395797483
+      "revenue_share": 0.0012941996395797483,
+      "bei": 0.3847696999941627
     },
     {
       "brand": "Love Oui'd",
       "revenue": 21547.969999999998,
       "units": 715.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 0.9631612629867222,
         "Tincture": 0.03683873701327782
       },
       "history": [],
-      "revenue_share": 0.0011751973774776275
+      "revenue_share": 0.0011751973774776275,
+      "bei": 0
     },
     {
       "brand": "Anthem",
       "revenue": 18532.5,
       "units": 534.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 18.794999999999998,
+      "ppi_index": 252.87315738500604,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0010107376888915352
+      "revenue_share": 0.0010107376888915352,
+      "bei": 0.03997014548098755
     },
     {
       "brand": "Dosist",
       "revenue": 18469.59,
       "units": 464.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": 1.0
       },
       "history": [],
-      "revenue_share": 0.0010073066618844846
+      "revenue_share": 0.0010073066618844846,
+      "bei": 0
     },
     {
       "brand": "Revelry",
       "revenue": 17643.5,
       "units": 504.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.0009622528214735088
+      "revenue_share": 0.0009622528214735088,
+      "bei": 0
     },
     {
       "brand": "Blotter",
       "revenue": 17497.0,
       "units": 331.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.3165056866891467,
         "Pre-Rolls": 0.6834943133108533
       },
       "history": [],
-      "revenue_share": 0.0009542629080013594
+      "revenue_share": 0.0009542629080013594,
+      "bei": 0
     },
     {
       "brand": "Dime",
       "revenue": 16925.99,
       "units": 304.0,
       "avg_unit_cost": 0.7171320754716981,
-      "ppi_index": 35.51743481546053,
+      "ppi_index": 9.648494396732682,
       "sell_through_pct": 0.5342706502636204,
       "category_mix": {
         "Vape": 1.0
       },
       "history": [],
-      "revenue_share": 0.0009231207886038709
+      "revenue_share": 0.0009231207886038709,
+      "bei": 0.5111640466581706
     },
     {
       "brand": "Puff Co",
       "revenue": 16793.7,
       "units": 115.0,
       "avg_unit_cost": 12.591666666666667,
-      "ppi_index": 623.6280810019219,
+      "ppi_index": 169.41178540779646,
       "sell_through_pct": 0.48936170212765956,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.0009159058694691907
+      "revenue_share": 0.0009159058694691907,
+      "bei": 0.026456793085159837
     },
     {
       "brand": "ONGROK",
       "revenue": 16071.520000000002,
       "units": 931.0,
       "avg_unit_cost": 0.4546979865771812,
-      "ppi_index": 22.51984906455845,
+      "ppi_index": 6.117633174906992,
       "sell_through_pct": 0.5101369863013698,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.0008765191410642973
+      "revenue_share": 0.0008765191410642973,
+      "bei": 0.7309114820615309
     },
     {
       "brand": "40 Tons",
       "revenue": 16051.6,
       "units": 364.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.9700964389842757,
         "Pre-Rolls": 0.02990356101572429
       },
       "history": [],
-      "revenue_share": 0.0008754327309867188
+      "revenue_share": 0.0008754327309867188,
+      "bei": 0
     },
     {
       "brand": "Jungle Gurl",
       "revenue": 15612.000000000002,
       "units": 662.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0008514575367044193
+      "revenue_share": 0.0008514575367044193,
+      "bei": 0
     },
     {
       "brand": "Nova",
       "revenue": 15121.210000000001,
       "units": 494.0,
       "avg_unit_cost": 0.42483997204751917,
-      "ppi_index": 21.04106974196462,
+      "ppi_index": 5.71591514312391,
       "sell_through_pct": 0.022496470695386857,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.0008246905084928408
+      "revenue_share": 0.0008246905084928408,
+      "bei": 0.03245783989531612
     },
     {
       "brand": "Priscillas Garden",
       "revenue": 10488.8,
       "units": 196.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.0005720450814107937
+      "revenue_share": 0.0005720450814107937,
+      "bei": 0
     },
     {
       "brand": "Ithaca Organics",
       "revenue": 9989.28,
       "units": 480.0,
       "avg_unit_cost": 0.4075,
-      "ppi_index": 20.182272111842476,
+      "ppi_index": 5.482618336493214,
       "sell_through_pct": 0.5454545454545454,
       "category_mix": {
         "Flower": 0.4175235852834238,
@@ -1342,265 +1436,285 @@
         "Tincture": 0.20857359088943345
       },
       "history": [],
-      "revenue_share": 0.0005448019307103972
+      "revenue_share": 0.0005448019307103972,
+      "bei": 0.5420123584025923
     },
     {
       "brand": "Papa & Barkley",
       "revenue": 9049.79,
       "units": 210.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Tincture": 0.5357041434110625,
         "Topical": 0.46429585658893735
       },
       "history": [],
-      "revenue_share": 0.0004935634064240511
+      "revenue_share": 0.0004935634064240511,
+      "bei": 0
     },
     {
       "brand": "RAW",
       "revenue": 9015.32,
       "units": 4018.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.0004916834588651091
+      "revenue_share": 0.0004916834588651091,
+      "bei": 0
     },
     {
       "brand": "Flintts Mints",
       "revenue": 8722.759999999998,
       "units": 1180.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 2.9,
+      "ppi_index": 39.017406566454774,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00047572762893055586
+      "revenue_share": 0.00047572762893055586,
+      "bei": 0.12192702457563204
     },
     {
       "brand": "Seed & Strain",
       "revenue": 8476.8,
       "units": 234.0,
       "avg_unit_cost": 0.22543209876543213,
-      "ppi_index": 11.16498640497595,
+      "ppi_index": 3.0330261554000186,
       "sell_through_pct": 0.5909090909090909,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.0004623133004827069
+      "revenue_share": 0.0004623133004827069,
+      "bei": 0.9007015373640521
     },
     {
       "brand": "Good Tide",
       "revenue": 8437.93,
       "units": 363.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.000460193382826308
+      "revenue_share": 0.000460193382826308,
+      "bei": 0
     },
     {
       "brand": "lay up",
       "revenue": 7571.25,
       "units": 1548.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Beverages": 1.0
       },
       "history": [],
-      "revenue_share": 0.0004129258182662909
+      "revenue_share": 0.0004129258182662909,
+      "bei": 0
     },
     {
       "brand": "Vessel",
       "revenue": 7393.09,
       "units": 192.0,
       "avg_unit_cost": 2.1905940594059405,
-      "ppi_index": 108.493657407402,
+      "ppi_index": 29.472861737207644,
       "sell_through_pct": 0.4873096446700508,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.000403209210865621
+      "revenue_share": 0.000403209210865621,
+      "bei": 0.06666734266478232
     },
     {
       "brand": "MyHi",
       "revenue": 7137.35,
       "units": 328.0,
       "avg_unit_cost": 0.40819512195121954,
-      "ppi_index": 20.216699450174815,
+      "ppi_index": 5.491970700556663,
       "sell_through_pct": 0.4444444444444444,
       "category_mix": {
         "Beverages": 1.0
       },
       "history": [],
-      "revenue_share": 0.00038926149433751516
+      "revenue_share": 0.00038926149433751516,
+      "bei": 0.3150146241255721
     },
     {
       "brand": "Zig Zag",
       "revenue": 6948.73,
       "units": 2386.0,
       "avg_unit_cost": 0.06269902841959336,
-      "ppi_index": 3.1052977980671854,
+      "ppi_index": 0.8435701666099921,
       "sell_through_pct": 0.21608404274587936,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.0003789744125687995
+      "revenue_share": 0.0003789744125687995,
+      "bei": 0.9707588817916477
     },
     {
       "brand": "Hashtag Honey",
       "revenue": 6910.0,
       "units": 166.0,
       "avg_unit_cost": 0.30307070707070705,
-      "ppi_index": 15.010197495041746,
+      "ppi_index": 4.077597584882999,
       "sell_through_pct": 0.25113464447806355,
       "category_mix": {
         "Concentrate": 0.22489146164978294,
         "Flower": 0.7751085383502171
       },
       "history": [],
-      "revenue_share": 0.0003768621303245924
+      "revenue_share": 0.0003768621303245924,
+      "bei": 0.23210514315386477
     },
     {
       "brand": "PETALS",
       "revenue": 6479.27,
       "units": 743.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00035337069394330276
+      "revenue_share": 0.00035337069394330276,
+      "bei": 0
     },
     {
       "brand": "ZZZ's Collective",
       "revenue": 6458.11,
       "units": 1343.0,
-      "avg_unit_cost": 0.011040760869565217,
-      "ppi_index": 0.5468162949480927,
+      "avg_unit_cost": 2.25,
+      "ppi_index": 30.272125784318366,
       "sell_through_pct": 0.2673700975512642,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.0003522166559291684
+      "revenue_share": 0.0003522166559291684,
+      "bei": 0.031108552576028573
     },
     {
       "brand": "CCELL",
       "revenue": 6269.71,
       "units": 316.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 9.02,
+      "ppi_index": 121.35758869980071,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00034194157266532565
+      "revenue_share": 0.00034194157266532565,
+      "bei": 0.028176365098286364
     },
     {
       "brand": "P3",
       "revenue": 6185.0,
       "units": 253.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.0003373216029026923
+      "revenue_share": 0.0003373216029026923,
+      "bei": 0
     },
     {
       "brand": "Doctor Solomons",
       "revenue": 5748.0,
       "units": 145.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Tincture": 0.7195546276965901,
         "Topical": 0.2804453723034099
       },
       "history": [],
-      "revenue_share": 0.00031348820913252635
+      "revenue_share": 0.00031348820913252635,
+      "bei": 0
     },
     {
       "brand": "I AM GOODNESS",
       "revenue": 5690.16,
       "units": 164.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.0003103336931241364
+      "revenue_share": 0.0003103336931241364,
+      "bei": 0
     },
     {
       "brand": "777",
       "revenue": 5526.400000000001,
       "units": 127.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 0.0003014024424060532
+      "revenue_share": 0.0003014024424060532,
+      "bei": 0
     },
     {
       "brand": "Knack",
       "revenue": 5465.900000000001,
       "units": 364.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 0.028540588009293984,
         "Pre-Rolls": 0.9714594119907061
       },
       "history": [],
-      "revenue_share": 0.00029810285356601877
+      "revenue_share": 0.00029810285356601877,
+      "bei": 0
     },
     {
       "brand": "TribeTokes LLC",
       "revenue": 4681.75,
       "units": 92.0,
       "avg_unit_cost": 1.271186440677966,
-      "ppi_index": 62.958112026128134,
+      "ppi_index": 17.10289592334371,
       "sell_through_pct": 0.4380952380952381,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 0.0002553363644930768
+      "revenue_share": 0.0002553363644930768,
+      "bei": 0.06540509040009256
     },
     {
       "brand": "NYCE",
       "revenue": 3855.2700000000004,
       "units": 96.0,
       "avg_unit_cost": 1.156605504587156,
-      "ppi_index": 57.28325648989657,
+      "ppi_index": 15.561292141198841,
       "sell_through_pct": 0.4682926829268293,
       "category_mix": {
         "Concentrate": 0.9999533106630664,
@@ -1608,765 +1722,824 @@
         "Edibles": 3.8907780777999985e-05
       },
       "history": [],
-      "revenue_share": 0.00021026125400528097
+      "revenue_share": 0.00021026125400528097,
+      "bei": 0.0632748269618354
     },
     {
       "brand": "Bic",
       "revenue": 3748.6000000000004,
       "units": 1659.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00020444361530170293
+      "revenue_share": 0.00020444361530170293,
+      "bei": 0
     },
     {
       "brand": "Reunion",
       "revenue": 3693.0,
       "units": 75.0,
       "avg_unit_cost": 2.9642857142857144,
-      "ppi_index": 146.81232123426167,
+      "ppi_index": 39.882324446006734,
       "sell_through_pct": 0.43352601156069365,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 0.00020141126588838203
+      "revenue_share": 0.00020141126588838203,
+      "bei": 0.02189366442324386
     },
     {
       "brand": "High Peaks",
       "revenue": 3622.2,
       "units": 309.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Beverages": 0.15874330517365137,
         "Pre-Rolls": 0.8412566948263486
       },
       "history": [],
-      "revenue_share": 0.00019754992886566403
+      "revenue_share": 0.00019754992886566403,
+      "bei": 0
     },
     {
       "brand": "Blazy Susan",
       "revenue": 3571.6099999999997,
       "units": 889.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.0001947908181314931
+      "revenue_share": 0.0001947908181314931,
+      "bei": 0
     },
     {
       "brand": "Heady Tree",
       "revenue": 3559.2,
       "units": 297.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.00019411399337934722
+      "revenue_share": 0.00019411399337934722,
+      "bei": 0
     },
     {
       "brand": "Luci",
       "revenue": 3486.4700000000003,
       "units": 137.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.00019014739674569925
+      "revenue_share": 0.00019014739674569925,
+      "bei": 0
     },
     {
       "brand": "Continental Exotics",
       "revenue": 3388.0,
       "units": 87.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Disposable": -0.0295159386068477,
         "Pre-Rolls": 1.0295159386068478
       },
       "history": [],
-      "revenue_share": 0.0001847769750419275
+      "revenue_share": 0.0001847769750419275,
+      "bei": 0
     },
     {
       "brand": "Animal",
       "revenue": 3345.8,
       "units": 105.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.00018247544365268038
+      "revenue_share": 0.00018247544365268038,
+      "bei": 0
     },
     {
       "brand": "Soft Power Sweets",
       "revenue": 3262.0,
       "units": 118.0,
       "avg_unit_cost": 0.27184466019417475,
-      "ppi_index": 13.46366356856488,
+      "ppi_index": 3.6574736654192628,
       "sell_through_pct": 0.36419753086419754,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.00017790510406929383
+      "revenue_share": 0.00017790510406929383,
+      "bei": 0.1771512403295667
     },
     {
       "brand": "Jane West",
       "revenue": 3180.9,
       "units": 161.0,
       "avg_unit_cost": 0.18857142857142858,
-      "ppi_index": 9.339386218275923,
+      "ppi_index": 2.5370924466857296,
       "sell_through_pct": 0.4791666666666667,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00017348201886389233
+      "revenue_share": 0.00017348201886389233,
+      "bei": 0.3276459271880526
     },
     {
       "brand": "Oedo-Koh",
       "revenue": 2998.05,
       "units": 133.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00016350962515479658
+      "revenue_share": 0.00016350962515479658,
+      "bei": 0
     },
     {
       "brand": "Chef for Higher",
       "revenue": 2810.0499999999997,
       "units": 62.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.00015325635735435902
+      "revenue_share": 0.00015325635735435902,
+      "bei": 0
     },
     {
       "brand": "Jeeter",
       "revenue": 2804.56,
       "units": 237.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 0.00015295694011912284
+      "revenue_share": 0.00015295694011912284,
+      "bei": 0
     },
     {
       "brand": "Canna Style",
       "revenue": 2671.0,
       "units": 112.0,
       "avg_unit_cost": 2.090666666666667,
-      "ppi_index": 103.5445486179763,
+      "ppi_index": 28.12841080285108,
       "sell_through_pct": 0.4827586206896552,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00014567275688813115
+      "revenue_share": 0.00014567275688813115,
+      "bei": 0.025001333946760188
     },
     {
       "brand": "Weed Water",
       "revenue": 2645.5499999999997,
       "units": 625.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Beverages": 1.0
       },
       "history": [],
-      "revenue_share": 0.00014428474802897617
+      "revenue_share": 0.00014428474802897617,
+      "bei": 0
     },
     {
       "brand": "NWTN Home",
       "revenue": 2289.5399999999995,
       "units": 34.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00012486844021177527
+      "revenue_share": 0.00012486844021177527,
+      "bei": 0
     },
     {
       "brand": "Scandalous Chocolates",
       "revenue": 2193.0,
       "units": 220.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 0.00011960327811893359
+      "revenue_share": 0.00011960327811893359,
+      "bei": 0
     },
     {
       "brand": "oHHo",
       "revenue": 1974.01,
       "units": 30.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 30.0,
+      "ppi_index": 403.6283437909115,
       "sell_through_pct": 1.0,
       "category_mix": {
         "CBD": 0.9999949341695331,
         "CBD Lotion": 5.065830466917594e-06
       },
       "history": [],
-      "revenue_share": 0.00010765985729117926
+      "revenue_share": 0.00010765985729117926,
+      "bei": 0.00266730171325504
     },
     {
       "brand": "Remedy Plant Lab",
       "revenue": 1920.6,
       "units": 39.0,
       "avg_unit_cost": 5.235294117647059,
-      "ppi_index": 259.28866372486186,
+      "ppi_index": 70.43710313213946,
       "sell_through_pct": 0.3644859813084112,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 0.00010474694754000176
+      "revenue_share": 0.00010474694754000176,
+      "bei": 0.005420267481976806
     },
     {
       "brand": "Elevate Jane",
       "revenue": 1874.4,
       "units": 15.0,
       "avg_unit_cost": 23.675,
-      "ppi_index": 1172.5528644119527,
+      "ppi_index": 318.53003464166096,
       "sell_through_pct": 0.42857142857142855,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 0.00010222726151670275
+      "revenue_share": 0.00010222726151670275,
+      "bei": 0.0013754333576877756
     },
     {
       "brand": "ooze",
       "revenue": 1598.0,
       "units": 80.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 8.715277630371906e-05
+      "revenue_share": 8.715277630371906e-05,
+      "bei": 0
     },
     {
       "brand": "Laundry Day",
       "revenue": 1326.0,
       "units": 31.0,
       "avg_unit_cost": 3.75,
-      "ppi_index": 185.72643047707803,
+      "ppi_index": 50.45354297386394,
       "sell_through_pct": 0.7948717948717948,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 7.23182611881924e-05
+      "revenue_share": 7.23182611881924e-05,
+      "bei": 0.011393401272620956
     },
     {
       "brand": "Honest",
       "revenue": 895.85,
       "units": 18.0,
       "avg_unit_cost": 8.854166666666666,
-      "ppi_index": 438.5207386264342,
+      "ppi_index": 119.12642091051207,
       "sell_through_pct": 0.42857142857142855,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 4.885845722884025e-05
+      "revenue_share": 4.885845722884025e-05,
+      "bei": 0.0017577409488437302
     },
     {
       "brand": "GRAV",
       "revenue": 889.8,
       "units": 31.0,
       "avg_unit_cost": 4.0,
-      "ppi_index": 198.1081925088832,
+      "ppi_index": 53.817112505454865,
       "sell_through_pct": 0.62,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 4.8528498344836805e-05
+      "revenue_share": 4.8528498344836805e-05,
+      "bei": 0.005590725249473233
     },
     {
       "brand": "Malachite",
       "revenue": 741.6,
       "units": 42.0,
       "avg_unit_cost": 0.3888888888888889,
-      "ppi_index": 19.260518716141423,
+      "ppi_index": 5.232219271363667,
       "sell_through_pct": 0.4827586206896552,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 4.0445869153215304e-05
+      "revenue_share": 4.0445869153215304e-05,
+      "bei": 0.037317992599938496
     },
     {
       "brand": "MJ Arsenal",
       "revenue": 687.3000000000001,
       "units": 22.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 3.748441999596127e-05
+      "revenue_share": 3.748441999596127e-05,
+      "bei": 0
     },
     {
       "brand": "Sackville",
       "revenue": 674.2,
       "units": 21.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 3.676996356944142e-05
+      "revenue_share": 3.676996356944142e-05,
+      "bei": 0
     },
     {
       "brand": "Tsubota Pearl",
       "revenue": 672.6,
       "units": 18.0,
       "avg_unit_cost": 3.71875,
-      "ppi_index": 184.17871022310237,
+      "ppi_index": 50.03309678241508,
       "sell_through_pct": 0.36,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 3.6682701715820676e-05
+      "revenue_share": 3.6682701715820676e-05,
+      "bei": 0.0026394074056868733
     },
     {
       "brand": "Foria",
       "revenue": 662.4,
       "units": 16.0,
       "avg_unit_cost": 3.5555555555555554,
-      "ppi_index": 176.0961711190073,
+      "ppi_index": 47.8374333381821,
       "sell_through_pct": 0.47058823529411764,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 3.6126407398988425e-05
+      "revenue_share": 3.6126407398988425e-05,
+      "bei": 0.003553840814414474
     },
     {
       "brand": "Elements",
       "revenue": 613.8,
       "units": 311.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 3.347582859525829e-05
+      "revenue_share": 3.347582859525829e-05,
+      "bei": 0
     },
     {
       "brand": "The Healing Rose",
       "revenue": 570.5999999999999,
       "units": 53.0,
       "avg_unit_cost": 0.4263157894736842,
-      "ppi_index": 21.11416262265729,
+      "ppi_index": 5.7357712012392685,
       "sell_through_pct": 0.3581081081081081,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 3.1119758547498175e-05
+      "revenue_share": 3.1119758547498175e-05,
+      "bei": 0.01942936262139933
     },
     {
       "brand": "Holk",
       "revenue": 503.1,
       "units": 4.0,
       "avg_unit_cost": 20.339667000000002,
-      "ppi_index": 1007.3636664006449,
+      "ppi_index": 273.65553681562193,
       "sell_through_pct": 0.2857142857142857,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 2.7438399097873002e-05
+      "revenue_share": 2.7438399097873002e-05,
+      "bei": 0.0002864748395233184
     },
     {
       "brand": "DaySavers",
       "revenue": 473.8,
       "units": 115.0,
       "avg_unit_cost": 0.029348659003831417,
-      "ppi_index": 1.4535524469521508,
+      "ppi_index": 0.39486502087335656,
       "sell_through_pct": 0.18053375196232338,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 2.584041640344311e-05
+      "revenue_share": 2.584041640344311e-05,
+      "bei": 0.1181433421290198
     },
     {
       "brand": "Cloudious9",
       "revenue": 466.1,
       "units": 8.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 29.0,
+      "ppi_index": 390.17406566454775,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 2.5420468732893273e-05
+      "revenue_share": 2.5420468732893273e-05,
+      "bei": 0.000651516104474984
     },
     {
       "brand": "Rogue Paq",
       "revenue": 446.72,
       "units": 10.0,
       "avg_unit_cost": 2.8125,
-      "ppi_index": 139.29482285780853,
+      "ppi_index": 37.84015723039795,
       "sell_through_pct": 0.38461538461538464,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 2.4363509530912e-05
+      "revenue_share": 2.4363509530912e-05,
+      "bei": 0.0024763587877707563
     },
     {
       "brand": "Kannastor",
       "revenue": 360.0,
       "units": 4.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.9633917064667623e-05
+      "revenue_share": 1.9633917064667623e-05,
+      "bei": 0
     },
     {
       "brand": "Futurola",
       "revenue": 348.0,
       "units": 12.0,
       "avg_unit_cost": 1.5,
-      "ppi_index": 74.2905721908312,
+      "ppi_index": 20.181417189545574,
       "sell_through_pct": 0.1935483870967742,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.8979453162512034e-05
+      "revenue_share": 1.8979453162512034e-05,
+      "bei": 0.0018202104010247111
     },
     {
       "brand": "herb & Earth",
       "revenue": 343.86,
       "units": 31.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.875366311626836e-05
+      "revenue_share": 1.875366311626836e-05,
+      "bei": 0
     },
     {
       "brand": "Vlasic Labs",
       "revenue": 324.5,
       "units": 12.0,
       "avg_unit_cost": 1.62,
-      "ppi_index": 80.2338179660977,
+      "ppi_index": 21.795930564709224,
       "sell_through_pct": 0.1935483870967742,
       "category_mix": {
         "CBD": 1.0
       },
       "history": [],
-      "revenue_share": 1.7697794687457343e-05
+      "revenue_share": 1.7697794687457343e-05,
+      "bei": 0.0015715684204249641
     },
     {
       "brand": "Mantelpiece",
       "revenue": 300.0,
       "units": 1.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 200.0,
+      "ppi_index": 2690.855625272743,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.6361597553889685e-05
+      "revenue_share": 1.6361597553889685e-05,
+      "bei": 6.080444227560996e-05
     },
     {
       "brand": "Rin",
       "revenue": 288.0,
       "units": 8.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.5707133651734096e-05
+      "revenue_share": 1.5707133651734096e-05,
+      "bei": 0
     },
     {
       "brand": "boveda",
       "revenue": 221.50000000000003,
       "units": 116.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.2080312860621885e-05
+      "revenue_share": 1.2080312860621885e-05,
+      "bei": 0
     },
     {
       "brand": "CAM",
       "revenue": 220.0,
       "units": 7.0,
       "avg_unit_cost": 1.439455095862765,
-      "ppi_index": 71.2919618097684,
+      "ppi_index": 19.366829210149188,
       "sell_through_pct": 0.0014107214832728737,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 1.1998504872852436e-05
+      "revenue_share": 1.1998504872852436e-05,
+      "bei": 8.739968947739176e-06
     },
     {
       "brand": "Candy Relics",
       "revenue": 203.0,
       "units": 3.0,
       "avg_unit_cost": 27.857142857142858,
-      "ppi_index": 1379.6820549725796,
+      "ppi_index": 374.7977478058464,
       "sell_through_pct": 0.3,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 1.107134767813202e-05
+      "revenue_share": 1.107134767813202e-05,
+      "bei": 8.86185768960428e-05
     },
     {
       "brand": "Flower Mill",
       "revenue": 166.25,
       "units": 5.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 9.067051977780534e-06
+      "revenue_share": 9.067051977780534e-06,
+      "bei": 0
     },
     {
       "brand": "Go Easy",
       "revenue": 150.0,
       "units": 3.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 25.0,
+      "ppi_index": 336.3569531590929,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 8.180798776944843e-06
+      "revenue_share": 8.180798776944843e-06,
+      "bei": 0.00024321776910243983
     },
     {
       "brand": "La Jolie Muse",
       "revenue": 102.0,
       "units": 3.0,
       "avg_unit_cost": 3.4,
-      "ppi_index": 168.39196363255073,
+      "ppi_index": 45.74454562963663,
       "sell_through_pct": 0.375,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 5.562943168322493e-06
+      "revenue_share": 5.562943168322493e-06,
+      "bei": 0.0004560333170670747
     },
     {
       "brand": "The New Savant",
       "revenue": 84.0,
       "units": 2.0,
       "avg_unit_cost": 7.0,
-      "ppi_index": 346.68933689054563,
+      "ppi_index": 94.17994688454601,
       "sell_through_pct": 0.4,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 4.581247315089111e-06
+      "revenue_share": 4.581247315089111e-06,
+      "bei": 0.00019457421528195184
     },
     {
       "brand": "Candle By Design",
       "revenue": 80.0,
       "units": 1.0,
       "avg_unit_cost": 13.333333333333334,
-      "ppi_index": 660.3606416962774,
+      "ppi_index": 179.39037501818288,
       "sell_through_pct": 0.25,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 4.363092681037249e-06
+      "revenue_share": 4.363092681037249e-06,
+      "bei": 6.080444227560996e-05
     },
     {
       "brand": "SirEEL",
       "revenue": 72.5,
       "units": 3.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 3.954052742190007e-06
+      "revenue_share": 3.954052742190007e-06,
+      "bei": 0
     },
     {
       "brand": "MK Lighters",
       "revenue": 69.0,
       "units": 23.0,
-      "avg_unit_cost": 0.00098,
-      "ppi_index": 0.04853650716467638,
+      "avg_unit_cost": 1.48,
+      "ppi_index": 19.9123316270183,
       "sell_through_pct": 0.003818695002490453,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 3.7631674373946273e-06
+      "revenue_share": 3.7631674373946273e-06,
+      "bei": 7.216828724977151e-06
     },
     {
       "brand": "Pura",
       "revenue": 40.5,
       "units": 1.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Flower": 1.0
       },
       "history": [],
-      "revenue_share": 2.2088156697751075e-06
+      "revenue_share": 2.2088156697751075e-06,
+      "bei": 0
     },
     {
       "brand": "Senior Moments",
       "revenue": 30.0,
       "units": 1.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Edibles": 1.0
       },
       "history": [],
-      "revenue_share": 1.6361597553889685e-06
+      "revenue_share": 1.6361597553889685e-06,
+      "bei": 0
     },
     {
       "brand": "Gentlemen Smugglers",
       "revenue": 0.6100000000000001,
       "units": 61.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 3.326858169290903e-08
+      "revenue_share": 3.326858169290903e-08,
+      "bei": 0
     },
     {
       "brand": "Snobby Dankins",
       "revenue": 0.4,
       "units": 4.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Vape": 1.0
       },
       "history": [],
-      "revenue_share": 2.1815463405186246e-08
+      "revenue_share": 2.1815463405186246e-08,
+      "bei": 0
     },
     {
       "brand": "Picc",
       "revenue": 0.24000000000000002,
       "units": 24.0,
       "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "ppi_index": 0,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Pre-Rolls": 1.0
       },
       "history": [],
-      "revenue_share": 1.3089278043111748e-08
+      "revenue_share": 1.3089278043111748e-08,
+      "bei": 0
     },
     {
       "brand": "urbanXtracts",
       "revenue": 0.1,
       "units": 10.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 0.01,
+      "ppi_index": 0.13454278126363717,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Concentrate": 0.6,
         "Pre-Rolls": 0.39999999999999997
       },
       "history": [],
-      "revenue_share": 5.453865851296562e-09
+      "revenue_share": 5.453865851296562e-09,
+      "bei": 0.00040536294850406634
     },
     {
       "brand": "Tracey Tanner",
       "revenue": 0.01,
       "units": 1.0,
-      "avg_unit_cost": null,
-      "ppi_index": 0.0,
+      "avg_unit_cost": 26.0,
+      "ppi_index": 349.81123128545664,
       "sell_through_pct": 1.0,
       "category_mix": {
         "Accessories": 1.0
       },
       "history": [],
-      "revenue_share": 5.453865851296561e-10
+      "revenue_share": 5.453865851296561e-10,
+      "bei": 1.559088263477178e-08
     }
   ]
 }
